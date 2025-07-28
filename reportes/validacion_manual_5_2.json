@@ -1,0 +1,235 @@
+{
+  "tiempo_carga_s": 0.01,
+  "fecha_validacion": "2025-07-27T12:42:50.094292",
+  "accuracy_20_consultas": {
+    "total": 20,
+    "exitosas": 18,
+    "alta_accuracy": 8,
+    "porcentaje_exito": 90.0,
+    "tiempo_promedio_ms": 27.1,
+    "detalle": [
+      {
+        "consulta": "analisis matematico",
+        "score": 0.636,
+        "accuracy": "ALTA",
+        "tiempo_ms": 77.1,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "algoritmos estructuras datos",
+        "score": 0.509,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 25.3,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "programacion",
+        "score": 0.496,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 24.2,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "calculo",
+        "score": 0.567,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 18.4,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "algebra",
+        "score": 0.626,
+        "accuracy": "ALTA",
+        "tiempo_ms": 20.9,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "fisica",
+        "score": 0.394,
+        "accuracy": "BAJA",
+        "tiempo_ms": 15.8,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "matematica discreta",
+        "score": 0.542,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 28.8,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "bases de datos",
+        "score": 0.519,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 27.3,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "cuando se dicta programacion",
+        "score": 0.719,
+        "accuracy": "ALTA",
+        "tiempo_ms": 25.9,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "horarios de matematica",
+        "score": 0.695,
+        "accuracy": "ALTA",
+        "tiempo_ms": 18.9,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "que hora calculo",
+        "score": 0.697,
+        "accuracy": "ALTA",
+        "tiempo_ms": 28.4,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "cursada de algoritmos",
+        "score": 0.768,
+        "accuracy": "ALTA",
+        "tiempo_ms": 28.2,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "materias por la manana",
+        "score": 0.397,
+        "accuracy": "BAJA",
+        "tiempo_ms": 26.6,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "clases de tarde",
+        "score": 0.633,
+        "accuracy": "ALTA",
+        "tiempo_ms": 26.1,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "que hay los lunes",
+        "score": 0.478,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 22.8,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "martes por la tarde",
+        "score": 0.469,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 26.0,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "miercoles a la manana",
+        "score": 0.47,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 22.2,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "materias a las 14:00",
+        "score": 0.559,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 27.2,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "clases que empiezan a las 10",
+        "score": 0.564,
+        "accuracy": "MEDIA",
+        "tiempo_ms": 20.8,
+        "tiene_resultados": true
+      },
+      {
+        "consulta": "horarios instituto calculo",
+        "score": 0.73,
+        "accuracy": "ALTA",
+        "tiempo_ms": 32.1,
+        "tiene_resultados": true
+      }
+    ]
+  },
+  "verificacion_fuentes": [
+    {
+      "consulta": "Algoritmos y Estructuras de Datos",
+      "materia_encontrada": "Técnicas de Diseño de Algoritmos",
+      "dept_esperado": "DC",
+      "dept_encontrado": "DC",
+      "dept_correcto": true,
+      "horarios_correcto": true,
+      "score": 0.535
+    },
+    {
+      "consulta": "Analisis Matematico I",
+      "materia_encontrada": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II",
+      "dept_esperado": "DM",
+      "dept_encontrado": "DM",
+      "dept_correcto": true,
+      "horarios_correcto": true,
+      "score": 0.648
+    },
+    {
+      "consulta": "Calculo",
+      "materia_encontrada": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+      "dept_esperado": "IC",
+      "dept_encontrado": "DM",
+      "dept_correcto": false,
+      "horarios_correcto": true,
+      "score": 0.567
+    }
+  ],
+  "tipos_fallas": {
+    "INEXISTENTE": [
+      "FALLO"
+    ],
+    "VAGA": [
+      "DUDOSO"
+    ],
+    "TIPOGRAFICO": [
+      "OK"
+    ],
+    "SIN_DATOS": [
+      "FALLO"
+    ],
+    "IDIOMA": [
+      "OK"
+    ]
+  },
+  "tiempos_respuesta": {
+    "tiempo_carga_s": 0.0061054229736328125,
+    "tiempo_promedio_ms": 18.2,
+    "evaluacion": "EXCELENTE"
+  },
+  "calidad_respuestas": {
+    "evaluaciones": 3,
+    "alta_calidad": 0,
+    "porcentaje_alta": 0.0,
+    "detalle": [
+      {
+        "consulta": "Analisis Matematico I",
+        "score": 0.648,
+        "criterios_ok": 1,
+        "total_criterios": 2,
+        "porcentaje": 50.0,
+        "calidad": "BAJA"
+      },
+      {
+        "consulta": "materias los martes",
+        "score": 0.499,
+        "criterios_ok": 1,
+        "total_criterios": 1,
+        "porcentaje": 100.0,
+        "calidad": "MEDIA"
+      },
+      {
+        "consulta": "programacion",
+        "score": 0.496,
+        "criterios_ok": 0,
+        "total_criterios": 1,
+        "porcentaje": 0.0,
+        "calidad": "BAJA"
+      }
+    ]
+  }
+}

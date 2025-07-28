@@ -1,0 +1,100 @@
+[
+  {
+    "nombre": "Álgebra I (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#22a1d196b9763ced3",
+    "chunks": [
+      "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración."
+    ]
+  },
+  {
+    "nombre": "Algoritmos y Estructuras de Datos I (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#ade7d1879c2c5b707",
+    "chunks": [
+      "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos."
+    ]
+  },
+  {
+    "nombre": "Análisis I (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#db4b221d682da270f",
+    "chunks": [
+      "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables."
+    ]
+  },
+  {
+    "nombre": "Electiva de Introducción a las Ciencias Naturales (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#0c7741c1816c01c06",
+    "chunks": [
+      "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física.\nPara ver el listado de materias electivas hacer\nclick aquí"
+    ]
+  },
+  {
+    "nombre": "Análisis II (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#44f1dd68db461b488",
+    "chunks": [
+      "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales."
+    ]
+  },
+  {
+    "nombre": "Algoritmos y Estructuras de Datos II (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#a03c8ca557a98c30a",
+    "chunks": [
+      "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas."
+    ]
+  },
+  {
+    "nombre": "Laboratorio de Datos (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#e4b0860b33d201983",
+    "chunks": [
+      "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado"
+    ]
+  },
+  {
+    "nombre": "Análisis Avanzado",
+    "url": "https://lcd.exactas.uba.ar/materias/#a9000520ee10d77f6",
+    "chunks": [
+      "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución."
+    ]
+  },
+  {
+    "nombre": "Álgebra Lineal Computacional (*)",
+    "url": "https://lcd.exactas.uba.ar/materias/#d7dee895c99d752e8",
+    "chunks": [
+      "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel."
+    ]
+  },
+  {
+    "nombre": "Probabilidad",
+    "url": "https://lcd.exactas.uba.ar/materias/#942901f1075dfb8ae",
+    "chunks": [
+      "La matemática al servicio del estudio del azar y los fenómenos aleatorios."
+    ]
+  },
+  {
+    "nombre": "Algoritmos y Estructura de Datos III",
+    "url": "https://lcd.exactas.uba.ar/materias/#348bc78f849aae6da",
+    "chunks": [
+      "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas."
+    ]
+  },
+  {
+    "nombre": "Intr. a la Estadística y Ciencia de Datos",
+    "url": "https://lcd.exactas.uba.ar/materias/#b53640bd4304ee8f3",
+    "chunks": [
+      "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos."
+    ]
+  },
+  {
+    "nombre": "Intr. a la Investigación Operativa y Optimización",
+    "url": "https://lcd.exactas.uba.ar/materias/#c2e33470456527d65",
+    "chunks": [
+      "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones."
+    ]
+  },
+  {
+    "nombre": "Intr. al Modelado Continuo.",
+    "url": "https://lcd.exactas.uba.ar/materias/#a740554de540a4abf",
+    "chunks": [
+      "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas."
+    ]
+  }
+]

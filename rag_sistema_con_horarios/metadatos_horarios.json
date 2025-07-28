@@ -1,0 +1,10 @@
+{
+  "tipo_sistema": "rag_horarios_academicos",
+  "modelo_nombre": "unknown",
+  "dimension": 384,
+  "total_documentos": 108,
+  "total_vectores": 108,
+  "materias_con_horarios": 48,
+  "fecha_creacion": "2025-07-27T03:21:19.828737",
+  "version": "1.0"
+}

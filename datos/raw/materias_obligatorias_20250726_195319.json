@@ -1,0 +1,2075 @@
+{
+  "Verano 2025": [
+    {
+      "id": "lcd_obligatoria_algebra_i_2025_verano_00",
+      "nombre": "Algebra I",
+      "nombre_original": "Algebra I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=v"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.744506",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_i_2025_verano_01",
+      "nombre": "Análisis I",
+      "nombre_original": "Análisis I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=v"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_ii_2025_verano_02",
+      "nombre": "Análisis II",
+      "nombre_original": "Análisis II",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=v"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_f_sica_1_lic_en_cs_f_sicas_2025_verano_03",
+      "nombre": "Física 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_1_lic_en_cs_f_sicas_2025_verano_04",
+      "nombre": "Laboratorio 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_de_datos_2025_verano_05",
+      "nombre": "Laboratorio de Datos",
+      "nombre_original": "Laboratorio de Datos",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_mec_nica_y_termodin_mica_2025_verano_06",
+      "nombre": "Mecánica y Termodinámica",
+      "nombre_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "verano",
+        "periodo_completo": "Verano 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.746521",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    }
+  ],
+  "1er cuatrimestre 2025": [
+    {
+      "id": "lcd_obligatoria_lgebra_i_2025_1_00",
+      "nombre": "Álgebra I",
+      "nombre_original": "Álgebra I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algebra_lineal_computacional_2025_1_01",
+      "nombre": "Algebra Lineal Computacional",
+      "nombre_original": "Algebra Lineal Computacional",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación, Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_i_2025_1_02",
+      "nombre": "Algoritmos y Estructuras de Datos I",
+      "nombre_original": "Algoritmos y Estructuras de Datos I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_ii_2025_1_03",
+      "nombre": "Algoritmos y Estructuras de Datos II",
+      "nombre_original": "Algoritmos y Estructuras de Datos II",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_iii_2025_1_04",
+      "nombre": "Algoritmos y Estructuras de Datos III",
+      "nombre_original": "Algoritmos y Estructuras de Datos III",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_avanzado_2025_1_05",
+      "nombre": "Análisis Avanzado",
+      "nombre_original": "Análisis Avanzado",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_i_2025_1_06",
+      "nombre": "Análisis I",
+      "nombre_original": "Análisis I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_ii_2025_1_07",
+      "nombre": "Análisis II",
+      "nombre_original": "Análisis II",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_f_sica_1_lic_en_cs_f_sicas_2025_1_08",
+      "nombre": "Física 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_f_sica_1_q_2025_1_09",
+      "nombre": "Física 1 (Q)",
+      "nombre_original": "Física 1 (Q) - Electiva de Intro. a las Cs. Naturales",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intr_a_la_estad_stica_y_ciencia_de_datos_2025_1_10",
+      "nombre": "Intr. a la Estadística y Ciencia de Datos",
+      "nombre_original": "Intr. a la Estadística y Ciencia de Datos",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Instituto de Cálculo",
+        "codigo": "IC",
+        "url_horarios": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intr_a_la_investigaci_n_operativa_y_optimizaci_n_2025_1_11",
+      "nombre": "Intr. a la Investigación Operativa y Optimización",
+      "nombre_original": "Intr. a la Investigación Operativa y Optimización",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intro_al_modelado_continuo_2025_1_12",
+      "nombre": "Intro. al Modelado Continuo",
+      "nombre_original": "Intro. al Modelado Continuo",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_introducci_n_a_la_biolog_a_molecular_y_celular_2025_1_13",
+      "nombre": "Introducción a la Biología Molecular y Celular",
+      "nombre_original": "Introducción a la Biología Molecular y Celular - Electiva de Intro. a las Cs. Naturales",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Fisiología, Biología Molecular y Celular",
+        "codigo": "FB",
+        "url_horarios": "https://www.fbmc.fcen.uba.ar/estudiantes/licenciatura/materias-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_1_lic_en_cs_f_sicas_2025_1_14",
+      "nombre": "Laboratorio 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.747064",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_de_datos_2025_1_15",
+      "nombre": "Laboratorio de Datos",
+      "nombre_original": "Laboratorio de Datos",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación, Departamento de Física, Instituto de Cálculo",
+        "codigo": "DC",
+        "url_horarios": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_mec_nica_y_termodin_mica_2025_1_16",
+      "nombre": "Mecánica y Termodinámica",
+      "nombre_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_mec_nica_y_termodin_mica_2025_1_17",
+      "nombre": "Mecánica y Termodinámica",
+      "nombre_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_meteorolog_a_general_lic_cs_atm_sfera_2025_1_18",
+      "nombre": "Meteorología General (Lic. Cs. Atmósfera)",
+      "nombre_original": "Meteorología General (Lic. Cs. Atmósfera) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "codigo": "AT",
+        "url_horarios": "http://www.at.fcen.uba.ar/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_oceanograf_a_general_lic_cs_oceanogr_ficas_2025_1_19",
+      "nombre": "Oceanografía General (Lic. Cs. Oceanográficas)",
+      "nombre_original": "Oceanografía General (Lic. Cs. Oceanográficas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "codigo": "AT",
+        "url_horarios": "http://www.at.fcen.uba.ar/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_probabilidad_2025_1_20",
+      "nombre": "Probabilidad",
+      "nombre_original": "Probabilidad",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_qu_mica_general_e_inorg_nica_lic_en_cs_biol_y_geo_2025_1_21",
+      "nombre": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.)",
+      "nombre_original": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.) - Electiva de Intro. a las Cs. Naturales",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "codigo": "QI",
+        "url_horarios": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_qu_mica_general_e_inorg_nica_lic_en_cs_qu_micas_2025_1_22",
+      "nombre": "Química General e Inorgánica (Lic. en Cs. Químicas)",
+      "nombre_original": "Química General e Inorgánica (Lic. en Cs. Químicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "codigo": "QI",
+        "url_horarios": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_tesis_de_licenciatura_2025_1_23",
+      "nombre": "Tesis de Licenciatura",
+      "nombre_original": "Tesis de Licenciatura",
+      "tipo": "tesis",
+      "departamento": {
+        "nombre": "Instituto de Cálculo",
+        "codigo": "IC",
+        "url_horarios": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "1",
+        "periodo_completo": "1er cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    }
+  ],
+  "2do cuatrimestre 2025": [
+    {
+      "id": "lcd_obligatoria_algebra_i_2025_2_00",
+      "nombre": "Algebra I",
+      "nombre_original": "Algebra I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algebra_lineal_computacional_2025_2_01",
+      "nombre": "Algebra Lineal Computacional",
+      "nombre_original": "Algebra Lineal Computacional",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación, Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_i_2025_2_02",
+      "nombre": "Algoritmos y Estructuras de Datos I",
+      "nombre_original": "Algoritmos y Estructuras de Datos I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_ii_2025_2_03",
+      "nombre": "Algoritmos y Estructuras de Datos II",
+      "nombre_original": "Algoritmos y Estructuras de Datos II",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_algoritmos_y_estructuras_de_datos_iii_2025_2_04",
+      "nombre": "Algoritmos y Estructuras de Datos III",
+      "nombre_original": "Algoritmos y Estructuras de Datos III",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación",
+        "codigo": "DC",
+        "url_horarios": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_avanzado_2025_2_05",
+      "nombre": "Análisis Avanzado",
+      "nombre_original": "Análisis Avanzado",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_i_2025_2_06",
+      "nombre": "Análisis I",
+      "nombre_original": "Análisis I",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_an_lisis_ii_2025_2_07",
+      "nombre": "Análisis II",
+      "nombre_original": "Análisis II",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_f_sica_1_lic_en_cs_f_sicas_2025_2_08",
+      "nombre": "Física 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_f_sica_1_q_2025_2_09",
+      "nombre": "Física 1 (Q)",
+      "nombre_original": "Física 1 (Q) - Electiva de Intro. a las Cs. Naturales",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.748387",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_fundamentos_de_biolog_a_molecular_y_fisiolog_a_celular_2025_2_10",
+      "nombre": "Fundamentos de Biología Molecular y Fisiología Celular",
+      "nombre_original": "Fundamentos de Biología Molecular y Fisiología Celular - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Fisiología, Biología Molecular y Celular",
+        "codigo": "FB",
+        "url_horarios": "https://www.fbmc.fcen.uba.ar/estudiantes/licenciatura/materias-de-grado/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intr_a_la_estad_stica_y_ciencia_de_datos_2025_2_11",
+      "nombre": "Intr. a la Estadística y Ciencia de Datos",
+      "nombre_original": "Intr. a la Estadística y Ciencia de Datos",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Instituto de Cálculo",
+        "codigo": "IC",
+        "url_horarios": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intr_a_la_investigaci_n_operativa_y_optimizaci_n_2025_2_12",
+      "nombre": "Intr. a la Investigación Operativa y Optimización",
+      "nombre_original": "Intr. a la Investigación Operativa y Optimización",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_intr_al_modelado_continuo_2025_2_13",
+      "nombre": "Intr. al Modelado Continuo",
+      "nombre_original": "Intr. al Modelado Continuo",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_1_lic_en_cs_f_sicas_2025_2_14",
+      "nombre": "Laboratorio 1 (Lic. en Cs. Físicas)",
+      "nombre_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_laboratorio_de_datos_2025_2_15",
+      "nombre": "Laboratorio de Datos",
+      "nombre_original": "Laboratorio de Datos",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Computación, Departamento de Física, Instituto de Cálculo",
+        "codigo": "DC",
+        "url_horarios": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/cursos"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_mec_nica_y_termodin_mica_2025_2_16",
+      "nombre": "Mecánica y Termodinámica",
+      "nombre_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Física",
+        "codigo": "DF",
+        "url_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_meteorolog_a_general_lic_cs_atm_sfera_2025_2_17",
+      "nombre": "Meteorología General (Lic. Cs. Atmósfera)",
+      "nombre_original": "Meteorología General (Lic. Cs. Atmósfera) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "codigo": "AT",
+        "url_horarios": "http://www.at.fcen.uba.ar/"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_probabilidad_2025_2_18",
+      "nombre": "Probabilidad",
+      "nombre_original": "Probabilidad",
+      "tipo": "obligatoria",
+      "departamento": {
+        "nombre": "Departamento de Matemática",
+        "codigo": "DM",
+        "url_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_qu_mica_general_e_inorg_nica_lic_en_cs_biol_y_geo_2025_2_19",
+      "nombre": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.)",
+      "nombre_original": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.) - Electiva de Intro. a las Cs. Naturales",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "codigo": "QI",
+        "url_horarios": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_qu_mica_general_e_inorg_nica_lic_en_cs_qu_micas_2025_2_20",
+      "nombre": "Química General e Inorgánica (Lic. en Cs. Químicas)",
+      "nombre_original": "Química General e Inorgánica (Lic. en Cs. Químicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+      "tipo": "electiva",
+      "departamento": {
+        "nombre": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "codigo": "QI",
+        "url_horarios": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    },
+    {
+      "id": "lcd_obligatoria_tesis_de_licenciatura_2025_2_21",
+      "nombre": "Tesis de Licenciatura",
+      "nombre_original": "Tesis de Licenciatura",
+      "tipo": "tesis",
+      "departamento": {
+        "nombre": "Instituto de Cálculo",
+        "codigo": "IC",
+        "url_horarios": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      "periodo": {
+        "año": 2025,
+        "cuatrimestre": "2",
+        "periodo_completo": "2do cuatrimestre 2025"
+      },
+      "horarios": {
+        "clases": [],
+        "consultas": [],
+        "examenes": {}
+      },
+      "correlativas": {
+        "para_cursar": [],
+        "para_rendir": []
+      },
+      "docentes": [],
+      "creditos": null,
+      "carga_horaria": {},
+      "programa": {
+        "url": null,
+        "temas": []
+      },
+      "metadata": {
+        "fuente_url": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "fecha_scraping": "2025-07-26T19:53:19.750131",
+        "version": "2025.1",
+        "confiabilidad": "alta",
+        "requiere_enriquecimiento": true
+      }
+    }
+  ]
+}

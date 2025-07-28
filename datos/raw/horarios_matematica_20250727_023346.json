@@ -1,0 +1,3475 @@
+{
+  "metadata": {
+    "departamento": "DM",
+    "fecha_extraccion": "2025-07-27T02:33:46.511242",
+    "total_materias": 40,
+    "fuente": "https://web.dm.uba.ar/",
+    "version_scraper": "1.0",
+    "periodo": "2C 2025"
+  },
+  "estadisticas": {
+    "materias_procesadas": 40,
+    "comisiones_extraidas": 98,
+    "errores_parsing": 0,
+    "materias_encontradas": [
+      "ÁLGEBRA I",
+      "ÁLGEBRA III (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA III",
+      "ÁLGEBRA II (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA II",
+      "ÁLGEBRA LINEAL",
+      "ÁLGEBRA LINEAL COMPUTACIONAL",
+      "ANÁLISIS AVANZADO",
+      "ANÁLISIS COMPLEJO",
+      "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II",
+      "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+      "ANÁLISIS MATEMÁTICO 1",
+      "ANÁLISIS NUMÉRICO (LIC. MATEMÁTICA) - TÓPICOS DE ANÁLISIS NUMÉRICO",
+      "ANÁLISIS REAL - MEDIDA Y PROBABILIDAD",
+      "CÁLCULO AVANZADO",
+      "ECUACIONES DIFERENCIALES A/B",
+      "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+      "ESTADÍSTICA (LIC. MATEMÁTICA) - INTR. A LA ESTADÍSTICA Y CIENCIA DE DATOS (LCD) - TÓPICOS DE ESTADÍSTICA",
+      "GEOMETRÍA PROYECTIVA (LIC. MATEMÁTICA) - TÓPICOS DE GEOMETRÍA PROYECTIVA",
+      "HISTORIA DE LA CIENCIA",
+      "INTRODUCCIÓN AL MODELADO CONTINUO",
+      "INVESTIGACIÓN OPERATIVA (LIC. MATEMÁTICA) - INTR. A LA INVESTIGACIÓN OPERATIVA Y OPTIMIZACIÓN (LCD) - TÓPICOS DE INVESTIGACIÓN OPERATIVA",
+      "MATEMÁTICA 2",
+      "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+      "MATEMÁTICA I",
+      "MATEMÁTICA II",
+      "PROBABILIDADES Y ESTADÍSTICA",
+      "PROBABILIDADES Y ESTADÍSTICA (LIC. MATEMÁTICA) - PROBABILIDAD",
+      "TALLER DE CÁLCULO AVANZADO",
+      "TOPOLOGÍA (LIC. MATEMÁTICA) - TÓPICOS DE TOPOLOGÍA",
+      "COMPLEMENTOS DE ANÁLISIS FUNCIONAL (LIC. MATEMÁTICA) - TÓPICOS DE COMPLEMENTOS DE ANÁLISIS FUNCIONAL",
+      "TEORÍA DE NÚMEROS (LIC. MATEMÁTICA) - TÓPICOS DE TEORÍA DE NÚMEROS",
+      "COHOMOLOGÍA DE ÁLGEBRAS DE HOPF (L) - ALGEBRAS DE HOPF: ANILLO DE COHOMOLOGÍA",
+      "COMBINATORIA",
+      "GRUPOS DE DIFEOMORFISMOS (L) - DIFEOMORFISMOS COMO GRUPOS DE LIE-FRECHET",
+      "HOMOLOGÍA PERSISTENTE Y APLICACIONES (L) - FUNDAMENTOS DE HOMOLOGÍA PERSISTENTE Y APLICACIONES",
+      "INTRODUCCIÓN A LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA (L) - TEORÍA DE LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA",
+      "INTRODUCCIÓN AL APRENDIZAJE POR REFUERZOS (L) - APRENDIZAJE POR REFUERZO Y GARANTÍAS TEÓRICAS",
+      "MODELOS MATEMÁTICOS DE SISTEMAS SOCIALES COMPLEJOS (L) - ANÁLISIS MATEMÁTICO DE SISTEMAS SOCIALES COMPLEJOS",
+      "OPTIMIZACIÓN SEMIDEFINIDA 2025",
+      "RESOLUCIÓN EFECTIVA DE SISTEMAS DE ECUACIONES POLINOMIALES",
+      "TOPOLOGÍA APLICADA Y ANÁLISIS TOPOLÓGICO DE DATOS (L) - LA TOPOLOGÍA DE LOS DATOS"
+    ],
+    "errores": []
+  },
+  "horarios": [
+    {
+      "id": "dm_horarios_lgebra_i_2c_2025_20250727",
+      "nombre": "ÁLGEBRA I",
+      "nombre_original": "ÁLGEBRA I",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mercedes Pérez Millán",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Nicolás Sirolli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Teórica 3",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "César Massri",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Agustin Barreto",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Sebastián Freyre",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Antonella Raffa",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Leopoldo Lerena",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Florencia Marchesano",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Sara Elina Arce Gatti",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "María Dorda",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lorenzo Martinelli",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Martin Mauas",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Luciano Pittaluga",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Joaquín Yranzo Carrillo",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        },
+        {
+          "nombre": "Práctica 3",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 4",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Nicolás Sirolli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 14 a 16"
+        },
+        {
+          "nombre": "Práctica 4",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Juan Manuel Menconi",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Yamila Arranz Florek",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "María Dorda",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Juan Martín Perez Garber",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 16 a 19"
+        },
+        {
+          "nombre": "Práctica 5",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Sebastián Freyre",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Gonzalo Gutierrez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Joaquín Fernández",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Javier Ignacio Nano",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Micaela Orefice",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 17 a 20"
+        },
+        {
+          "nombre": "Teórica 5",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "María Eugenia Rodríguez",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 20 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.507463",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_lgebra_iii_lic_matem_tica_t_picos_de_lgebra_iii_doctorado_2c_2025_20250727",
+      "nombre": "ÁLGEBRA III (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA III",
+      "nombre_original": "ÁLGEBRA III (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA III (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Andrea Solotar",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Lucas De Amorin",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Francisco Cirelli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.507463",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_lgebra_ii_lic_matem_tica_t_picos_de_lgebra_ii_doctorado_2c_2025_20250727",
+      "nombre": "ÁLGEBRA II (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA II",
+      "nombre_original": "ÁLGEBRA II (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA II (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Franco Rufolo",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Juan Ignacio Galotto",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 12"
+        },
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "12:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "12:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Guillermo Cortiñas",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 12 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.507463",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_lgebra_lineal_2c_2025_20250727",
+      "nombre": "ÁLGEBRA LINEAL",
+      "nombre_original": "ÁLGEBRA LINEAL",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Pablo Solernó",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Lucía Busolini",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Matías Saucedo",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nahuel Facundo Bobar",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Francisco Greco",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.507463",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_lgebra_lineal_computacional_2c_2025_20250727",
+      "nombre": "ÁLGEBRA LINEAL COMPUTACIONAL",
+      "nombre_original": "ÁLGEBRA LINEAL COMPUTACIONAL",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Sandra Martínez",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Laboratorio 1",
+          "tipo": "laboratorio",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 17 a 19"
+        },
+        {
+          "nombre": "Laboratorio 2",
+          "tipo": "laboratorio",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma: 19 a 22"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Edwin Pin",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Fausto Martinez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lorenzo Battaglini",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Victoria Caillet Bois",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Vi: 11 a 14"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "viernes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Vi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.508968",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_avanzado_2c_2025_20250727",
+      "nombre": "ANÁLISIS AVANZADO",
+      "nombre_original": "ANÁLISIS AVANZADO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Pablo Turco",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "María Cecilia De Vita",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Leonard Ehrhorn",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Tomer Damián Cohen Mizrahi",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Iván Moyano Tassara",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 11 a 13"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:30",
+              "hora_fin": "19:30"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "17:30",
+              "hora_fin": "19:30"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Maria Eugenia Di Iorio",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 17:30 a 19:30"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:30",
+              "hora_fin": "21:30"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "19:30",
+              "hora_fin": "21:30"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Marcelo Paredes",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Pablo Herrera",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Facundo Martinez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Franco Zappone",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 19:30 a 21:30"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509254",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_complejo_2c_2025_20250727",
+      "nombre": "ANÁLISIS COMPLEJO",
+      "nombre_original": "ANÁLISIS COMPLEJO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Diego Rial",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 14 a 16"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Alejandra Aguilera Aguilera",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Ian Apter",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 16 a 19"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509254",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_i_an_lisis_matem_tico_i_matem_tica_1_an_lisis_ii_computaci_n_2c_2025_20250727",
+      "nombre": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II",
+      "nombre_original": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II (COMPUTACIÓN)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Nicolas Saintier",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 9 a 11"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Gabriel Larotonda",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Lucila Acosta",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Florencia Fernández Slezak",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Antonella Raffa",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Mariela Cañizares",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Edwin Pin",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Gonzalo Carraux",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lucas Ezequiel Lopez Sanchez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Luciano Pittaluga",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nelson Alexander Sisalema Cisneros",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Candelaria Sturm",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 11 a 14"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 4",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Martin Maas",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 14 a 16"
+        },
+        {
+          "nombre": "Práctica 4",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Román Villafañe",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Virginia Guevara",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Fiorella Sol Beck",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Luciano Cassini",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 16 a 19"
+        },
+        {
+          "nombre": "Práctica 5",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "17:00",
+              "hora_fin": "20:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Eduardo Honore",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lucila Acosta",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Martín Acuña Mufarrege",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "María del Rosario Lázaro",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 17 a 20"
+        },
+        {
+          "nombre": "Teórica 5",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "20:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Eda Cesaratto",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 20 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_ii_an_lisis_matem_tico_ii_matem_tica_3_2c_2025_20250727",
+      "nombre": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+      "nombre_original": "ANÁLISIS II - ANÁLISIS MATEMÁTICO II - MATEMÁTICA 3",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Juan Pablo Pinasco",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 9 a 11"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 11 a 14"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Santiago Guadalupe",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Leonardo Lanciano",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Hilde Bianchi",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Tamara Polo",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Enzo Trangoni",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Joaquín Viera",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 3",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Francisco Bersetche",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 14 a 16"
+        },
+        {
+          "nombre": "Práctica 3",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Francisco Bersetche",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nahuel Albarracín",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Hilde Bianchi",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Franco Magarian",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 16 a 19"
+        },
+        {
+          "nombre": "Teórica 4",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Pablo Luis De Napoli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica 4",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Juan Ignacio Ceresa Dussel",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Santiago Guadalupe",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Catalina Silva",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_matem_tico_1_alimentos_2c_2025_20250727",
+      "nombre": "ANÁLISIS MATEMÁTICO 1",
+      "nombre_original": "ANÁLISIS MATEMÁTICO 1 (ALIMENTOS)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:30",
+              "hora_fin": "19:30"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:30",
+              "hora_fin": "19:30"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Paula Kuna",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Vi: 17:30 a 19:30"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:30",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "19:30",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Emiliano Acri",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Kevin Luna Haro",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Vi: 19:30 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_num_rico_lic_matem_tica_t_picos_de_an_lisis_num_rico_doctorado_2c_2025_20250727",
+      "nombre": "ANÁLISIS NUMÉRICO (LIC. MATEMÁTICA) - TÓPICOS DE ANÁLISIS NUMÉRICO",
+      "nombre_original": "ANÁLISIS NUMÉRICO (LIC. MATEMÁTICA) - TÓPICOS DE ANÁLISIS NUMÉRICO (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "12:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mauricio Mendiluce",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lucas Galli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 9 a 12"
+        },
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "12:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "12:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Ignacio Ojea",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 12 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_an_lisis_real_medida_y_probabilidad_2c_2025_20250727",
+      "nombre": "ANÁLISIS REAL - MEDIDA Y PROBABILIDAD",
+      "nombre_original": "ANÁLISIS REAL - MEDIDA Y PROBABILIDAD",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "08:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "08:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Joaquín Singer",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Manuel Enrique Nores",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 8 a 11"
+        },
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "13:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Victoria Paternostro",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 11 a 13"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_c_lculo_avanzado_2c_2025_20250727",
+      "nombre": "CÁLCULO AVANZADO",
+      "nombre_original": "CÁLCULO AVANZADO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mariano Suárez Álvarez",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Maximiliano Frungillo",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Miguel Berasategui",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Boris Eloy Burd",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_ecuaciones_diferenciales_a_b_2c_2025_20250727",
+      "nombre": "ECUACIONES DIFERENCIALES A/B",
+      "nombre_original": "ECUACIONES DIFERENCIALES A/B",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Julián Fernández Bonder",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Juan Ignacio Ceresa Dussel",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Fernando Vische",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 11 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_elementos_de_c_lculo_num_rico_c_lculo_num_rico_2c_2025_20250727",
+      "nombre": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+      "nombre_original": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "G. Sebastián Pedersen",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Maria Florencia Statti",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Lorenzo Battaglini",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Francisco Valdez",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 16 a 19"
+        },
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "21:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "19:00",
+              "hora_fin": "21:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Javier Etcheverry",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 19 a 21"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_estad_stica_lic_matem_tica_intr_a_la_estad_stica_y_ciencia_de_datos_lcd_t_picos_de_estad_stica_doc_2c_2025_20250727",
+      "nombre": "ESTADÍSTICA (LIC. MATEMÁTICA) - INTR. A LA ESTADÍSTICA Y CIENCIA DE DATOS (LCD) - TÓPICOS DE ESTADÍSTICA",
+      "nombre_original": "ESTADÍSTICA (LIC. MATEMÁTICA) - INTR. A LA ESTADÍSTICA Y CIENCIA DE DATOS (LCD) - TÓPICOS DE ESTADÍSTICA (DOC)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": ""
+        },
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_geometr_a_proyectiva_lic_matem_tica_t_picos_de_geometr_a_proyectiva_doctorado_2c_2025_20250727",
+      "nombre": "GEOMETRÍA PROYECTIVA (LIC. MATEMÁTICA) - TÓPICOS DE GEOMETRÍA PROYECTIVA",
+      "nombre_original": "GEOMETRÍA PROYECTIVA (LIC. MATEMÁTICA) - TÓPICOS DE GEOMETRÍA PROYECTIVA (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Federico Quallbrunn",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 17 a 19"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Darío Martín Aza",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Mariano Negri",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.509737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_historia_de_la_ciencia_2c_2025_20250727",
+      "nombre": "HISTORIA DE LA CIENCIA",
+      "nombre_original": "HISTORIA DE LA CIENCIA",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "13:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Fernando Bifano",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ju: 9 a 13"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.510737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_introducci_n_al_modelado_continuo_2c_2025_20250727",
+      "nombre": "INTRODUCCIÓN AL MODELADO CONTINUO",
+      "nombre_original": "INTRODUCCIÓN AL MODELADO CONTINUO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Gabriel Mindlin",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 14 a 16"
+        },
+        {
+          "nombre": "Laboratorio",
+          "tipo": "laboratorio",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "18:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ma: 14 a 18"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.510737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_investigaci_n_operativa_lic_matem_tica_intr_a_la_investigaci_n_operativa_y_optimizaci_n_lcd_t_picos_de_investigaci_n_operativa_doc_2c_2025_20250727",
+      "nombre": "INVESTIGACIÓN OPERATIVA (LIC. MATEMÁTICA) - INTR. A LA INVESTIGACIÓN OPERATIVA Y OPTIMIZACIÓN (LCD) - TÓPICOS DE INVESTIGACIÓN OPERATIVA",
+      "nombre_original": "INVESTIGACIÓN OPERATIVA (LIC. MATEMÁTICA) - INTR. A LA INVESTIGACIÓN OPERATIVA Y OPTIMIZACIÓN (LCD) - TÓPICOS DE INVESTIGACIÓN OPERATIVA (DOC)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Guillermo Durán",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:00",
+              "hora_fin": "21:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "19:00",
+              "hora_fin": "21:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Guillermo Durán",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nazareno Faillace",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Iván Monardo",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 19 a 21"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.510737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_matem_tica_2_2c_2025_20250727",
+      "nombre": "MATEMÁTICA 2",
+      "nombre_original": "MATEMÁTICA 2",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Martín Mansilla",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ju: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Georgina Giacobbe",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Carlos Antunes Percincula",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nicolás Gomez Brucks",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ju: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Martín Mansilla",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ju: 14 a 16"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [],
+          "aula": null,
+          "horarios_raw": "Ju: 16 a 19"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.510737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_matem_tica_4_an_lisis_matem_tico_iii_2c_2025_20250727",
+      "nombre": "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+      "nombre_original": "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Claudia Lederman",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Claudia Lederman",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Darío Devia",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nicolas Ibañez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Pedro Rozin",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 11 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.510737",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_matem_tica_i_biolog_a_2c_2025_20250727",
+      "nombre": "MATEMÁTICA I",
+      "nombre_original": "MATEMÁTICA I (BIOLOGÍA)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mauro Rodriguez Cartabia",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Felipe Negreira",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "María Laura Ruggieri",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Rocío Bernardini",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "María Gabriela Armentano",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Felipe Negreira",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Virginia Guevara",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Victoria Pérez Ruiz",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_matem_tica_ii_biolog_a_2c_2025_20250727",
+      "nombre": "MATEMÁTICA II",
+      "nombre_original": "MATEMÁTICA II (BIOLOGÍA)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica 1",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "09:00",
+              "hora_fin": "11:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "María Lorena Stockdale",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 9 a 11"
+        },
+        {
+          "nombre": "Práctica 1",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "11:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "María Lorena Stockdale",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Marcela Fabio",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nicolás Sebastián Ledesma Cueli",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 11 a 14"
+        },
+        {
+          "nombre": "Teórica 2",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mariano Suárez Álvarez",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica 2",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Pablo Perrella",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Federico Choque",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_probabilidades_y_estad_stica_computaci_n_2c_2025_20250727",
+      "nombre": "PROBABILIDADES Y ESTADÍSTICA",
+      "nombre_original": "PROBABILIDADES Y ESTADÍSTICA (COMPUTACIÓN)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Pablo Groisman",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "viernes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Selva Figueroa",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Gonzalo Carabajal",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Facundo Zanola",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Vi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_probabilidades_y_estad_stica_lic_matem_tica_probabilidad_lcd_2c_2025_20250727",
+      "nombre": "PROBABILIDADES Y ESTADÍSTICA (LIC. MATEMÁTICA) - PROBABILIDAD",
+      "nombre_original": "PROBABILIDADES Y ESTADÍSTICA (LIC. MATEMÁTICA) - PROBABILIDAD (LCD)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "14:00",
+              "hora_fin": "16:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Mariano Merzbacher",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 14 a 16"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Tomás Fernández Vidal",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Ulises Wainstein Haimovichi",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Casiel Estragó",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma y Ju: 16 a 19"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_taller_de_c_lculo_avanzado_2c_2025_20250727",
+      "nombre": "TALLER DE CÁLCULO AVANZADO",
+      "nombre_original": "TALLER DE CÁLCULO AVANZADO",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [
+            {
+              "dia": "jueves",
+              "hora_inicio": "09:00",
+              "hora_fin": "14:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Constanza Sánchez F. de La Vega",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Nicolas Ibañez",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Valentín Nico",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Manuel Nores",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ju: 9 a 14"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_topolog_a_lic_matem_tica_t_picos_de_topolog_a_doctorado_2c_2025_20250727",
+      "nombre": "TOPOLOGÍA (LIC. MATEMÁTICA) - TÓPICOS DE TOPOLOGÍA",
+      "nombre_original": "TOPOLOGÍA (LIC. MATEMÁTICA) - TÓPICOS DE TOPOLOGÍA (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "17:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Jorge Devoto",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 17 a 19"
+        },
+        {
+          "nombre": "Práctica",
+          "tipo": "practica",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            },
+            {
+              "dia": "miércoles",
+              "hora_inicio": "19:00",
+              "hora_fin": "22:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Guido Arnone",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Martín Blufstein",
+              "rol": "profesor"
+            },
+            {
+              "nombre": "Dante Cicchetti",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Mi: 19 a 22"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_complementos_de_an_lisis_funcional_lic_matem_tica_t_picos_de_complementos_de_an_lisis_funcional_doctorado_2c_2025_20250727",
+      "nombre": "COMPLEMENTOS DE ANÁLISIS FUNCIONAL (LIC. MATEMÁTICA) - TÓPICOS DE COMPLEMENTOS DE ANÁLISIS FUNCIONAL",
+      "nombre_original": "COMPLEMENTOS DE ANÁLISIS FUNCIONAL (LIC. MATEMÁTICA) - TÓPICOS DE COMPLEMENTOS DE ANÁLISIS FUNCIONAL (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórica",
+          "tipo": "teorica",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Daniel Germán Carando",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_teor_a_de_n_meros_lic_matem_tica_t_picos_de_teor_a_de_n_meros_doctorado_2c_2025_20250727",
+      "nombre": "TEORÍA DE NÚMEROS (LIC. MATEMÁTICA) - TÓPICOS DE TEORÍA DE NÚMEROS",
+      "nombre_original": "TEORÍA DE NÚMEROS (LIC. MATEMÁTICA) - TÓPICOS DE TEORÍA DE NÚMEROS (DOCTORADO)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [
+            {
+              "dia": "martes",
+              "hora_inicio": "14:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Miguel Walsh",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Ma: 14 a 19"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_cohomolog_a_de_lgebras_de_hopf_l_algebras_de_hopf_anillo_de_cohomolog_a_2c_2025_20250727",
+      "nombre": "COHOMOLOGÍA DE ÁLGEBRAS DE HOPF (L) - ALGEBRAS DE HOPF: ANILLO DE COHOMOLOGÍA",
+      "nombre_original": "COHOMOLOGÍA DE ÁLGEBRAS DE HOPF (L) - ALGEBRAS DE HOPF: ANILLO DE COHOMOLOGÍA",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Andrea Solotar",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_combinatoria_2c_2025_20250727",
+      "nombre": "COMBINATORIA",
+      "nombre_original": "COMBINATORIA",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Jonathan Barmak",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_grupos_de_difeomorfismos_l_difeomorfismos_como_grupos_de_lie_frechet_2c_2025_20250727",
+      "nombre": "GRUPOS DE DIFEOMORFISMOS (L) - DIFEOMORFISMOS COMO GRUPOS DE LIE-FRECHET",
+      "nombre_original": "GRUPOS DE DIFEOMORFISMOS (L) - DIFEOMORFISMOS COMO GRUPOS DE LIE-FRECHET",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Gabriel Larotonda",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_homolog_a_persistente_y_aplicaciones_l_fundamentos_de_homolog_a_persistente_y_aplicaciones_d_2c_2025_20250727",
+      "nombre": "HOMOLOGÍA PERSISTENTE Y APLICACIONES (L) - FUNDAMENTOS DE HOMOLOGÍA PERSISTENTE Y APLICACIONES",
+      "nombre_original": "HOMOLOGÍA PERSISTENTE Y APLICACIONES (L) - FUNDAMENTOS DE HOMOLOGÍA PERSISTENTE Y APLICACIONES (D)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Ximena Fernández",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_introducci_n_a_la_computaci_n_e_informaci_n_cu_ntica_l_teor_a_de_la_computaci_n_e_informaci_n_cu_ntica_d_2c_2025_20250727",
+      "nombre": "INTRODUCCIÓN A LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA (L) - TEORÍA DE LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA",
+      "nombre_original": "INTRODUCCIÓN A LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA (L) - TEORÍA DE LA COMPUTACIÓN E INFORMACIÓN CUÁNTICA (D)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Martín Mansilla",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_introducci_n_al_aprendizaje_por_refuerzos_l_aprendizaje_por_refuerzo_y_garant_as_te_ricas_d_2c_2025_20250727",
+      "nombre": "INTRODUCCIÓN AL APRENDIZAJE POR REFUERZOS (L) - APRENDIZAJE POR REFUERZO Y GARANTÍAS TEÓRICAS",
+      "nombre_original": "INTRODUCCIÓN AL APRENDIZAJE POR REFUERZOS (L) - APRENDIZAJE POR REFUERZO Y GARANTÍAS TEÓRICAS (D)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Matthieu Jonckheere",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_modelos_matem_ticos_de_sistemas_sociales_complejos_l_an_lisis_matem_tico_de_sistemas_sociales_complejos_d_2c_2025_20250727",
+      "nombre": "MODELOS MATEMÁTICOS DE SISTEMAS SOCIALES COMPLEJOS (L) - ANÁLISIS MATEMÁTICO DE SISTEMAS SOCIALES COMPLEJOS",
+      "nombre_original": "MODELOS MATEMÁTICOS DE SISTEMAS SOCIALES COMPLEJOS (L) - ANÁLISIS MATEMÁTICO DE SISTEMAS SOCIALES COMPLEJOS (D)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [
+            {
+              "dia": "lunes",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            },
+            {
+              "dia": "jueves",
+              "hora_inicio": "16:00",
+              "hora_fin": "19:00"
+            }
+          ],
+          "docentes": [
+            {
+              "nombre": "Nicolas Saintier",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": "Lu y Ju: 16 a 19"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_optimizaci_n_semidefinida_2025_2c_2025_20250727",
+      "nombre": "OPTIMIZACIÓN SEMIDEFINIDA 2025",
+      "nombre_original": "OPTIMIZACIÓN SEMIDEFINIDA 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Santiago Laplagne",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_resoluci_n_efectiva_de_sistemas_de_ecuaciones_polinomiales_2c_2025_20250727",
+      "nombre": "RESOLUCIÓN EFECTIVA DE SISTEMAS DE ECUACIONES POLINOMIALES",
+      "nombre_original": "RESOLUCIÓN EFECTIVA DE SISTEMAS DE ECUACIONES POLINOMIALES",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Teresa Krick",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dm_horarios_topolog_a_aplicada_y_an_lisis_topol_gico_de_datos_l_la_topolog_a_de_los_datos_d_2c_2025_20250727",
+      "nombre": "TOPOLOGÍA APLICADA Y ANÁLISIS TOPOLÓGICO DE DATOS (L) - LA TOPOLOGÍA DE LOS DATOS",
+      "nombre_original": "TOPOLOGÍA APLICADA Y ANÁLISIS TOPOLÓGICO DE DATOS (L) - LA TOPOLOGÍA DE LOS DATOS (D)",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "DM",
+        "nombre": "Departamento de Matemática",
+        "url_origen": "https://web.dm.uba.ar/"
+      },
+      "comisiones": [
+        {
+          "nombre": "Teórico-Práctica",
+          "tipo": "teorico_practico",
+          "horarios": [],
+          "docentes": [
+            {
+              "nombre": "Gabriel Minian",
+              "rol": "profesor"
+            }
+          ],
+          "aula": null,
+          "horarios_raw": ""
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "fecha_extraccion": "2025-07-27T02:33:46.511242",
+        "departamento": "DM",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    }
+  ]
+}

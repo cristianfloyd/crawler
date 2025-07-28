@@ -1,0 +1,2339 @@
+{
+  "resumen": {
+    "total_sitios": 40,
+    "sitios_exitosos": 35,
+    "sitios_con_materias": 33,
+    "timestamp": "2025-07-27T14:58:15.285039"
+  },
+  "por_tecnologia": {
+    "wordpress": [
+      "http://materias.df.uba.ar/f1b2022c2",
+      "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/",
+      "http://materias.df.uba.ar/f4a2019c2",
+      "http://materias.df.uba.ar/f4aa2020c2",
+      "http://materias.df.uba.ar/f4b2022c2",
+      "http://materias.df.uba.ar/f4b2022c2/bibliografia/",
+      "http://materias.df.uba.ar/l1a2022c2",
+      "http://materias.df.uba.ar/l67a2020c2",
+      "http://materias.df.uba.ar/sdeiaaamdda2020c2",
+      "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/",
+      "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+      "https://exactas.uba.ar/genex/",
+      "https://lcd.exactas.uba.ar/",
+      "https://lcd.exactas.uba.ar/comision-de-carrera/",
+      "https://lcd.exactas.uba.ar/materias-optativas/",
+      "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2",
+      "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+      "https://lcd.exactas.uba.ar/materias/#Caminos",
+      "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre"
+    ],
+    "joomla": [
+      "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+      "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+      "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm",
+      "https://www.df.uba.ar/es/docentes/calendario-academico1",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre",
+      "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre",
+      "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas"
+    ],
+    "estatico": [
+      "http://users.df.uba.ar/alejo/materias/fpaleo",
+      "http://users.df.uba.ar/bragas/Fisica%202/index2.htm",
+      "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/ciclos.pdf"
+    ]
+  },
+  "por_tipo_contenido": {},
+  "sitios_prioritarios": [
+    {
+      "url": "http://materias.df.uba.ar/f1b2022c2",
+      "titulo": "Fisica 1 B – 1er Cuatrimestre 2022 | Prof. Carmen Núñez",
+      "score": 142,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "score": 99,
+      "tipos_info": [
+        "horarios",
+        "correlativas",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "score": 94,
+      "tipos_info": [
+        "horarios",
+        "correlativas",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas/",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "score": 83,
+      "tipos_info": [
+        "horarios",
+        "correlativas",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre",
+      "titulo": "2022 - 1er Cuatrimestre",
+      "score": 80,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre",
+      "titulo": "2020 - 2do Cuatrimestre",
+      "score": 78,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+      "titulo": "Guía para el estudiante",
+      "score": 76,
+      "tipos_info": [
+        "correlativas",
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre",
+      "titulo": "2022 - 2do Cuatrimestre",
+      "score": 74,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2",
+      "titulo": "Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020 | Prof. Gabriel Mindlin",
+      "score": 74,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre",
+      "titulo": "2019 - 2do Cuatrimestre",
+      "score": 72,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+      "titulo": "Páginas de materias",
+      "score": 71,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/",
+      "titulo": "noviembre | 2020 | Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020",
+      "score": 62,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre",
+      "titulo": "2014 - 2do Cuatrimestre",
+      "score": 61,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/",
+      "titulo": "Reapertura de inscripciones | Fisica 1 B – 1er Cuatrimestre 2022",
+      "score": 52,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+      "titulo": "Bienvenid@s a la materia! | Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020",
+      "score": 50,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/f4aa2020c2",
+      "titulo": "Fisica 4 A – 2do cuatrimestre 2020 | Prof. Claudia Giribet",
+      "score": 44,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/f4a2019c2",
+      "titulo": "Fisica 4 – 2do Cuatrimestre 2019 | Prof. Claudia Giribet",
+      "score": 41,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/l67a2020c2",
+      "titulo": "Laboratorio 6 y 7 – 2do cuatrimestre 2020 | Prof. Silvia Ledesma",
+      "score": 37,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/f4b2022c2",
+      "titulo": "Fisica 4 B – 2do Cuatrimestre 2022 | Prof. Diego Wisniacki",
+      "score": 36,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+      "titulo": "Pautas",
+      "score": 34,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "http://materias.df.uba.ar/l1a2022c2",
+      "titulo": "Laboratorio 1 A – 2do Cuatrimestre 2022 | Prof. Veronica Raspa",
+      "score": 33,
+      "tipos_info": [
+        "horarios",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/materias/#Caminos",
+      "titulo": "Plan de estudios – Licenciatura en Datos – Exactas – UBA",
+      "score": 30,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre",
+      "titulo": "2010 - 1er Cuatrimestre ",
+      "score": 30,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre",
+      "titulo": "2011 - 2do Cuatrimestre",
+      "score": 29,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "http://materias.df.uba.ar/f4b2022c2/bibliografia/",
+      "titulo": "Bibliografía | Fisica 4 B – 2do Cuatrimestre 2022",
+      "score": 25,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/",
+      "titulo": "Licenciatura en Datos – Exactas – UBA – Carrera de la Facultad de Ciencias Exactas y Naturales",
+      "score": 15,
+      "tipos_info": [
+        "horarios",
+        "correlativas",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/docentes/calendario-academico1",
+      "titulo": "Calendario académico",
+      "score": 15,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+      "titulo": "Zoom de métodos para datos moleculares de alta dimensión, estadística computacional y predicción de riesgos – Licenciatura en Datos – Exactas – UBA",
+      "score": 14,
+      "tipos_info": [
+        "horarios"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/comision-de-carrera/",
+      "titulo": "Comisión de Carrera – Licenciatura en Datos – Exactas – UBA",
+      "score": 14,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://exactas.uba.ar/genex/",
+      "titulo": " Genex",
+      "score": 13,
+      "tipos_info": [
+        "horarios",
+        "correlativas",
+        "programas"
+      ],
+      "cms": "wordpress"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+      "titulo": "Ultimas Tesis",
+      "score": 13,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    },
+    {
+      "url": "http://users.df.uba.ar/alejo/materias/fpaleo",
+      "titulo": "Física para Paleontólogos",
+      "score": 11,
+      "tipos_info": [],
+      "cms": "estatico"
+    },
+    {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm",
+      "titulo": "Tesis rendidas durante 2002",
+      "score": 11,
+      "tipos_info": [
+        "programas"
+      ],
+      "cms": "joomla"
+    }
+  ],
+  "sitios_detalle": {
+    "https://lcd.exactas.uba.ar/": {
+      "url": "https://lcd.exactas.uba.ar/",
+      "titulo": "Licenciatura en Datos – Exactas – UBA – Carrera de la Facultad de Ciencias Exactas y Naturales",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 15,
+        "tipos_informacion": [
+          "horarios",
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://exactas.uba.ar/programa-ingresantes-cbc-exactas/",
+        "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/#respond",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:56:52.745318"
+    },
+    "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/": {
+      "url": "https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+      "titulo": "Zoom de métodos para datos moleculares de alta dimensión, estadística computacional y predicción de riesgos – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": false,
+        "cantidad_materias_estimada": 14,
+        "tipos_informacion": [
+          "horarios"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&title=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&summary=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20comput",
+        "http://vkontakte.ru/share.php?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&title=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&description=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos%2C%20y%20analizar%C3%A1%20el%20trabajo%20que%20su%20grupo%20realiza%20con%20datos%20gen%C3%B3micos%2C%20temas%20relacionados%20con",
+        "https://twitter.com/share?text=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F",
+        "https://www.xing.com/social_plugins/share/new?sc_p=xing-share&h=1&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F",
+        "http://reddit.com/submit?url=https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/&title=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos",
+        "mailto:?subject=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&body=https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&t=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos",
+        "http://pinterest.com/pin/create/button/?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&description=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos%2C%20y%20analizar%C3%A1%20el%20trabajo%20que%20su%20grupo%20realiza%20con%20datos%20gen%C3%B3micos%2C%20temas%20relacionados%20con&media=https%3A%2F%2Flcd.exactas.uba.ar%2Fwp-content%2Fuploads%2F2023%2F04%2Fdatos-presentacion.png",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "http://www.tumblr.com/share/link?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&name=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&description=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos%2C%20y%20analizar%C3%A1%20el%20trabajo%20que%20su%20grupo%20realiza%20con%20datos%20gen%C3%B3micos%2C%20temas%20relacionados%20con",
+        "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:56:54.687947"
+    },
+    "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&title=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&summary=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20comput": {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&title=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&summary=Nos%20complace%20invitarlos%20a%20una%20charla%20informal%20por%20Zoom%20con%20la%20Dra.%20Ruth%20Pfeiffer%2C%20investigadora%20s%C3%A9nior%20del%20Instituto%20Nacional%20del%20C%C3%A1ncer%20%28EE.%20UU.%29.%20Compartir%C3%A1%20su%20experiencia%20trabajando%20en%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20comput",
+      "status": "omitido",
+      "motivo": "Dominio no permitido",
+      "timestamp": "2025-07-27T14:56:54.687947"
+    },
+    "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F": {
+      "url": "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F",
+      "status": "omitido",
+      "motivo": "Dominio no permitido",
+      "timestamp": "2025-07-27T14:56:54.687947"
+    },
+    "https://lcd.exactas.uba.ar/materias/#Caminos": {
+      "url": "https://lcd.exactas.uba.ar/materias/#Caminos",
+      "titulo": "Plan de estudios – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 30,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:56:56.930611"
+    },
+    "mailto:?subject=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&body=https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/": {
+      "url": "mailto:?subject=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos&body=https://lcd.exactas.uba.ar/zoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos/",
+      "status": "omitido",
+      "motivo": "Dominio no permitido",
+      "timestamp": "2025-07-27T14:56:56.933436"
+    },
+    "https://lcd.exactas.uba.ar/materias-optativas/": {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas/",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 83,
+        "tipos_informacion": [
+          "horarios",
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&t=Materias%20Optativas%20Sugeridas",
+        "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas-primer-cuatrimestre-2021",
+        "http://reddit.com/submit?url=https://lcd.exactas.uba.ar/materias-optativas/&title=Materias%20Optativas%20Sugeridas",
+        "https://www.xing.com/social_plugins/share/new?sc_p=xing-share&h=1&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&summary=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Al",
+        "https://www.df.uba.ar/en/docentes/distribucion-de-horarios-y-docentes",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2024",
+        "https://twitter.com/share?text=Materias%20Optativas%20Sugeridas&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "http://cms.dm.uba.ar/academico/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2023",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=1",
+        "mailto:?subject=Materias%20Optativas%20Sugeridas&body=https://lcd.exactas.uba.ar/materias-optativas/",
+        "http://vkontakte.ru/share.php?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=2",
+        "https://www.dc.uba.ar/cursada-de-grado/",
+        "http://pinterest.com/pin/create/button/?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no&media=",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2022",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2021&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1",
+        "http://www.tumblr.com/share/link?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&name=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:56:59.124373"
+    },
+    "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&t=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos": {
+      "url": "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fzoom-de-metodos-para-datos-moleculares-de-alta-dimension-estadistica-computacional-y-prediccion-de-riesgos%2F&t=Zoom%20de%20m%C3%A9todos%20para%20datos%20moleculares%20de%20alta%20dimensi%C3%B3n%2C%20estad%C3%ADstica%20computacional%20y%20predicci%C3%B3n%20de%20riesgos",
+      "status": "omitido",
+      "motivo": "Dominio no permitido",
+      "timestamp": "2025-07-27T14:56:59.124373"
+    },
+    "https://lcd.exactas.uba.ar/comision-de-carrera/": {
+      "url": "https://lcd.exactas.uba.ar/comision-de-carrera/",
+      "titulo": "Comisión de Carrera – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 14,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://www.fbmc.fcen.uba.ar/docentes/laura-kamenetzky/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://exactas.uba.ar/genex/",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:01.033442"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+      "titulo": "Páginas de materias",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 71,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8634-2024c2",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7483-2018-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6489-2012-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6491-2010-2do-cuatrimest",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7716-2019-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7259-2017-verano",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/114-2015-1ro-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8495-2023-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6490-2012-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6614-tesis-de-licenciatura-0",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8177-2021-verano",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6807-2013-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/115-2015-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6447-2001-veran",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8567-2024c1",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7727-2019-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6492-2012-verano",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7625-2018-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8008-2020-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6871-2014-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8009-2020-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8697-2025v",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6982-2015-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8185-2021-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8569-a2024cv",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8443-2023-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6706-2013-verano",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/79-tesis-de-licenciatura",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8435-2023-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7124-2016-2do-cuatrimestre-2",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7366-2017-2do-cuatrimestre",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8311-2022-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8698-2025a",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7306-2017-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7087-2016-verano",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7096-2016-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6446-2011-1er-cuatrimestr",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8245-2021-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6870-2014-verano",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6709-2013-1er-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8753-l6y7",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7456-2018-verano",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8699-2025b",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:02.878720"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre",
+      "titulo": "2022 - 2do Cuatrimestre",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 74,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "http://materias.df.uba.ar/f4a2022c2",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://materias.df.uba.ar/ft3a2022c2",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "http://materias.df.uba.ar/mca2022c2",
+        "http://materias.df.uba.ar/tadfa2022c2",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8354-2022-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "http://materias.df.uba.ar/f4b2022c2",
+        "http://materias.df.uba.ar/f2a2022c2",
+        "http://materias.df.uba.ar/l2a2022c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "http://materias.df.uba.ar/f1b2022c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "http://materias.df.uba.ar/ft2a2022c2",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://materias.df.uba.ar/l1a2022c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "http://materias.df.uba.ar/f1a2022c2",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "http://materias.df.uba.ar/onla2022c2",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/f3a2022c2",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/l6y7a2022c2",
+        "http://materias.df.uba.ar/l4a2022c2",
+        "http://materias.df.uba.ar/edlm1a2022c2",
+        "http://materias.df.uba.ar/eyob2022c2",
+        "http://materias.df.uba.ar/fppa2022c2",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "http://materias.df.uba.ar/eyoa2022c2",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://materias.df.uba.ar/f2b2022c2",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "http://materias.df.uba.ar/edlm3a2022c2",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "http://materias.df.uba.ar/ba2022c2",
+        "http://materias.df.uba.ar/edlm2a2022c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "http://materias.df.uba.ar/mcb2022c2",
+        "http://materias.df.uba.ar/rga2022c2",
+        "http://materias.df.uba.ar/fc2a2022c2",
+        "http://materias.df.uba.ar/ft1a2022c2",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://materias.df.uba.ar/rca2022c2",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "http://materias.df.uba.ar/f3aa2022c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "http://materias.df.uba.ar/f2qa2022c2",
+        "http://materias.df.uba.ar/l3b2022c2",
+        "http://materias.df.uba.ar/f3b2022c2",
+        "http://materias.df.uba.ar/myta2022c2",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "http://materias.df.uba.ar/l3a2022c2",
+        "http://materias.df.uba.ar/l1c2022c2",
+        "http://materias.df.uba.ar/edlm4a2022c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/l2b2022c2",
+        "http://materias.df.uba.ar/l5a2022c2",
+        "http://materias.df.uba.ar/sdeiaaamdda2022c2",
+        "http://materias.df.uba.ar/l1b2022c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/f1qa2022c2",
+        "http://materias.df.uba.ar/l4b2022c2",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "http://materias.df.uba.ar/mytb2022c2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:04.681105"
+    },
+    "https://www.df.uba.ar/es/docentes/calendario-academico1": {
+      "url": "https://www.df.uba.ar/es/docentes/calendario-academico1",
+      "titulo": "Calendario académico",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 15,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://www.df.uba.ar/en/docentes/calendario-academico1",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:05.799788"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre",
+      "titulo": "2010 - 1er Cuatrimestre ",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 30,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://users.df.uba.ar/vera/fisica3_12010.html",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://users.df.uba.ar/jmelo/Materias/2010-1c-estructura3/",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://users.df.uba.ar/sequi/materias/e4_1er2010/",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "http://users.df.uba.ar/arbo/Fisica2Q-1er_cuat_2010.htm",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "http://users.df.uba.ar/melita/FisicaI/Fisica1-Szybisz_1ercuatrimestre2010.html",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "http://users.df.uba.ar/dasso/fisica4_2010",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/E1_2010_1C",
+        "http://gea.df.uba.ar/fisica2/F2_101C.html",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6441-2010-1er-cuatrimestre",
+        "http://materias.df.uba.ar/FT2_2010_1C",
+        "http://materias.df.uba.ar/F1_2010_1C",
+        "http://www.lfp.uba.ar/gnavi/Fisica_1_GG.htm",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://users.df.uba.ar/rferraro/Fisica3/Fisica3-1er2010.htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://www.lsd.df.uba.ar/materias/dnl",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:07.406942"
+    },
+    "http://materias.df.uba.ar/f4b2022c2": {
+      "url": "http://materias.df.uba.ar/f4b2022c2",
+      "titulo": "Fisica 4 B – 2do Cuatrimestre 2022 | Prof. Diego Wisniacki",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 36,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f4b2022c2/2018/07/11/bienvenidos-a-la-materia/",
+        "http://materias.df.uba.ar/f4b2022c2/",
+        "http://materias.df.uba.ar/f4b2022c2/programa/",
+        "http://materias.df.uba.ar/f4b2022c2/author/admin/",
+        "http://materias.df.uba.ar/f4b2022c2/category/uncategorized/",
+        "http://materias.df.uba.ar/f4b2022c2/bibliografia/",
+        "http://materias.df.uba.ar/f4b2022c2/sample-page/",
+        "http://materias.df.uba.ar/f4b2022c2/guias/",
+        "http://materias.df.uba.ar/f4b2022c2/practicas/",
+        "http://materias.df.uba.ar/f4b2022c2/parciales/",
+        "http://materias.df.uba.ar/f4b2022c2/2018/07/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:08.390687"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre",
+      "titulo": "2020 - 2do Cuatrimestre",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 78,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f3ba2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "http://materias.df.uba.ar/f1pa2020c2",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://materias.df.uba.ar/f1aa2020c2",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://materias.df.uba.ar/ft2a2020c2",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "http://materias.df.uba.ar/l2a2020c2",
+        "http://materias.df.uba.ar/mytda2020c2",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8118-2020-2do-cuatrimestre",
+        "http://materias.df.uba.ar/l67a2020c2",
+        "http://materias.df.uba.ar/edlm4a2020c2",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "http://materias.df.uba.ar/sefa2020c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "http://materias.df.uba.ar/edlm2a2020c2",
+        "http://materias.df.uba.ar/f1qa2020c2",
+        "http://materias.df.uba.ar/f4aa2020c2",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://materias.df.uba.ar/l3a2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "http://materias.df.uba.ar/f1ba2020c2",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "http://materias.df.uba.ar/mytba2020c2",
+        "http://materias.df.uba.ar/eyoca2020c2",
+        "http://materias.df.uba.ar/l1aa2020c2",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "http://materias.df.uba.ar/edlm1a2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/f3aa2020c2",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/l1ca2020c2",
+        "http://materias.df.uba.ar/mca2020c2",
+        "http://materias.df.uba.ar/edlm3a2020c2",
+        "http://materias.df.uba.ar/l1ba2020c2",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://materias.df.uba.ar/sa2020c2",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "http://materias.df.uba.ar/eyoba2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "http://materias.df.uba.ar/l5a2020c2",
+        "http://materias.df.uba.ar/fc2a2020c2",
+        "http://materias.df.uba.ar/fdmca2020c2",
+        "http://materias.df.uba.ar/rga2020c2",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://materias.df.uba.ar/l4a2020c2",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "http://materias.df.uba.ar/l1da2020c2",
+        "http://materias.df.uba.ar/f2ba2020c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "http://materias.df.uba.ar/tadtyfea2020c2",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "http://materias.df.uba.ar/ft3a2020c2",
+        "http://materias.df.uba.ar/f2qa2020c2",
+        "http://materias.df.uba.ar/f2ca2020c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "http://materias.df.uba.ar/onla2020c2",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/ft1a2020c2",
+        "http://materias.df.uba.ar/eyoaa2020c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/mytaa2020c2",
+        "http://materias.df.uba.ar/f3caa2020c2",
+        "http://materias.df.uba.ar/f2aa2020c2",
+        "http://materias.df.uba.ar/f4ba2020c2",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "http://materias.df.uba.ar/mytca2020c2",
+        "http://materias.df.uba.ar/l1ea2020c2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:10.062489"
+    },
+    "http://materias.df.uba.ar/l67a2020c2": {
+      "url": "http://materias.df.uba.ar/l67a2020c2",
+      "titulo": "Laboratorio 6 y 7 – 2do cuatrimestre 2020 | Prof. Silvia Ledesma",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 37,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/l67a2020c2/intro/",
+        "http://materias.df.uba.ar/l67a2020c2/criterios-de-evaluacion/",
+        "http://materias.df.uba.ar/l67a2020c2/category/uncategorized/",
+        "http://materias.df.uba.ar/l67a2020c2/author/89169/",
+        "http://materias.df.uba.ar/l67a2020c2/propuestas/",
+        "http://materias.df.uba.ar/l67a2020c2/fechas-importantes/",
+        "http://materias.df.uba.ar/l67a2020c2/cronograma/",
+        "http://materias.df.uba.ar/l67a2020c2/2016/02/",
+        "http://materias.df.uba.ar/l67a2020c2/2016/02/17/laboratorio-6-y-7/",
+        "http://materias.df.uba.ar/l67a2020c2/seguro-de-trabajo-art/",
+        "http://materias.df.uba.ar/l67a2020c2/",
+        "http://materias.df.uba.ar/l67a2020c2/guias/",
+        "http://materias.df.uba.ar/l67a2020c2/material-adicional/",
+        "http://materias.df.uba.ar/l67a2020c2/programa/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:11.102506"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre",
+      "titulo": "2014 - 2do Cuatrimestre",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 61,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f1aa2014c2",
+        "http://materias.df.uba.ar/labo4aa2014c2",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "http://materias.df.uba.ar/labo1aa2014c2",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://materias.df.uba.ar/f3ba2014c2",
+        "http://materias.df.uba.ar/labo4ba2014c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "http://materias.df.uba.ar/ft1a2014c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "http://materias.df.uba.ar/f2aa2014c2",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://materias.df.uba.ar/fc2a2014c2",
+        "http://materias.df.uba.ar/mcba2014c2",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://materias.df.uba.ar/labo2aa2014c2",
+        "http://materias.df.uba.ar/labo5ba2014c2",
+        "http://materias.df.uba.ar/e3a2014c2",
+        "http://materias.df.uba.ar/f1bygaa2014c2",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "http://materias.df.uba.ar/mcaa2014c2",
+        "http://materias.df.uba.ar/ica2014c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "http://materias.df.uba.ar/f4aa2014c2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "http://materias.df.uba.ar/fiscompa2014c2",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "http://materias.df.uba.ar/f1qa2014c2",
+        "http://materias.df.uba.ar/f1ba2014c2",
+        "http://materias.df.uba.ar/f2ba2014c2",
+        "http://materias.df.uba.ar/labo67a2014c2",
+        "http://materias.df.uba.ar/biofisa2014c2",
+        "http://materias.df.uba.ar/labo3ba2014c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/e4a2014c2",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "http://materias.df.uba.ar/ft3a2014c2",
+        "http://materias.df.uba.ar/labo5aa2014c2",
+        "http://materias.df.uba.ar/f2qa2014c2",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/113-2014-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/f1pa2014c2",
+        "http://materias.df.uba.ar/f1bygba2014c2",
+        "http://materias.df.uba.ar/labo1ba2014c2",
+        "http://materias.df.uba.ar/f2bygaa2014c2",
+        "http://materias.df.uba.ar/labo3aa2014c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "http://materias.df.uba.ar/e1a2014c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "http://materias.df.uba.ar/ft2a2014c2",
+        "http://materias.df.uba.ar/labo2ba2014c2",
+        "http://materias.df.uba.ar/e2a2014c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "http://materias.df.uba.ar/f3aa2014c2",
+        "http://materias.df.uba.ar/f2bygba2014c2",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "http://materias.df.uba.ar/tfmca2014c2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:12.910793"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre",
+      "titulo": "2011 - 2do Cuatrimestre",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 29,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://users.df.uba.ar/arbo/Fisica4-2c_2011.htm",
+        "http://materias.df.uba.ar/Mecanica_2011_2C",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://users.df.uba.ar/alejo/materias/fpaleo",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://users.df.uba.ar/schat/e4-2c11.html",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "http://users.df.uba.ar/llois/FISICA4",
+        "http://users.df.uba.ar/gpagola/e3sc2011",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://users.df.uba.ar/bragas/Fisica%202/index2.htm",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "http://materias.df.uba.ar/FT3_2011_2C",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/6448-2011-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/E1_2011_2C",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://materias.df.uba.ar/FT1_2011_2C",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:14.583870"
+    },
+    "http://materias.df.uba.ar/f4b2022c2/bibliografia/": {
+      "url": "http://materias.df.uba.ar/f4b2022c2/bibliografia/",
+      "titulo": "Bibliografía | Fisica 4 B – 2do Cuatrimestre 2022",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 25,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/millikan.pdf",
+        "http://materias.df.uba.ar/f4b2022c2/",
+        "http://materias.df.uba.ar/f4b2022c2/programa/",
+        "http://materias.df.uba.ar/f4b2022c2/guias/",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/CarnotforVdW.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/wonderland.html",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/Planck(1900)ImprovementofWiens.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/Planckreluctant.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/ueberEnergieverteilung.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/ciclos.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/60Condon.html",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/schroddificil/Heffective.pdf",
+        "http://materias.df.uba.ar/f4b2022c2/bibliografia/",
+        "http://materias.df.uba.ar/f4b2022c2/practicas/",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/onthelawofEnergyDistribution.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/photongas.pdf",
+        "http://materias.df.uba.ar/f4b2022c2/sample-page/",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/thermoblackbody.pdf",
+        "http://materias.df.uba.ar/f4b2022c2/parciales/",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/ueberWienschen.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/humanvision.pdf",
+        "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/cuantica/blackbodyisnotablackbox.pdf"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:15.300645"
+    },
+    "http://materias.df.uba.ar/sdeiaaamdda2020c2": {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2",
+      "titulo": "Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020 | Prof. Gabriel Mindlin",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 74,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/comments/feed/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bibliografia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/programa/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/sample-page/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/category/novedades/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/author/125134/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/feed/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/aulas-virtuales/",
+        "https://materias.df.uba.ar/sdeiaaamdda2020c2/wp-login.php",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/guias/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/lista-de-reproduccion-en-youtube/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:17.377446"
+    },
+    "https://exactas.uba.ar/genex/": {
+      "url": "https://exactas.uba.ar/genex/",
+      "titulo": " Genex",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 13,
+        "tipos_informacion": [
+          "horarios",
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://exactas.uba.ar/genex/recursero-de-lenguaje-inclusivo/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:19.310362"
+    },
+    "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis": {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+      "titulo": "Ultimas Tesis",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 13,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "http://www.df.uba.ar/academica/carrera-de-doctorado/7088",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6377-http-www-doctorado-df-uba-ar-t98-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/8188-tesis-rendidas-durante-el-2020",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/8317-tesis-rendidas-durante-el-2021",
+        "http://www.df.uba.ar/academica/carrera-de-doctorado/2-uncategorised/6667",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6366-http-www-doctorado-df-uba-ar-t07-htm",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6369-http-www-doctorado-df-uba-ar-t10-htm",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6363-http-www-doctorado-df-uba-ar-t04-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6375-http-www-doctorado-df-uba-ar-t96-htm",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6364-http-www-doctorado-df-uba-ar-t05-htm",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/8037-tesis-rendidas-durante-el-2019",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/7747-tesis-rendidas-durante-el-2018",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6367-http-www-doctorado-df-uba-ar-t08-htm",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6359-http-www-doctorado-df-uba-ar-t00-htm",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/8727-tesis-rendidas-durante-el-2024",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6362-http-www-doctorado-df-uba-ar-t03-htm",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://www.df.uba.ar/academica/carrera-de-doctorado/7309",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6373-http-www-doctorado-df-uba-ar-t94-htm",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6368-http-www-doctorado-df-uba-ar-t09-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6374-http-www-doctorado-df-uba-ar-t95-htm",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6371-http-www-doctorado-df-uba-ar-t92-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6365-http-www-doctorado-df-uba-ar-t06-htm",
+        "https://www.df.uba.ar/en/academica/carrera-de-doctorado/ultimas-tesis",
+        "http://www.df.uba.ar/academica/carrera-de-doctorado/6723",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6378-http-www-doctorado-df-uba-ar-t99-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6376-http-www-doctorado-df-uba-ar-t97-htm",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6360-http-www-doctorado-df-uba-ar-t01-htm",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "http://www.df.uba.ar/academica/carrera-de-doctorado/6984",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/7532-tesis-rendidas-durante-2017",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6370-http-www-doctorado-df-uba-ar-t11-htm",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6372-http-www-doctorado-df-uba-ar-t93-htm",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:21.254098"
+    },
+    "http://materias.df.uba.ar/f1b2022c2": {
+      "url": "http://materias.df.uba.ar/f1b2022c2",
+      "titulo": "Fisica 1 B – 1er Cuatrimestre 2022 | Prof. Carmen Núñez",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 142,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f1b2022c2/programa/",
+        "http://materias.df.uba.ar/f1b2022c2/files/2022/09/PracticaFriccion.pdf",
+        "http://materias.df.uba.ar/f1b2022c2/bibliografia/",
+        "http://materias.df.uba.ar/f1b2022c2/material-adicional/",
+        "http://materias.df.uba.ar/f1b2022c2/comments/feed/",
+        "http://materias.df.uba.ar/f1b2022c2/clase-suspendida/",
+        "http://materias.df.uba.ar/f1b2022c2/otra-notebook-colab-ejercicio-6-guia-8/",
+        "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/",
+        "http://materias.df.uba.ar/f1b2022c2/2022/11/",
+        "http://materias.df.uba.ar/f1b2022c2/author/126242/",
+        "http://materias.df.uba.ar/f1b2022c2/page/2/",
+        "http://materias.df.uba.ar/f1b2022c2/guias/",
+        "http://materias.df.uba.ar/f1b2022c2/notebook-colab-para-ejercicio-4-guia-7/",
+        "http://materias.df.uba.ar/f1b2022c2/parciales/",
+        "http://materias.df.uba.ar/f1b2022c2/sample-page/",
+        "http://materias.df.uba.ar/f1b2022c2/",
+        "http://materias.df.uba.ar/f1b2022c2/proximas-clases/",
+        "http://materias.df.uba.ar/f1b2022c2/category/novedades/",
+        "https://materias.df.uba.ar/f1b2022c2/wp-login.php",
+        "http://materias.df.uba.ar/f1b2022c2/entrega-de-parciales-y-consultas/",
+        "http://materias.df.uba.ar/f1b2022c2/feed/",
+        "http://materias.df.uba.ar/f1b2022c2/aula-primer-parcial/",
+        "http://materias.df.uba.ar/f1b2022c2/entrega-1er-recuperatorio-y-consultas/",
+        "http://materias.df.uba.ar/f1b2022c2/videos-de-la-clase-del-2810/",
+        "http://materias.df.uba.ar/f1b2022c2/cronograma/",
+        "http://materias.df.uba.ar/f1b2022c2/clase-del-viernes-2810/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:22.764323"
+    },
+    "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2": {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 99,
+        "tipos_informacion": [
+          "horarios",
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2024&cuatrimestre=2",
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&t=Materias%20Optativas%20Sugeridas",
+        "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas-primer-cuatrimestre-2021",
+        "http://reddit.com/submit?url=https://lcd.exactas.uba.ar/materias-optativas/&title=Materias%20Optativas%20Sugeridas",
+        "https://www.xing.com/social_plugins/share/new?sc_p=xing-share&h=1&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&summary=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Al",
+        "https://lcd.exactas.uba.ar/materia-informacion?codigo=362",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2022&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materia-informacion?codigo=328",
+        "https://www.df.uba.ar/en/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "https://lcd.exactas.uba.ar/materia-informacion?codigo=354",
+        "https://materias.df.uba.ar/sca2023c2/programa/",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://twitter.com/share?text=Materias%20Optativas%20Sugeridas&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2024&cuatrimestre=1",
+        "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2023&cuatrimestre=2",
+        "http://cms.dm.uba.ar/academico/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=1",
+        "mailto:?subject=Materias%20Optativas%20Sugeridas&body=https://lcd.exactas.uba.ar/materias-optativas/",
+        "http://vkontakte.ru/share.php?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=2",
+        "https://www.dc.uba.ar/cursada-de-grado/",
+        "https://lcd.exactas.uba.ar/materia-informacion?codigo=356",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2024&cuatrimestre=2",
+        "http://pinterest.com/pin/create/button/?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no&media=",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2021&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias/",
+        "http://www.tumblr.com/share/link?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&name=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:25.857388"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre",
+      "titulo": "2019 - 2do Cuatrimestre",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 72,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/l2b2019c2",
+        "http://materias.df.uba.ar/l1a2019c2",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://materias.df.uba.ar/f3b2019c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://materias.df.uba.ar/e1a2019c2",
+        "http://materias.df.uba.ar/eoa2019c2",
+        "http://materias.df.uba.ar/l2a2019c2",
+        "http://materias.df.uba.ar/f3atma2019c2",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://materias.df.uba.ar/l3a2019c2",
+        "http://materias.df.uba.ar/l3b2019c2",
+        "http://materias.df.uba.ar/f1b2019c2",
+        "http://materias.df.uba.ar/mta2019c2",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "http://materias.df.uba.ar/l5a2019c2",
+        "http://materias.df.uba.ar/f4a2019c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "http://materias.df.uba.ar/lea2019c2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "http://materias.df.uba.ar/f3a2019c2",
+        "http://materias.df.uba.ar/f1a2019c2",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "http://materias.df.uba.ar/l67a2019c2",
+        "http://materias.df.uba.ar/f1qa2019c2",
+        "http://materias.df.uba.ar/mtb2019c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/mca2019c2",
+        "http://materias.df.uba.ar/f2qa2019c2",
+        "http://materias.df.uba.ar/rga2019c2",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/plasma2019c2",
+        "http://materias.df.uba.ar/e2a2019c2",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "http://materias.df.uba.ar/t2a2019c2",
+        "http://materias.df.uba.ar/fc2a2019c2",
+        "http://materias.df.uba.ar/leb2019c2",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/l2c2019c2",
+        "http://materias.df.uba.ar/l1c2019c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/f2b2019c2",
+        "http://materias.df.uba.ar/l4a2019c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "http://materias.df.uba.ar/e4a2019c2",
+        "http://materias.df.uba.ar/t1a2019c2",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://materias.df.uba.ar/t3a2019c2",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "http://materias.df.uba.ar/l5b2019c2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/7856-2019-2do-cuatrimestre",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "http://materias.df.uba.ar/l1b2019c2",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "http://materias.df.uba.ar/f2a2019c2",
+        "http://materias.df.uba.ar/e3a2019c2",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "http://materias.df.uba.ar/eob2019c2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:27.612848"
+    },
+    "http://materias.df.uba.ar/f4aa2020c2": {
+      "url": "http://materias.df.uba.ar/f4aa2020c2",
+      "titulo": "Fisica 4 A – 2do cuatrimestre 2020 | Prof. Claudia Giribet",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 44,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f4aa2020c2/programa/",
+        "http://materias.df.uba.ar/f4aa2020c2/2013/03/",
+        "http://materias.df.uba.ar/f4aa2020c2/clases-practicas/",
+        "http://materias.df.uba.ar/f4aa2020c2/",
+        "http://materias.df.uba.ar/f4aa2020c2/guias/",
+        "http://materias.df.uba.ar/f4aa2020c2/publicaciones/publicaciones-mecanica-cuantica/",
+        "http://materias.df.uba.ar/f4aa2020c2/publicaciones/publicaciones-mecanica-cuantica-2/",
+        "http://materias.df.uba.ar/f4aa2020c2/publicaciones/",
+        "http://materias.df.uba.ar/f4aa2020c2/clases-teoricas-mecanica-cuantica/",
+        "http://materias.df.uba.ar/f4aa2020c2/principal/",
+        "http://materias.df.uba.ar/f4Aa2012c2/files/2012/07/solvay1.jpg",
+        "http://materias.df.uba.ar/f4aa2020c2/2013/03/07/bienvenidos-a-la-materia/",
+        "http://materias.df.uba.ar/f4aa2020c2/cronograma/",
+        "http://materias.df.uba.ar/f4aa2020c2/category/portal/",
+        "http://materias.df.uba.ar/f4aa2020c2/material-adicional/",
+        "http://materias.df.uba.ar/f4aa2020c2/parciales/",
+        "http://materias.df.uba.ar/f4aa2020c2/author/admin/",
+        "http://materias.df.uba.ar/f4aa2020c2/clases-teoricas-termodinamica/",
+        "http://materias.df.uba.ar/f4aa2020c2/publicaciones/publicaciones-termodinamica/",
+        "http://materias.df.uba.ar/f4aa2020c2/bibliografia/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:28.628287"
+    },
+    "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre": {
+      "url": "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre",
+      "titulo": "2022 - 1er Cuatrimestre",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 80,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/l1c2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "http://materias.df.uba.ar/eyoa2022c1",
+        "http://materias.df.uba.ar/l2b2022c1",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "http://materias.df.uba.ar/ft1a2022c1",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "http://materias.df.uba.ar/eyoc2022c1",
+        "http://materias.df.uba.ar/f4a2022c1",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "http://materias.df.uba.ar/l3b2022c1",
+        "http://materias.df.uba.ar/l3a2022c1",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "http://materias.df.uba.ar/tdca2022c1",
+        "http://materias.df.uba.ar/f1qa2022c1",
+        "http://materias.df.uba.ar/edlm2a2022c1",
+        "http://materias.df.uba.ar/dnla2022c1",
+        "http://materias.df.uba.ar/tdfa2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "http://materias.df.uba.ar/l2a2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "http://materias.df.uba.ar/edlm1a2022c1",
+        "http://materias.df.uba.ar/l4b2022c1",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias/8312-2022-1er-cuatrimestre",
+        "http://materias.df.uba.ar/l1d2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "http://materias.df.uba.ar/mca2022c1",
+        "http://materias.df.uba.ar/pfyqdlma2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "http://materias.df.uba.ar/f1b2022c1",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "http://materias.df.uba.ar/f3b2022c1",
+        "http://materias.df.uba.ar/f4b2022c1",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "http://materias.df.uba.ar/edlm3a2022c1",
+        "https://www.df.uba.ar/en/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/f2a2022c1",
+        "http://materias.df.uba.ar/mcb2022c1",
+        "http://materias.df.uba.ar/aa2022c1",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://materias.df.uba.ar/f3a2022c1",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "http://materias.df.uba.ar/l1b2022c1",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "http://materias.df.uba.ar/l6y7a2022c1",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "http://materias.df.uba.ar/f2qa2022c1",
+        "http://materias.df.uba.ar/f2b2022c1",
+        "http://materias.df.uba.ar/myta2022c1",
+        "http://materias.df.uba.ar/fdmca2022c1",
+        "http://materias.df.uba.ar/ft2a2022c1",
+        "http://materias.df.uba.ar/ldda2022c1",
+        "http://materias.df.uba.ar/fc1a2022c1",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "http://materias.df.uba.ar/f1a2022c1",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "http://materias.df.uba.ar/ft3a2022c1",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "http://materias.df.uba.ar/l5a2022c1",
+        "http://materias.df.uba.ar/l1a2022c1",
+        "http://materias.df.uba.ar/edlm4a2022c1",
+        "http://materias.df.uba.ar/mytb2022c1",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "http://materias.df.uba.ar/f1c2022c1",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "http://materias.df.uba.ar/tebma2022c1",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "http://materias.df.uba.ar/l4a2022c1",
+        "http://materias.df.uba.ar/mytc2022c1",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:30.291805"
+    },
+    "http://users.df.uba.ar/alejo/materias/fpaleo": {
+      "url": "http://users.df.uba.ar/alejo/materias/fpaleo",
+      "titulo": "Física para Paleontólogos",
+      "tecnologia": {
+        "cms": "estatico",
+        "framework": "desconocido",
+        "complejidad": "simple"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": false,
+        "cantidad_materias_estimada": 11,
+        "tipos_informacion": []
+      },
+      "links_encontrados": [
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/6_Gauss.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/5_Electrostatica.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/7_Circuitos.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/3_Termodinamica.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/Repaso_Vectores.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/Adicional_Fluidos.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/8_Magnetismo.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/2_Hidrodinamica.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/Adicional_Electro.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/4_Termodinamica.pdf",
+        "http://www.df.uba.ar/users/alejo/materias/fpaleo/guias/1_Hidrostatica.pdf"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:30.813834"
+    },
+    "http://materias.df.uba.ar/l1a2022c2": {
+      "url": "http://materias.df.uba.ar/l1a2022c2",
+      "titulo": "Laboratorio 1 A – 2do Cuatrimestre 2022 | Prof. Veronica Raspa",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 33,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/l1a2022c2/category/uncategorized/",
+        "http://materias.df.uba.ar/l1a2022c2/2022/08/",
+        "http://materias.df.uba.ar/l1a2022c2/bibliografia/",
+        "http://materias.df.uba.ar/l1a2022c2/guias/",
+        "http://materias.df.uba.ar/l1a2022c2/sample-page/",
+        "http://materias.df.uba.ar/l1a2022c2/acerca-de-python/",
+        "http://materias.df.uba.ar/l1a2022c2/material-adicional/",
+        "http://materias.df.uba.ar/l1a2022c2/cronograma/",
+        "http://materias.df.uba.ar/l1a2022c2/2022/08/09/iniciamos-la-cursada-de-laboratorio-1a/",
+        "http://materias.df.uba.ar/l1a2022c2/author/admin/",
+        "http://materias.df.uba.ar/l1a2022c2/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:31.715850"
+    },
+    "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/": {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+      "titulo": "Bienvenid@s a la materia! | Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 50,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bibliografia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/programa/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/sample-page/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/category/novedades/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/author/125134/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/aulas-virtuales/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/guias/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:32.686692"
+    },
+    "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/": {
+      "url": "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/",
+      "titulo": "noviembre | 2020 | Sistemas Dinamicos E Inteligencia Artificial Aplicados Al Modelado De Datos – 2do cuatrimestre 2020",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 62,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/comments/feed/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bibliografia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/programa/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/sample-page/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/category/novedades/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/09/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/author/125134/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/bienvenids-a-la-materia/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/aulas-virtuales/",
+        "https://materias.df.uba.ar/sdeiaaamdda2020c2/wp-login.php",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/12/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/feed/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/2020/11/18/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/guias/",
+        "http://materias.df.uba.ar/sdeiaaamdda2020c2/lista-de-reproduccion-en-youtube/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:57:33.640769"
+    },
+    "http://users.df.uba.ar/bragas/Fisica%202/index2.htm": {
+      "url": "http://users.df.uba.ar/bragas/Fisica%202/index2.htm",
+      "titulo": "Fisica 2",
+      "tecnologia": {
+        "cms": "estatico",
+        "framework": "desconocido",
+        "complejidad": "simple"
+      },
+      "contenido_materias": {
+        "tiene_materias": false,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 0,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:04.058837"
+    },
+    "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm": {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm",
+      "titulo": "Tesis rendidas durante 2002",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 11,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis/2-uncategorised/6361-http-www-doctorado-df-uba-ar-t02-htm",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/en/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:05.926832"
+    },
+    "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2": {
+      "url": "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2",
+      "titulo": "Materias Optativas Sugeridas – Licenciatura en Datos – Exactas – UBA",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 94,
+        "tipos_informacion": [
+          "horarios",
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.facebook.com/sharer.php?u=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&t=Materias%20Optativas%20Sugeridas",
+        "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas-primer-cuatrimestre-2021",
+        "http://reddit.com/submit?url=https://lcd.exactas.uba.ar/materias-optativas/&title=Materias%20Optativas%20Sugeridas",
+        "https://www.xing.com/social_plugins/share/new?sc_p=xing-share&h=1&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&summary=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Al",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2022&cuatrimestre=2",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/en/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "https://lcd.exactas.uba.ar/materias/#Caminos",
+        "https://twitter.com/share?text=Materias%20Optativas%20Sugeridas&url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://api.whatsapp.com/send?text=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2025&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2023&cuatrimestre=2",
+        "http://cms.dm.uba.ar/academico/materias",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas/",
+        "https://lcd.exactas.uba.ar/comision-de-carrera/",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=1",
+        "mailto:?subject=Materias%20Optativas%20Sugeridas&body=https://lcd.exactas.uba.ar/materias-optativas/",
+        "http://vkontakte.ru/share.php?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&title=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2022&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-obligatorias/",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2023&cuatrimestre=2",
+        "https://www.dc.uba.ar/cursada-de-grado/",
+        "https://lcd.exactas.uba.ar/materias-optativas/?ano=2024&cuatrimestre=2",
+        "http://pinterest.com/pin/create/button/?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no&media=",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2021&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2024&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=2",
+        "https://lcd.exactas.uba.ar/materias-optativas?ano=2025&cuatrimestre=1",
+        "https://lcd.exactas.uba.ar/materias/",
+        "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=1",
+        "http://www.tumblr.com/share/link?url=https%3A%2F%2Flcd.exactas.uba.ar%2Fmaterias-optativas%2F&name=Materias%20Optativas%20Sugeridas&description=Importante%3A%20%0D%0A%0D%0A%20%09El%20plan%20de%20optativas%20para%20el%20tercer%20ciclo%20debe%20ser%20consensuado%20con%20la%2Fel%20tutor%2Fa%20y%20aprobado%20por%20la%20comisi%C3%B3n%20de%20carrera.%0D%0A%20%09Las%20materias%20indicadas%20con%20%28%2B%29%20requieren%20que%20cada%20estudiante%20realice%20un%20tr%C3%A1mite%20individual%20en%20el%20Departamento%20de%20Alumnos%20para%20que%20sean%20consideradas%20como%20parte%20de%20su%20plan%20de%20estudios.%0D%0A%20%09Las%20que%20no",
+        "https://lcd.exactas.uba.ar/institucional/#_doceContainer"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:08.500956"
+    },
+    "http://materias.df.uba.ar/f4a2019c2": {
+      "url": "http://materias.df.uba.ar/f4a2019c2",
+      "titulo": "Fisica 4 – 2do Cuatrimestre 2019 | Prof. Claudia Giribet",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "media"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 41,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f4a2019c2/parciales/",
+        "http://materias.df.uba.ar/f4a2019c2/publicaciones/publicaciones-mecanica-cuantica/",
+        "http://materias.df.uba.ar/f4a2019c2/bibliografia/",
+        "http://materias.df.uba.ar/f4a2019c2/publicaciones/",
+        "http://materias.df.uba.ar/f4a2019c2/author/admin/",
+        "http://materias.df.uba.ar/f4a2019c2/2013/03/07/bienvenidos-a-la-materia/",
+        "http://materias.df.uba.ar/f4a2019c2/category/portal/",
+        "http://materias.df.uba.ar/f4a2019c2/principal/",
+        "http://materias.df.uba.ar/f4a2019c2/programa/",
+        "http://materias.df.uba.ar/f4a2019c2/",
+        "http://materias.df.uba.ar/f4a2019c2/publicaciones/publicaciones-mecanica-cuantica-2/",
+        "http://materias.df.uba.ar/f4a2019c2/material-adicional/",
+        "http://materias.df.uba.ar/f4a2019c2/guias/",
+        "http://materias.df.uba.ar/f4Aa2012c2/files/2012/07/solvay1.jpg",
+        "http://materias.df.uba.ar/f4a2019c2/2013/03/",
+        "http://materias.df.uba.ar/f4a2019c2/cronograma/",
+        "http://materias.df.uba.ar/f4a2019c2/publicaciones/publicaciones-termodinamica/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:09.608072"
+    },
+    "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/": {
+      "url": "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/",
+      "titulo": "Reapertura de inscripciones | Fisica 1 B – 1er Cuatrimestre 2022",
+      "tecnologia": {
+        "cms": "wordpress",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": true,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 52,
+        "tipos_informacion": [
+          "horarios",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "http://materias.df.uba.ar/f1b2022c2/programa/",
+        "http://materias.df.uba.ar/f1b2022c2/author/126242/",
+        "http://materias.df.uba.ar/f1b2022c2/bibliografia/",
+        "http://materias.df.uba.ar/f1b2022c2/material-adicional/",
+        "http://materias.df.uba.ar/f1b2022c2/reapertura-de-inscripciones/",
+        "http://materias.df.uba.ar/f1b2022c2/guias/",
+        "http://materias.df.uba.ar/f1b2022c2/bienvenides-a-la-materia/",
+        "http://materias.df.uba.ar/f1b2022c2/parciales/",
+        "http://materias.df.uba.ar/f1b2022c2/sample-page/",
+        "http://materias.df.uba.ar/f1b2022c2/",
+        "http://materias.df.uba.ar/f1b2022c2/cronograma/",
+        "http://materias.df.uba.ar/f1b2022c2/category/novedades/",
+        "http://materias.df.uba.ar/f1b2022c2/clase-suspendida/"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:10.574954"
+    },
+    "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas": {
+      "url": "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+      "titulo": "Pautas",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 34,
+        "tipos_informacion": [
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/en/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/index.php?option=com_content&view=article&catid=35&id=31",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/attachments/category/35/MATERIA.DOC",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:12.663281"
+    },
+    "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas": {
+      "url": "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+      "titulo": "Guía para el estudiante",
+      "tecnologia": {
+        "cms": "joomla",
+        "framework": "desconocido",
+        "complejidad": "compleja"
+      },
+      "contenido_materias": {
+        "tiene_materias": true,
+        "tiene_horarios": false,
+        "tiene_correlativas": true,
+        "tiene_programas": true,
+        "cantidad_materias_estimada": 76,
+        "tipos_informacion": [
+          "correlativas",
+          "programas"
+        ]
+      },
+      "links_encontrados": [
+        "https://www.df.uba.ar/academica/informacion-general?id=6299",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/ediciones-semana-fisica",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/puntaje",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/integrantes",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/alumnos",
+        "https://www.df.uba.ar/es/investigadores1/institutos-de-investigacion",
+        "http://exactas.uba.ar/institucional/programa-de-genero/",
+        "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+        "https://www.df.uba.ar/es/institucional/el-departamento",
+        "https://www.df.uba.ar/es/difusion/semana-de-la-fisica/que-es-semana-fisica",
+        "https://www.df.uba.ar/es/difusion/charlas-carrera",
+        "https://www.df.uba.ar/es/academica/programa-profesores-visitantes",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-1ra",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-2",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/preguntas-frecuentes",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/calendario-academico-estudiantes",
+        "https://www.df.uba.ar/es/futuros-estudiantes/programa-de-tutorias",
+        "https://inscripciones.exactas.uba.ar/exactas/",
+        "https://www.df.uba.ar/es/difusion/actualizacion-de-docentes-de-escuela-media-primaria/actualizacion-de-docentes-de-escuela-media-primaria-3",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/pautas",
+        "https://www.df.uba.ar/es/docentes/paginas-de-materias",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante#materias-optativas",
+        "https://www.df.uba.ar/es/docentes/calendario-academico1",
+        "https://www.df.uba.ar/futuros-estudiantes/guia-para-el-estudiante",
+        "http://materias2.df.uba.ar/seminario/",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/jefes-de-trabajos-practicos",
+        "https://www.df.uba.ar/es/institucional/novedades-del-departamento",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/ultimas-tesis",
+        "https://www.df.uba.ar/es/staff/docentes-auxiliares/ayudantes-de-2da",
+        "https://www.df.uba.ar/es/estudiantes/licenciatura/distribucion-de-horarios-y-docentes-estudiantes",
+        "https://www.df.uba.ar/es/docentes/pedido-y-distribucion-de-aulas",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/reglamento",
+        "https://www.df.uba.ar/es/coloquios/8757-coloquio-un-futuro-impresionante-con-materiales-sustentables-activos-que-revolucionen-la-impresion-3d",
+        "https://www.df.uba.ar/es/academica/carrera-de-doctorado/comite-de-seguimiento-de-tesis",
+        "https://www.df.uba.ar/es/docentes/concursos-docentes2"
+      ],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:14.630473"
+    },
+    "mailto:?subject=Materias%20Optativas%20Sugeridas&body=https://lcd.exactas.uba.ar/materias-optativas/": {
+      "url": "mailto:?subject=Materias%20Optativas%20Sugeridas&body=https://lcd.exactas.uba.ar/materias-optativas/",
+      "status": "omitido",
+      "motivo": "Dominio no permitido",
+      "timestamp": "2025-07-27T14:58:14.634553"
+    },
+    "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/ciclos.pdf": {
+      "url": "http://www.df.uba.ar/users/dmitnik/fisica4/articulos/termo/ciclos.pdf",
+      "titulo": "",
+      "tecnologia": {
+        "cms": "estatico",
+        "framework": "desconocido",
+        "complejidad": "simple"
+      },
+      "contenido_materias": {
+        "tiene_materias": false,
+        "tiene_horarios": false,
+        "tiene_correlativas": false,
+        "tiene_programas": false,
+        "cantidad_materias_estimada": 0,
+        "tipos_informacion": []
+      },
+      "links_encontrados": [],
+      "status": "exitoso",
+      "timestamp": "2025-07-27T14:58:15.057442"
+    }
+  }
+}

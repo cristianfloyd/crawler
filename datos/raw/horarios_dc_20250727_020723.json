@@ -1,0 +1,1757 @@
+{
+  "metadata": {
+    "departamento": "DC",
+    "fecha_extraccion": "2025-07-27T02:07:23.746408",
+    "total_materias": 46,
+    "fuente": "https://www.dc.uba.ar/",
+    "version_scraper": "1.0"
+  },
+  "estadisticas": {
+    "materias_procesadas": 46,
+    "horarios_extraidos": 0,
+    "errores_parsing": 0,
+    "materias_encontradas": [
+      "Álgebra Lineal Computacional",
+      "Álgebra Lineal Computacional",
+      "Algoritmos y Estructuras de Datos",
+      "Algoritmos y Estructuras de Datos",
+      "Algoritmos y Estructuras de Datos",
+      "Algoritmos y Estructuras de Datos",
+      "Aprendizaje Automatico I – 2025",
+      "Aprendizaje Automático II – 2025",
+      "Aprendizaje Profundo",
+      "Arquitectura y Comunicación de Datos",
+      "Arquitectura y Organización de computadores",
+      "Base de Datos",
+      "Complejidad Computacional",
+      "Criptografía Moderna – VISIT2024",
+      "Datos Masivos para Aprendizaje Automático",
+      "Fundamentos de Artificial General Intelligence Safety",
+      "Fundamentos de de la Gestión de Proyectos Ágil",
+      "Ingeniería de Software",
+      "Ingeniería de Software II",
+      "Introducción a la Investigación Operativa y Optimización",
+      "Introducción a la Programación",
+      "Introducción a la Programación",
+      "Introducción a la Programación",
+      "Laboratorio de Datos – Com. A",
+      "Laboratorio de Datos – Com B",
+      "Lenguajes Formales, Autómatas y Computabilidad",
+      "Modelado y Análisis de Sistemas Reactivos y Concurrentes",
+      "Paradigmas de Programación –",
+      "Paradigmas de Programación –",
+      "Pensamiento Computacional",
+      "Pensamiento Computacional",
+      "Procesamiento Avanzado de Señales 2024",
+      "Procesamiento Cuántico de Información",
+      "Procesamiento de Imágenes I",
+      "Procesamiento de Señales, Audio y Habla",
+      "Programación Competitiva I",
+      "Seminarios de Inteligencia Artificial",
+      "Seminarios de Inteligencia Artificial",
+      "Sistemas Digitales",
+      "Sistemas Digitales",
+      "Sistemas Operativos",
+      "Técnicas de Diseño de Algoritmos",
+      "Técnicas de Diseño de Algoritmos",
+      "Temas de NLP",
+      "Teoría de Juegos",
+      "Teoría de las Comunicaciones"
+    ],
+    "errores": []
+  },
+  "horarios": [
+    {
+      "id": "dc_horarios_lgebra_lineal_computacional_1c_20250727",
+      "nombre": "Álgebra Lineal Computacional",
+      "nombre_original": "Álgebra Lineal Computacional/Métodos Numéricos TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes y viernes 9 a 11",
+        "practica": "viernes 11 a 14",
+        "laboratorio": "martes11 a 14"
+      },
+      "docentes": [
+        {
+          "nombre": "SALGADO",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DO, Ariel",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "RI, Pablo",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DO, Daniel",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_lgebra_lineal_computacional_1c_20250727",
+      "nombre": "Álgebra Lineal Computacional",
+      "nombre_original": "Álgebra Lineal Computacional/Métodos Numéricos TN",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "martes y viernes 17 a 19",
+        "practica": "viernes 19 a 22",
+        "laboratorio": "martes 19 a 22"
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_algoritmos_y_estructuras_de_datos_1c_20250727",
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "nombre_original": "Algoritmos y Estructuras de Datos/AEDII TM1",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes 9 a 14",
+        "practica": "Miércoles 9 a 14",
+        "laboratorio": "Viernes 9 a 14"
+      },
+      "docentes": [
+        {
+          "nombre": "AN, Victor",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "IN, Esteban",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "TCACH",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "NO, Alexis",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "HI, Bruno",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_algoritmos_y_estructuras_de_datos_1c_20250727",
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "nombre_original": "Algoritmos y Estructuras de Datos/AEDII – TM2",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes 9 a 14",
+        "practica": "Miércoles 9 a 14",
+        "laboratorio": "viernes 14 a 19"
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_algoritmos_y_estructuras_de_datos_1c_20250727",
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "nombre_original": "Algoritmos y Estructuras de Datos/AEDII – TN1",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes de 17 a 22",
+        "practica": "Miércoles 17 a 22",
+        "laboratorio": "Viernes 17 a 22"
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_algoritmos_y_estructuras_de_datos_1c_20250727",
+      "nombre": "Algoritmos y Estructuras de Datos",
+      "nombre_original": "Algoritmos y Estructuras de Datos/AEDII – TN2",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes 17 a 22",
+        "practica": "miércoles 17 a 22",
+        "laboratorio": "viernes 14 a 19"
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_aprendizaje_automatico_i_2025_1b_20250727",
+      "nombre": "Aprendizaje Automatico I – 2025",
+      "nombre_original": "Aprendizaje Automatico I – 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1B"
+      },
+      "tipo_carrera": "Obligatoria",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "martes y jueves 17 a 21",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "CO, Pablo",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DEL",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "RO, Luciano",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_aprendizaje_autom_tico_ii_2025_2b_20250727",
+      "nombre": "Aprendizaje Automático II – 2025",
+      "nombre_original": "Aprendizaje Automático II – 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "2B"
+      },
+      "tipo_carrera": "Obligatoria",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "martes y jueves 17 a 21",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "CO, Pablo",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DEL",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "RO, Luciano",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_aprendizaje_profundo_1c_20250727",
+      "nombre": "Aprendizaje Profundo",
+      "nombre_original": "Aprendizaje Profundo",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "lunes 15:30 a 18:30",
+        "laboratorio": "Jueves 14 a 17"
+      },
+      "docentes": [
+        {
+          "nombre": "RA, Enrique",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_arquitectura_y_comunicaci_n_de_datos_1c_20250727",
+      "nombre": "Arquitectura y Comunicación de Datos",
+      "nombre_original": "Arquitectura y Comunicación de Datos",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Lunes 18 a 21",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "TI, Claudio",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_arquitectura_y_organizaci_n_de_computadores_1c_20250727",
+      "nombre": "Arquitectura y Organización de computadores",
+      "nombre_original": "Arquitectura y Organización de computadores/ Organización del Computador II",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Lunes y jueves 17 a 19",
+        "practica": "jueves 19 a 22",
+        "laboratorio": "lunes 19 a 22"
+      },
+      "docentes": [
+        {
+          "nombre": "RO, Alejandro",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.743377",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_base_de_datos_1c_20250727",
+      "nombre": "Base de Datos",
+      "nombre_original": "Base de Datos",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Miércoles 19 a 22 Viernes 17 a 22",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "ER, Emilio",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_complejidad_computacional_1c_20250727",
+      "nombre": "Complejidad Computacional",
+      "nombre_original": "Complejidad Computacional/Lógica y Computabilidad",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Miércoles 17 a 22",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "RA, Santiago",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_criptograf_a_moderna_visit2024_2b_20250727",
+      "nombre": "Criptografía Moderna – VISIT2024",
+      "nombre_original": "Criptografía Moderna – VISIT2024",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "2B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "martes y jueves 14 a 17",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "IA, Fernando",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_datos_masivos_para_aprendizaje_autom_tico_1c_20250727",
+      "nombre": "Datos Masivos para Aprendizaje Automático",
+      "nombre_original": "Datos Masivos para Aprendizaje Automático",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Martes 18 a 22",
+        "laboratorio": "3 clases con día y horario a confirmar"
+      },
+      "docentes": [
+        {
+          "nombre": "GO, Sergio",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_fundamentos_de_artificial_general_intelligence_safety_1c_20250727",
+      "nombre": "Fundamentos de Artificial General Intelligence Safety",
+      "nombre_original": "Fundamentos de Artificial General Intelligence Safety",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "viernes 17 a 21",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "LA, Sergio",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_fundamentos_de_de_la_gesti_n_de_proyectos_gil_2b_20250727",
+      "nombre": "Fundamentos de de la Gestión de Proyectos Ágil",
+      "nombre_original": "Fundamentos de de la Gestión de Proyectos Ágil",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "2B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "viernes 19 a 22",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "IK, Edgardo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_ingenier_a_de_software_1c_20250727",
+      "nombre": "Ingeniería de Software",
+      "nombre_original": "Ingeniería de Software/Ingeniería de Software I",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes y viernes 17 a 19",
+        "practica": "",
+        "laboratorio": "martes y viernes 19 a 22"
+      },
+      "docentes": [
+        {
+          "nombre": "ON, Hernán",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_ingenier_a_de_software_ii_1c_20250727",
+      "nombre": "Ingeniería de Software II",
+      "nombre_original": "Ingeniería de Software II",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "lunes 17 a 22",
+        "laboratorio": "miércoles 17 a 22 Teórico-"
+      },
+      "docentes": [
+        {
+          "nombre": "KY, Diego",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "TI, Juan Pablo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_introducci_n_a_la_investigaci_n_operativa_y_optimizaci_n_1c_20250727",
+      "nombre": "Introducción a la Investigación Operativa y Optimización",
+      "nombre_original": "Introducción a la Investigación Operativa y Optimización",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCD",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "viernes 14 a 18",
+        "laboratorio": "martes 14 a 18 Teórico-"
+      },
+      "docentes": [
+        {
+          "nombre": "MENDEZ DÍ",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "AZ, Isabel",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "LA, Paula",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_introducci_n_a_la_programaci_n_1c_20250727",
+      "nombre": "Introducción a la Programación",
+      "nombre_original": "Introducción a la Programación/AED I TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Jueves 9 a 13",
+        "practica": "",
+        "laboratorio": "Lun y Mier 11:30 a 14"
+      },
+      "docentes": [
+        {
+          "nombre": "IS, Pablo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_introducci_n_a_la_programaci_n_1c_20250727",
+      "nombre": "Introducción a la Programación",
+      "nombre_original": "Introducción a la Programación/AED I TT",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Jueves 13 a 17",
+        "practica": "",
+        "laboratorio": "Lunes y Miércoles de 14:30 a 17"
+      },
+      "docentes": [
+        {
+          "nombre": "ZA, Gabriela",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "URTASÚN, Martín",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_introducci_n_a_la_programaci_n_1c_20250727",
+      "nombre": "Introducción a la Programación",
+      "nombre_original": "Introducción a la Programación/AED I TN",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Jueves 17 a 21",
+        "practica": "",
+        "laboratorio": "Lunes y Miércoles 19:30 a 22"
+      },
+      "docentes": [
+        {
+          "nombre": "UZ, Javier",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "EZ, Ricardo Oscar",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_laboratorio_de_datos_com_a_1c_20250727",
+      "nombre": "Laboratorio de Datos – Com. A",
+      "nombre_original": "Laboratorio de Datos – Com. A",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCD",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "",
+        "laboratorio": "jueves 9 a 12 y 13 a 16"
+      },
+      "docentes": [
+        {
+          "nombre": "KI, Pablo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_laboratorio_de_datos_com_b_1c_20250727",
+      "nombre": "Laboratorio de Datos – Com B",
+      "nombre_original": "Laboratorio de Datos – Com B",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCD",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "",
+        "laboratorio": "jueves 9 a 12 y 13 a 16"
+      },
+      "docentes": [
+        {
+          "nombre": "JE, Rodrigo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_lenguajes_formales_aut_matas_y_computabilidad_1c_20250727",
+      "nombre": "Lenguajes Formales, Autómatas y Computabilidad",
+      "nombre_original": "Lenguajes Formales, Autómatas y Computabilidad/Teoría de Lenguajes",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Miércoles 17 a 19",
+        "practica": "Miércoles 19 a 22",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "ER, Verónica",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.744387",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_modelado_y_an_lisis_de_sistemas_reactivos_y_concurrentes_1c_20250727",
+      "nombre": "Modelado y Análisis de Sistemas Reactivos y Concurrentes",
+      "nombre_original": "Modelado y Análisis de Sistemas Reactivos y Concurrentes",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Miércoles 17 a 21",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "EL, Sebastián",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_paradigmas_de_programaci_n_1c_20250727",
+      "nombre": "Paradigmas de Programación –",
+      "nombre_original": "Paradigmas de Programación – TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Martes y viernes 9 a 14",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "COSSIO",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DO, Christian",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_paradigmas_de_programaci_n_1c_20250727",
+      "nombre": "Paradigmas de Programación –",
+      "nombre_original": "Paradigmas de Programación – TN",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Martes y viernes 17 a 22",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "UM, Pablo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_pensamiento_computacional_1c_20250727",
+      "nombre": "Pensamiento Computacional",
+      "nombre_original": "Pensamiento Computacional/Taller de Informática (Geología) TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "CBC",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "miércoles 11 a 13",
+        "practica": "",
+        "laboratorio": "viernes 12 a 16"
+      },
+      "docentes": [
+        {
+          "nombre": "OS, Esteban",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_pensamiento_computacional_1c_20250727",
+      "nombre": "Pensamiento Computacional",
+      "nombre_original": "Pensamiento Computacional/Taller de Informática (Geología) TT",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "CBC",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "miércoles 14 a 16",
+        "practica": "",
+        "laboratorio": "viernes 12 a 16"
+      },
+      "docentes": [
+        {
+          "nombre": "OS, Esteban",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_procesamiento_avanzado_de_se_ales_2024_1c_20250727",
+      "nombre": "Procesamiento Avanzado de Señales 2024",
+      "nombre_original": "Procesamiento Avanzado de Señales 2024",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Martes 17:00 a 21:00",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "SK, Marcelo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_procesamiento_cu_ntico_de_informaci_n_1c_20250727",
+      "nombre": "Procesamiento Cuántico de Información",
+      "nombre_original": "Procesamiento Cuántico de Información",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Lunes y Jueves de 14 a 16",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "KY, Ariel",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_procesamiento_de_im_genes_i_1b_20250727",
+      "nombre": "Procesamiento de Imágenes I",
+      "nombre_original": "Procesamiento de Imágenes I",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Lunes 13 a 17",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "MI, María Elena",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DO, Daniel",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_procesamiento_de_se_ales_audio_y_habla_1c_20250727",
+      "nombre": "Procesamiento de Señales, Audio y Habla",
+      "nombre_original": "Procesamiento de Señales, Audio y Habla",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Jueves de 9 a 13",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "RA, Pablo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_programaci_n_competitiva_i_1c_20250727",
+      "nombre": "Programación Competitiva I",
+      "nombre_original": "Programación Competitiva I",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "Lunes 9 a 13",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "AC, Francisco",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_seminarios_de_inteligencia_artificial_1b_20250727",
+      "nombre": "Seminarios de Inteligencia Artificial",
+      "nombre_original": "Seminarios de Inteligencia Artificial",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "lunes y miércoles 9 a 12",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "FERNANDEZ",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "AK, Diego (Profesor)",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_seminarios_de_inteligencia_artificial_2b_20250727",
+      "nombre": "Seminarios de Inteligencia Artificial",
+      "nombre_original": "Seminarios de Inteligencia Artificial",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "2B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "lunes y miércoles 9 a 12",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "FERNANDEZ",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "AK, Diego (Profesor)",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_sistemas_digitales_1c_20250727",
+      "nombre": "Sistemas Digitales",
+      "nombre_original": "Sistemas Digitales/Organización del Computador I – TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "jueves 8 a 10",
+        "practica": "",
+        "laboratorio": "jueves 10 a 13"
+      },
+      "docentes": [
+        {
+          "nombre": "TI, Esteban",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "MI, MAría Elena",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "LÓPEZ Y",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "LD, Matías",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_sistemas_digitales_1c_20250727",
+      "nombre": "Sistemas Digitales",
+      "nombre_original": "Sistemas Digitales/Organización del Computador I – TN",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "jueves 17 a 19",
+        "practica": "",
+        "laboratorio": "jueves 19 a 22"
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_sistemas_operativos_1c_20250727",
+      "nombre": "Sistemas Operativos",
+      "nombre_original": "Sistemas Operativos",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "jueves 17 a 22",
+        "practica": "",
+        "laboratorio": "lunes 17 a 22"
+      },
+      "docentes": [
+        {
+          "nombre": "IK, Fernando",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "ER, Rodolfo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.745399",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_t_cnicas_de_dise_o_de_algoritmos_1c_20250727",
+      "nombre": "Técnicas de Diseño de Algoritmos",
+      "nombre_original": "Técnicas de Diseño de Algoritmos/AEDIII TM",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Lunes y Miércoles de 9 a 13",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "MO, Flavia",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "GAGGION",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "PO, Rafael Nicolás",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "DI, Leandro Ezequiel",
+          "rol": "profesor"
+        },
+        {
+          "nombre": "KI, Juan",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.746408",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_t_cnicas_de_dise_o_de_algoritmos_1c_20250727",
+      "nombre": "Técnicas de Diseño de Algoritmos",
+      "nombre_original": "Técnicas de Diseño de Algoritmos/AEDIII TN",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC23/LCD/LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Lunes y Miércoles de 17 a 21",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.746408",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_temas_de_nlp_2b_20250727",
+      "nombre": "Temas de NLP",
+      "nombre_original": "Temas de NLP",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "2B"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Viernes de 10 a 13 hs",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "IK, Viviana",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.746408",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_teor_a_de_juegos_1c_20250727",
+      "nombre": "Teoría de Juegos",
+      "nombre_original": "Teoría de Juegos",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "OPT",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "",
+        "practica": "miércoles 14:30 a 19:00",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "ER, Ariel",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.746408",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    },
+    {
+      "id": "dc_horarios_teor_a_de_las_comunicaciones_1c_20250727",
+      "nombre": "Teoría de las Comunicaciones",
+      "nombre_original": "Teoría de las Comunicaciones",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C"
+      },
+      "tipo_carrera": "LCC93",
+      "departamento": {
+        "codigo": "DC",
+        "nombre": "Departamento de Computación",
+        "url_origen": "https://www.dc.uba.ar/"
+      },
+      "horarios": {
+        "teorica": "Martes y miércoles de 19 a 22",
+        "practica": "",
+        "laboratorio": ""
+      },
+      "docentes": [
+        {
+          "nombre": "RO, Rodrigo",
+          "rol": "profesor"
+        }
+      ],
+      "observaciones": "",
+      "metadata": {
+        "fuente_url": "https://www.dc.uba.ar/ya-se-encuentran-publicadas-las-materias-del-segundo-cuatrimestre-de-2025/",
+        "fecha_extraccion": "2025-07-27T02:07:23.746408",
+        "departamento": "DC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales"
+      }
+    }
+  ]
+}

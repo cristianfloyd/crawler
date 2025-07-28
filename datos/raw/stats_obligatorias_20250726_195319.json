@@ -1,0 +1,33 @@
+{
+  "total_materias": 53,
+  "total_periodos": 3,
+  "periodos_detectados": [
+    "Verano 2025",
+    "1er cuatrimestre 2025",
+    "2do cuatrimestre 2025"
+  ],
+  "materias_por_periodo": {
+    "Verano 2025": 7,
+    "1er cuatrimestre 2025": 24,
+    "2do cuatrimestre 2025": 22
+  },
+  "departamentos_unicos": [
+    "DF",
+    "AT",
+    "FB",
+    "IC",
+    "DC",
+    "QI",
+    "DM"
+  ],
+  "tipos_materia": {
+    "obligatoria": 30,
+    "electiva": 21,
+    "tesis": 2
+  },
+  "urls_horarios": {
+    "con_url": 53,
+    "sin_url": 0
+  },
+  "errores": []
+}

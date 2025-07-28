@@ -1,0 +1,42 @@
+{
+  "test_conflictos_horarios": {
+    "fecha": "2025-07-27T12:47:58.390097",
+    "casos_analizados": 3,
+    "casos_con_conflictos": 0,
+    "exito_test": false,
+    "resultados_detallados": [
+      {
+        "caso": "Materias populares que podrían solaparse",
+        "error": "Materias no encontradas",
+        "conflictos": []
+      },
+      {
+        "caso": "Materias de primer año comunes",
+        "error": "Materias no encontradas",
+        "conflictos": []
+      },
+      {
+        "caso": "Materias del área matemática",
+        "materia1": {
+          "nombre": "ÁLGEBRA III (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA III",
+          "dias": [
+            "martes",
+            "viernes"
+          ]
+        },
+        "materia2": {
+          "nombre": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+          "dias": [
+            "lunes",
+            "miércoles"
+          ]
+        },
+        "dias_comunes": [],
+        "tiene_conflicto": false,
+        "conflictos_especificos": [],
+        "score1": 0.626,
+        "score2": 0.542
+      }
+    ]
+  }
+}

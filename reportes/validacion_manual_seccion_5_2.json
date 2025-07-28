@@ -1,0 +1,439 @@
+{
+  "validacion_manual_seccion_5_2": {
+    "fecha_validacion": "2025-07-27T12:40:17.199087",
+    "tiempo_total_validacion_s": 22.93,
+    "accuracy_20_consultas": {
+      "total_consultas": 20,
+      "consultas_exitosas": 18,
+      "porcentaje_exito": 90.0,
+      "tiempo_promedio_ms": 31.0,
+      "detalle": [
+        {
+          "consulta": "analisis matematico",
+          "tiene_resultados": true,
+          "score_promedio": 0.631,
+          "mejor_score": 0.636,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 86.1
+        },
+        {
+          "consulta": "algoritmos y estructuras de datos",
+          "tiene_resultados": true,
+          "score_promedio": 0.521,
+          "mejor_score": 0.535,
+          "relevancia_palabras": 2,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 34.2
+        },
+        {
+          "consulta": "programacion",
+          "tiene_resultados": true,
+          "score_promedio": 0.48,
+          "mejor_score": 0.496,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 29.1
+        },
+        {
+          "consulta": "calculo",
+          "tiene_resultados": true,
+          "score_promedio": 0.558,
+          "mejor_score": 0.567,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 24.7
+        },
+        {
+          "consulta": "algebra",
+          "tiene_resultados": true,
+          "score_promedio": 0.591,
+          "mejor_score": 0.626,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 24.9
+        },
+        {
+          "consulta": "fisica",
+          "tiene_resultados": true,
+          "score_promedio": 0.389,
+          "mejor_score": 0.394,
+          "relevancia_palabras": 0,
+          "accuracy": "BAJA",
+          "tiempo_ms": 56.8
+        },
+        {
+          "consulta": "matematica discreta",
+          "tiene_resultados": true,
+          "score_promedio": 0.531,
+          "mejor_score": 0.542,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 26.4
+        },
+        {
+          "consulta": "bases de datos",
+          "tiene_resultados": true,
+          "score_promedio": 0.51,
+          "mejor_score": 0.519,
+          "relevancia_palabras": 2,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 29.0
+        },
+        {
+          "consulta": "cuando se dicta programacion",
+          "tiene_resultados": true,
+          "score_promedio": 0.699,
+          "mejor_score": 0.719,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 30.8
+        },
+        {
+          "consulta": "horarios de matematica",
+          "tiene_resultados": true,
+          "score_promedio": 0.693,
+          "mejor_score": 0.695,
+          "relevancia_palabras": 1,
+          "accuracy": "ALTA",
+          "tiempo_ms": 23.9
+        },
+        {
+          "consulta": "que hora calculo",
+          "tiene_resultados": true,
+          "score_promedio": 0.677,
+          "mejor_score": 0.697,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 26.2
+        },
+        {
+          "consulta": "cursada de algoritmos",
+          "tiene_resultados": true,
+          "score_promedio": 0.728,
+          "mejor_score": 0.768,
+          "relevancia_palabras": 2,
+          "accuracy": "ALTA",
+          "tiempo_ms": 26.1
+        },
+        {
+          "consulta": "materias por la manana",
+          "tiene_resultados": true,
+          "score_promedio": 0.396,
+          "mejor_score": 0.397,
+          "relevancia_palabras": 0,
+          "accuracy": "BAJA",
+          "tiempo_ms": 23.7
+        },
+        {
+          "consulta": "clases de tarde",
+          "tiene_resultados": true,
+          "score_promedio": 0.628,
+          "mejor_score": 0.633,
+          "relevancia_palabras": 1,
+          "accuracy": "ALTA",
+          "tiempo_ms": 25.5
+        },
+        {
+          "consulta": "que hay los lunes",
+          "tiene_resultados": true,
+          "score_promedio": 0.454,
+          "mejor_score": 0.478,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 23.7
+        },
+        {
+          "consulta": "martes por la tarde",
+          "tiene_resultados": true,
+          "score_promedio": 0.452,
+          "mejor_score": 0.469,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 26.1
+        },
+        {
+          "consulta": "miercoles a la manana",
+          "tiene_resultados": true,
+          "score_promedio": 0.467,
+          "mejor_score": 0.47,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 28.3
+        },
+        {
+          "consulta": "materias a las 14:00",
+          "tiene_resultados": true,
+          "score_promedio": 0.553,
+          "mejor_score": 0.559,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 25.2
+        },
+        {
+          "consulta": "clases que empiezan a las 10",
+          "tiene_resultados": true,
+          "score_promedio": 0.56,
+          "mejor_score": 0.564,
+          "relevancia_palabras": 0,
+          "accuracy": "MEDIA",
+          "tiempo_ms": 24.4
+        },
+        {
+          "consulta": "horarios instituto de calculo",
+          "tiene_resultados": true,
+          "score_promedio": 0.708,
+          "mejor_score": 0.715,
+          "relevancia_palabras": 1,
+          "accuracy": "ALTA",
+          "tiempo_ms": 25.7
+        }
+      ]
+    },
+    "comparacion_fuentes_originales": {
+      "verificaciones_realizadas": 3,
+      "verificaciones_exitosas": 2,
+      "detalle": [
+        {
+          "consulta": "Algoritmos y Estructuras de Datos",
+          "materia_encontrada": "Técnicas de Diseño de Algoritmos",
+          "departamento_esperado": "DC",
+          "departamento_encontrado": "DC",
+          "departamento_correcto": true,
+          "horarios_esperados": true,
+          "horarios_encontrados": true,
+          "horarios_correcto": true,
+          "score": 0.535,
+          "fuente_original": "https://www.dc.uba.ar/"
+        },
+        {
+          "consulta": "Analisis Matematico I",
+          "materia_encontrada": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II",
+          "departamento_esperado": "DM",
+          "departamento_encontrado": "DM",
+          "departamento_correcto": true,
+          "horarios_esperados": true,
+          "horarios_encontrados": true,
+          "horarios_correcto": true,
+          "score": 0.648,
+          "fuente_original": "https://web.dm.uba.ar/"
+        },
+        {
+          "consulta": "Calculo",
+          "materia_encontrada": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+          "departamento_esperado": "IC",
+          "departamento_encontrado": "DM",
+          "departamento_correcto": false,
+          "horarios_esperados": true,
+          "horarios_encontrados": true,
+          "horarios_correcto": true,
+          "score": 0.567,
+          "fuente_original": "https://ic.fcen.uba.ar/"
+        }
+      ]
+    },
+    "tipos_consultas_problematicas": {
+      "consultas_analizadas": 15,
+      "tipos_identificados": [
+        "TIPOGRAFICO",
+        "COMPLEJA",
+        "SIN_DATOS",
+        "VAGA",
+        "IDIOMA",
+        "INEXISTENTE"
+      ],
+      "detalle": [
+        {
+          "consulta": "Materia Inexistente XYZ",
+          "tipo_esperado": "INEXISTENTE",
+          "resultado": "SCORE_BAJO",
+          "score_top": 0.2834688723087311,
+          "tiempo_ms": 64.9
+        },
+        {
+          "consulta": "Programacion Cuantica Avanzada",
+          "tipo_esperado": "INEXISTENTE",
+          "resultado": "SCORE_MEDIO",
+          "score_top": 0.48559603095054626,
+          "tiempo_ms": 31.8
+        },
+        {
+          "consulta": "materia",
+          "tipo_esperado": "VAGA",
+          "resultado": "SCORE_MEDIO",
+          "score_top": 0.37955302000045776,
+          "tiempo_ms": 19.8
+        },
+        {
+          "consulta": "clase",
+          "tipo_esperado": "VAGA",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.5964251160621643,
+          "tiempo_ms": 21.1
+        },
+        {
+          "consulta": "cuando",
+          "tipo_esperado": "VAGA",
+          "resultado": "SCORE_MEDIO",
+          "score_top": 0.4257943034172058,
+          "tiempo_ms": 24.5
+        },
+        {
+          "consulta": "algoritnos",
+          "tipo_esperado": "TIPOGRAFICO",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.6224082112312317,
+          "tiempo_ms": 21.5
+        },
+        {
+          "consulta": "matematikca",
+          "tipo_esperado": "TIPOGRAFICO",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.564132809638977,
+          "tiempo_ms": 18.9
+        },
+        {
+          "consulta": "analisis matematoco",
+          "tipo_esperado": "TIPOGRAFICO",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.6402184963226318,
+          "tiempo_ms": 22.9
+        },
+        {
+          "consulta": "que materias hay los sabados",
+          "tipo_esperado": "SIN_DATOS",
+          "resultado": "SCORE_BAJO",
+          "score_top": 0.24306102097034454,
+          "tiempo_ms": 18.5
+        },
+        {
+          "consulta": "clases a las 6 AM",
+          "tipo_esperado": "SIN_DATOS",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.5643690228462219,
+          "tiempo_ms": 25.1
+        },
+        {
+          "consulta": "materias online",
+          "tipo_esperado": "SIN_DATOS",
+          "resultado": "SCORE_MEDIO",
+          "score_top": 0.44187021255493164,
+          "tiempo_ms": 20.8
+        },
+        {
+          "consulta": "materias que no tienen correlativas y se dictan los lunes",
+          "tipo_esperado": "COMPLEJA",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.5716992616653442,
+          "tiempo_ms": 23.0
+        },
+        {
+          "consulta": "diferencia entre analisis 1 y analisis 2",
+          "tipo_esperado": "COMPLEJA",
+          "resultado": "SCORE_MEDIO",
+          "score_top": 0.4296325743198395,
+          "tiempo_ms": 23.7
+        },
+        {
+          "consulta": "mathematics analysis",
+          "tipo_esperado": "IDIOMA",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.6224092245101929,
+          "tiempo_ms": 24.3
+        },
+        {
+          "consulta": "algorithmes et structures",
+          "tipo_esperado": "IDIOMA",
+          "resultado": "SCORE_ALTO",
+          "score_top": 0.5617483258247375,
+          "tiempo_ms": 20.8
+        }
+      ]
+    },
+    "tiempos_respuesta": {
+      "tiempo_carga_s": 0.002405881881713867,
+      "tiempo_promedio_ms": 26.233333333333334,
+      "tiempo_min_ms": 19.6,
+      "tiempo_max_ms": 53.3,
+      "evaluacion": "EXCELENTE",
+      "detalle_consultas": [
+        {
+          "consulta": "analisis matematico",
+          "promedio_ms": 35.8,
+          "min_ms": 22.8,
+          "max_ms": 53.3,
+          "resultados": 5
+        },
+        {
+          "consulta": "algoritmos estructuras datos",
+          "promedio_ms": 27.8,
+          "min_ms": 24.0,
+          "max_ms": 30.2,
+          "resultados": 4
+        },
+        {
+          "consulta": "programacion",
+          "promedio_ms": 21.3,
+          "min_ms": 19.6,
+          "max_ms": 23.7,
+          "resultados": 5
+        },
+        {
+          "consulta": "cuando se dicta calculo",
+          "promedio_ms": 23.1,
+          "min_ms": 21.9,
+          "max_ms": 24.9,
+          "resultados": 5
+        },
+        {
+          "consulta": "materias los lunes",
+          "promedio_ms": 25.0,
+          "min_ms": 23.9,
+          "max_ms": 25.7,
+          "resultados": 5
+        },
+        {
+          "consulta": "horarios por la tarde",
+          "promedio_ms": 24.4,
+          "min_ms": 21.4,
+          "max_ms": 28.9,
+          "resultados": 5
+        }
+      ]
+    },
+    "calidad_respuestas": {
+      "evaluaciones_realizadas": 3,
+      "alta_calidad": 0,
+      "porcentaje_alta_calidad": 0.0,
+      "detalle": [
+        {
+          "consulta": "Analisis Matematico I",
+          "materia_encontrada": "ANÁLISIS I - ANÁLISIS MATEMÁTICO I - MATEMÁTICA 1 - ANÁLISIS II",
+          "score": 0.648,
+          "criterios_cumplidos": 1,
+          "total_criterios": 3,
+          "porcentaje_criterios": 33.3,
+          "calidad": "BAJA"
+        },
+        {
+          "consulta": "materias los martes",
+          "materia_encontrada": "Temas de NLP",
+          "score": 0.499,
+          "criterios_cumplidos": 2,
+          "total_criterios": 2,
+          "porcentaje_criterios": 100.0,
+          "calidad": "MEDIA"
+        },
+        {
+          "consulta": "programacion",
+          "materia_encontrada": "Introducción a la Programación",
+          "score": 0.496,
+          "criterios_cumplidos": 1,
+          "total_criterios": 2,
+          "porcentaje_criterios": 50.0,
+          "calidad": "BAJA"
+        }
+      ]
+    }
+  }
+}

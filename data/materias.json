@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Álgebra I (*)",
+    "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración."
+  },
+  {
+    "nombre": "Algoritmos y Estructuras de Datos I (*)",
+    "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos."
+  },
+  {
+    "nombre": "Análisis I (*)",
+    "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables."
+  },
+  {
+    "nombre": "Electiva de Introducción a las Ciencias Naturales (*)",
+    "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física. Para ver el listado de materias electivas hacer click aquí"
+  },
+  {
+    "nombre": "Análisis II (*)",
+    "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales."
+  },
+  {
+    "nombre": "Algoritmos y Estructuras de Datos II (*)",
+    "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas."
+  },
+  {
+    "nombre": "Laboratorio de Datos (*)",
+    "descripcion": "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado"
+  },
+  {
+    "nombre": "Análisis Avanzado",
+    "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución."
+  },
+  {
+    "nombre": "Álgebra Lineal Computacional (*)",
+    "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel."
+  },
+  {
+    "nombre": "Probabilidad",
+    "descripcion": "La matemática al servicio del estudio del azar y los fenómenos aleatorios."
+  },
+  {
+    "nombre": "Algoritmos y Estructura de Datos III",
+    "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas."
+  },
+  {
+    "nombre": "Intr. a la Estadística y Ciencia de Datos",
+    "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos."
+  },
+  {
+    "nombre": "Intr. a la Investigación Operativa y Optimización",
+    "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones."
+  },
+  {
+    "nombre": "Intr. al Modelado Continuo.",
+    "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas."
+  }
+]

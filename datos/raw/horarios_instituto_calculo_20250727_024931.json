@@ -1,0 +1,824 @@
+{
+  "metadata": {
+    "departamento": "IC",
+    "fecha_extraccion": "2025-07-27T02:49:31.039870",
+    "total_materias": 22,
+    "fuente": "https://ic.fcen.uba.ar/",
+    "version_scraper": "1.0"
+  },
+  "estadisticas": {
+    "materias_procesadas": 22,
+    "materias_con_horarios": 11,
+    "materias_sin_horarios": 11,
+    "errores_parsing": 0,
+    "materias_encontradas": [
+      "Tópicos de Estadística",
+      "Estadística Espacial con R",
+      "Tópicos de Estadística",
+      "Temas de Optimización Semidefinida",
+      "Técnicas de reducción y visualización de datos",
+      "Ciencia de datos y biología: entre la explicación y la predicción",
+      "AVISO IMPORTANTE SOBRE INICIACIÓN A LA PROGRAMACIÓN",
+      "Herramientas de Ciencia de Datos y Biología - Tercer bimestre",
+      "Estadística",
+      "Introducción a la Estadística y Ciencia de Datos",
+      "Laboratorio de datos (LCD) Comisión 1 -",
+      "Laboratorio de Datos (LCD) Comisión 2 -",
+      "Herramientas de Estadística Espacial",
+      "Estadística 1",
+      "Herramientas de Modelado Estadístico para Ciencia de Datos (LCD) -",
+      "Introducción a la Estadística y Ciencia de Datos",
+      "Estadística",
+      "Optimización Semi Definida",
+      "Tesis de Licenciatura",
+      "Herramientas de visualización de datos",
+      "Estadística 1",
+      "Estadística 2"
+    ],
+    "errores": []
+  },
+  "horarios": [
+    {
+      "id": "ic_horarios_t_picos_de_estad_stica_doc_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Tópicos de Estadística",
+      "nombre_original": "Tópicos de Estadística (Doc) 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "María Eugenia Szretter Noste",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Federico Choque",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Daniela Parada",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.035044",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y jueves de 12 a 16 (aulas 1207 y labo 1109)"
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_espacial_con_r_doc_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Estadística Espacial con R",
+      "nombre_original": "Estadística Espacial con R (Doc) 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Andrés Farall",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.036042",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Miércoles de 9 a 13 (aula 1304)"
+      }
+    },
+    {
+      "id": "ic_horarios_t_picos_de_estad_stica_doc_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Tópicos de Estadística",
+      "nombre_original": "Tópicos de Estadística (Doc) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Marina Valdora",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.036042",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y Jueves de 17 a 21"
+      }
+    },
+    {
+      "id": "ic_horarios_temas_de_optimizaci_n_semidefinida_doc_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Temas de Optimización Semidefinida",
+      "nombre_original": "Temas de Optimización Semidefinida (Doc) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Santiago Laplagne",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_t_cnicas_de_reducci_n_y_visualizaci_n_de_datos_doc_4to_bimestre_2025_4b_2025_20250727",
+      "nombre": "Técnicas de reducción y visualización de datos",
+      "nombre_original": "Técnicas de reducción y visualización de datos (Doc) 4to bimestre 2025",
+      "periodo": {
+        "bimestre": "4",
+        "año": 2025,
+        "codigo": "4B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Ana Bianco",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_ciencia_de_datos_y_biolog_a_entre_la_explicaci_n_y_la_predicci_n_doc_3er_bimestre_2025_3b_2025_20250727",
+      "nombre": "Ciencia de datos y biología: entre la explicación y la predicción",
+      "nombre_original": "Ciencia de datos y biología: entre la explicación y la predicción (Doc) 3er bimestre 2025",
+      "periodo": {
+        "bimestre": "3",
+        "año": 2025,
+        "codigo": "3B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "09:00",
+          "hora_fin": "13:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Soledad Fernández",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "​Viernes de 9 a 13 h"
+      }
+    },
+    {
+      "id": "ic_horarios_aviso_importante_sobre_iniciaci_n_a_la_programaci_n_2025_2025_20250727",
+      "nombre": "AVISO IMPORTANTE SOBRE INICIACIÓN A LA PROGRAMACIÓN",
+      "nombre_original": "AVISO IMPORTANTE SOBRE INICIACIÓN A LA PROGRAMACIÓN 2025",
+      "periodo": {
+        "año": 2025,
+        "codigo": "2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_herramientas_de_ciencia_de_datos_y_biolog_a_tercer_bimestre_2025_2025_20250727",
+      "nombre": "Herramientas de Ciencia de Datos y Biología - Tercer bimestre",
+      "nombre_original": "Herramientas de Ciencia de Datos y Biología - Tercer bimestre 2025",
+      "periodo": {
+        "año": 2025,
+        "codigo": "2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "viernes",
+          "hora_inicio": "09:00",
+          "hora_fin": "15:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Marìa Soledad Fernández",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "viernes de 9 a 15 h"
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_matem_tica_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Estadística",
+      "nombre_original": "Estadística (Matemática) 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "María Eugenia Szretter Noste",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Federico Choque",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Daniela Parada",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y jueves de 12 a 16 (aulas 1207 y labo 1109)"
+      }
+    },
+    {
+      "id": "ic_horarios_introducci_n_a_la_estad_stica_y_ciencia_de_datos_lcd_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Introducción a la Estadística y Ciencia de Datos",
+      "nombre_original": "Introducción a la Estadística y Ciencia de Datos (LCD) 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "12:00",
+          "hora_fin": "16:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "María Eugenia Szretter Noste",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Federico Choque",
+          "rol": "auxiliar"
+        },
+        {
+          "nombre": "Daniela Parada",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y jueves de 12 a 16 (aulas 1207 y labo 1109)"
+      }
+    },
+    {
+      "id": "ic_horarios_laboratorio_de_datos_lcd_comisi_n_1_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Laboratorio de datos (LCD) Comisión 1 -",
+      "nombre_original": "Laboratorio de datos (LCD) Comisión 1 - 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00"
+        },
+        {
+          "dia": "miércoles",
+          "hora_inicio": "19:00",
+          "hora_fin": "22:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Santiago Laplagne",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.037153",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes (aula 1108) y miércoles (aula 1111) de 19 a 22"
+      }
+    },
+    {
+      "id": "ic_horarios_laboratorio_de_datos_lcd_comisi_n_2_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Laboratorio de Datos (LCD) Comisión 2 -",
+      "nombre_original": "Laboratorio de Datos (LCD) Comisión 2 - 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "martes",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00"
+        },
+        {
+          "dia": "viernes",
+          "hora_inicio": "14:00",
+          "hora_fin": "17:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Soledad Fernandez",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Martes (aula 1108) y viernes (aula 1109) de 14 a 17"
+      }
+    },
+    {
+      "id": "ic_horarios_herramientas_de_estad_stica_espacial_lcd_1er_cuatrimestre_2025_1c_2025_20250727",
+      "nombre": "Herramientas de Estadística Espacial",
+      "nombre_original": "Herramientas de Estadística Espacial (LCD) 1er cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "1",
+        "año": 2025,
+        "codigo": "1C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Andrés Farall",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Miércoles de 9 a 13 (aula 1304)"
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_1_qu_mica_1er_bimestre_2025_1b_2025_20250727",
+      "nombre": "Estadística 1",
+      "nombre_original": "Estadística 1 (Química) 1er bimestre 2025",
+      "periodo": {
+        "bimestre": "1",
+        "año": 2025,
+        "codigo": "1B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Marina Valdora",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Martes de 17 a 22 (aula 1111)"
+      }
+    },
+    {
+      "id": "ic_horarios_herramientas_de_modelado_estad_stico_para_ciencia_de_datos_lcd_2do_bimestre_2025_2025_20250727",
+      "nombre": "Herramientas de Modelado Estadístico para Ciencia de Datos (LCD) -",
+      "nombre_original": "Herramientas de  Modelado Estadístico para Ciencia de Datos  (LCD) - 2do bimestre 2025",
+      "periodo": {
+        "año": 2025,
+        "codigo": "2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "sábado",
+          "hora_inicio": "09:00",
+          "hora_fin": "14:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Gonzalo Chebi",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Sábados de 9 a 14"
+      }
+    },
+    {
+      "id": "ic_horarios_introducci_n_a_la_estad_stica_y_ciencia_de_datos_lcd_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Introducción a la Estadística y Ciencia de Datos",
+      "nombre_original": "Introducción a la Estadística y Ciencia de Datos (LCD) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Marina Valdora",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y Jueves de 17 a 21"
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_matem_tica_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Estadística",
+      "nombre_original": "Estadística (Matemática) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [
+        {
+          "dia": "lunes",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        },
+        {
+          "dia": "jueves",
+          "hora_inicio": "17:00",
+          "hora_fin": "21:00"
+        }
+      ],
+      "docentes": [
+        {
+          "nombre": "Marina Valdora",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Lunes y Jueves de 17 a 21"
+      }
+    },
+    {
+      "id": "ic_horarios_optimizaci_n_semi_definida_lcd_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Optimización Semi Definida",
+      "nombre_original": "Optimización Semi Definida (LCD) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Santiago Laplagne",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_tesis_de_licenciatura_lcd_2do_cuatrimestre_2025_2c_2025_20250727",
+      "nombre": "Tesis de Licenciatura",
+      "nombre_original": "Tesis de Licenciatura (LCD) 2do cuatrimestre 2025",
+      "periodo": {
+        "cuatrimestre": "2",
+        "año": 2025,
+        "codigo": "2C 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Andrés Farall",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_herramientas_de_visualizaci_n_de_datos_lcd_4to_bimestre_2025_4b_2025_20250727",
+      "nombre": "Herramientas de visualización de datos",
+      "nombre_original": "Herramientas de visualización de datos (LCD) 4to bimestre 2025",
+      "periodo": {
+        "bimestre": "4",
+        "año": 2025,
+        "codigo": "4B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Ana Bianco",
+          "rol": "auxiliar"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": ""
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_1_qu_mica_3er_bimestre_2025_3b_2025_20250727",
+      "nombre": "Estadística 1",
+      "nombre_original": "Estadística 1 (Química) 3er bimestre 2025",
+      "periodo": {
+        "bimestre": "3",
+        "año": 2025,
+        "codigo": "3B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "Marina Valdora y María Eugenia Szretter Noste",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.038609",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Martes de 9 a 14"
+      }
+    },
+    {
+      "id": "ic_horarios_estad_stica_2_qu_mica_4to_bimestre_2025_4b_2025_20250727",
+      "nombre": "Estadística 2",
+      "nombre_original": "Estadística 2 (Química) 4to bimestre 2025",
+      "periodo": {
+        "bimestre": "4",
+        "año": 2025,
+        "codigo": "4B 2025"
+      },
+      "departamento": {
+        "codigo": "IC",
+        "nombre": "Instituto de Cálculo",
+        "url_origen": "https://ic.fcen.uba.ar/"
+      },
+      "horarios": [],
+      "docentes": [
+        {
+          "nombre": "María Eugenia Szretter Noste",
+          "rol": "profesor"
+        }
+      ],
+      "metadata": {
+        "fuente_url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "fecha_extraccion": "2025-07-27T02:49:31.039870",
+        "departamento": "IC",
+        "confiabilidad": "alta",
+        "tipo_dato": "horarios_reales",
+        "horarios_raw": "Martes de 9 a 14"
+      }
+    }
+  ]
+}

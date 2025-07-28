@@ -1,0 +1,34 @@
+# Requirements para MVP RAG con Horarios - Día 2
+# Sistema de Scraping para Materias Obligatorias LCD
+
+# === CORE DEPENDENCIES ===
+requests>=2.31.0          # HTTP requests para scraping
+beautifulsoup4>=4.12.0    # Parsing HTML
+lxml>=4.9.0              # Parser XML/HTML más rápido
+
+# === OPCIONAL - Si necesitamos JavaScript ===
+# selenium>=4.15.0         # Para sitios con JS dinámico (descomentar si es necesario)
+# webdriver-manager>=4.0.0 # Manejo automático de drivers
+
+# === UTILIDADES ===
+urllib3>=2.0.0           # Manejo avanzado de URLs
+certifi>=2023.7.22       # Certificados SSL actualizados
+
+# === PARA DESARROLLO Y TESTING ===
+pytest>=7.4.0           # Testing framework
+pytest-cov>=4.1.0       # Coverage de tests
+pytest-mock>=3.11.0     # Mocking para tests
+
+# === OPCIONAL - ANÁLISIS DE DATOS ===
+# pandas>=2.1.0           # Para análisis de datos extraídos
+# numpy>=1.24.0           # Operaciones numéricas
+
+# === FUTURO - RAG SYSTEM ===
+# faiss-cpu>=1.7.4        # Vector database para RAG
+# sentence-transformers>=2.2.2  # Embeddings
+# langchain>=0.0.300      # Framework RAG
+
+# Notas de instalación:
+# 1. Instalar: pip install -r requirements.txt
+# 2. Para desarrollo: pip install -r requirements.txt pytest
+# 3. Para producción: solo las dependencias core

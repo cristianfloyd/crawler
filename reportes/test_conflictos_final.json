@@ -1,0 +1,130 @@
+{
+  "test_conflictos_horarios_final": {
+    "fecha": "2025-07-27T12:50:52.911006",
+    "casos_analizados": 2,
+    "casos_con_conflictos": 0,
+    "consultas_naturales": {
+      "total": 5,
+      "funcionan": 5,
+      "detalle": [
+        {
+          "consulta": "puedo cursar estas materias al mismo tiempo",
+          "respuestas_count": 3,
+          "mejor_score": 0.259,
+          "funciona": true
+        },
+        {
+          "consulta": "conflictos de horarios",
+          "respuestas_count": 3,
+          "mejor_score": 0.534,
+          "funciona": true
+        },
+        {
+          "consulta": "materias que se superponen",
+          "respuestas_count": 3,
+          "mejor_score": 0.257,
+          "funciona": true
+        },
+        {
+          "consulta": "horarios compatibles",
+          "respuestas_count": 3,
+          "mejor_score": 0.566,
+          "funciona": true
+        },
+        {
+          "consulta": "cursadas simultaneas",
+          "respuestas_count": 3,
+          "mejor_score": 0.562,
+          "funciona": true
+        }
+      ]
+    },
+    "detector_implementado": true,
+    "funcionalidad_conflictos": "BASICA_IMPLEMENTADA",
+    "casos_detalle": [
+      {
+        "materia1": "Algoritmos y Estructuras de Datos",
+        "materia2": "Introducción a la Programación",
+        "dias_mat1": [
+          "martes"
+        ],
+        "dias_mat2": [
+          "lunes",
+          "miércoles"
+        ],
+        "dias_comunes": [],
+        "tiene_conflicto": false
+      },
+      {
+        "materia1": "Algoritmos y Estructuras de Datos",
+        "materia2": "Procesamiento Cuántico de Información",
+        "dias_mat1": [
+          "martes"
+        ],
+        "dias_mat2": [
+          "jueves",
+          "lunes"
+        ],
+        "dias_comunes": [],
+        "tiene_conflicto": false
+      }
+    ],
+    "detector_resultados": [
+      {
+        "error": "Una o ambas materias no encontradas",
+        "materia1_encontrada": false,
+        "materia2_encontrada": true
+      },
+      {
+        "materia1": {
+          "nombre": "MATEMÁTICA 4 - ANÁLISIS MATEMÁTICO III",
+          "dias": [
+            "martes",
+            "viernes"
+          ],
+          "tiene_horarios": true,
+          "score": 0.566
+        },
+        "materia2": {
+          "nombre": "ÁLGEBRA III (LIC. MATEMÁTICA) - TÓPICOS DE ÁLGEBRA III",
+          "dias": [
+            "martes",
+            "viernes"
+          ],
+          "tiene_horarios": true,
+          "score": 0.626
+        },
+        "dias_en_comun": [
+          "viernes",
+          "martes"
+        ],
+        "posible_conflicto": true,
+        "ambas_con_horarios": true
+      },
+      {
+        "materia1": {
+          "nombre": "INVESTIGACIÓN OPERATIVA (LIC. MATEMÁTICA) - INTR. A LA INVESTIGACIÓN OPERATIVA Y OPTIMIZACIÓN (LCD) - TÓPICOS DE INVESTIGACIÓN OPERATIVA",
+          "dias": [
+            "martes",
+            "viernes"
+          ],
+          "tiene_horarios": true,
+          "score": 0.496
+        },
+        "materia2": {
+          "nombre": "ELEMENTOS DE CÁLCULO NUMÉRICO - CÁLCULO NUMÉRICO",
+          "dias": [
+            "lunes",
+            "miércoles"
+          ],
+          "tiene_horarios": true,
+          "score": 0.567
+        },
+        "dias_en_comun": [],
+        "posible_conflicto": false,
+        "ambas_con_horarios": true
+      }
+    ],
+    "exito_test": true
+  }
+}

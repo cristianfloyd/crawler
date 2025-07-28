@@ -1,0 +1,119 @@
+{
+  "seleccion_mvp": {
+    "criterios": {
+      "tiene_horarios": true,
+      "complejidad_tecnica": "simple_a_media",
+      "cantidad_materias": ">= 10",
+      "actualidad": "2025"
+    },
+    "sitios_seleccionados": [
+      {
+        "prioridad": 1,
+        "url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+        "departamento": "Matemática",
+        "titulo": "Horarios",
+        "score_materias": 25,
+        "tipos_info": ["programas"],
+        "complejidad": "compleja",
+        "justificacion": "URL específica de horarios 2025, Depto Matemática - fuente autoritativa",
+        "tecnologia": "desconocido_pero_estructurado"
+      },
+      {
+        "prioridad": 2,
+        "url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+        "departamento": "Instituto de Cálculo", 
+        "titulo": "Formación - Instituto de Cálculo",
+        "score_materias": 30,
+        "tipos_info": ["horarios", "programas"],
+        "complejidad": "media",
+        "justificacion": "Contiene horarios Y programas, complejidad manejable, Instituto clave",
+        "tecnologia": "cms_desconocido"
+      },
+      {
+        "prioridad": 3,
+        "url": "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+        "departamento": "Licenciatura en Datos",
+        "titulo": "Horarios de consulta",
+        "score_materias": 14,
+        "tipos_info": ["horarios"],
+        "complejidad": "compleja",
+        "justificacion": "WordPress con horarios específicos de consulta, directamente relevante",
+        "tecnologia": "wordpress"
+      }
+    ]
+  },
+  "sitios_backup": [
+    {
+      "url": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+      "departamento": "Física",
+      "justificacion": "Backup - Física con distribución de horarios"
+    },
+    {
+      "url": "https://lcd.exactas.uba.ar/",
+      "departamento": "Licenciatura en Datos",
+      "justificacion": "Backup - Sitio principal LCD con info completa"
+    }
+  ],
+  "estrategia_tecnica": {
+    "sitio_1": {
+      "url": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&cuatrimestre=2",
+      "enfoque": "scraping_directo_html",
+      "complejidad_estimada": "media",
+      "patrones_buscar": ["horario", "lunes", "martes", "aula", "comisión"],
+      "fallback": "scraping_tabla_estructurada"
+    },
+    "sitio_2": {
+      "url": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias", 
+      "enfoque": "scraping_listado_materias",
+      "complejidad_estimada": "baja",
+      "patrones_buscar": ["cuatrimestre", "bimestre", "horarios", "comisión"],
+      "fallback": "extraccion_links_individuales"
+    },
+    "sitio_3": {
+      "url": "https://lcd.exactas.uba.ar/horarios-de-consulta/",
+      "enfoque": "wordpress_extractor",
+      "complejidad_estimada": "baja",
+      "patrones_buscar": ["consulta", "horarios", "días"],
+      "fallback": "scraper_wordpress_generico"
+    }
+  },
+  "esquema_horarios_objetivo": {
+    "materia": {
+      "nombre": "string",
+      "codigo": "string", 
+      "departamento": "string",
+      "cuatrimestre": "1|2|anual",
+      "año": "2025"
+    },
+    "horarios": {
+      "modalidad": "presencial|virtual|mixta",
+      "comisiones": [
+        {
+          "numero": "string",
+          "horarios": [
+            {
+              "dia": "lunes|martes|miercoles|jueves|viernes|sabado",
+              "hora_inicio": "HH:MM",
+              "hora_fin": "HH:MM", 
+              "aula": "string",
+              "edificio": "string"
+            }
+          ],
+          "docente": "string",
+          "tipo": "teorica|practica|laboratorio"
+        }
+      ]
+    },
+    "metadatos": {
+      "fuente_url": "string",
+      "fecha_scraping": "ISO_date",
+      "ultima_actualizacion": "string"
+    }
+  },
+  "estimacion_esfuerzo": {
+    "sitio_1": "4-6 horas",
+    "sitio_2": "2-3 horas", 
+    "sitio_3": "2-3 horas",
+    "total_estimado": "8-12 horas"
+  }
+}
