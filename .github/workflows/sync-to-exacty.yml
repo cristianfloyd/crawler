@@ -1,0 +1,37 @@
+name: Sync to Exacty
+
+on:
+  push:
+    branches: [ main, master ]
+  workflow_dispatch: # Permite ejecutar manualmente
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout crawler repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          
+      - name: Clone Exacty repository
+        run: |
+          git clone https://x-access-token:${{ secrets.EXACTY_TOKEN }}@github.com/wachinalpha/exacty.git
+          cd exacty
+          
+      - name: Sync subtree
+        run: |
+          cd exacty
+          git subtree pull --prefix=crawler https://github.com/${{ github.repository }}.git main --squash
+          
+      - name: Push changes to Exacty
+        run: |
+          cd exacty
+          git push origin main
+          
+      - name: Success message
+        run: |
+          echo "✅ Crawler successfully synced to Exacty repository"
