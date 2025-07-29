@@ -2,8 +2,8 @@ name: Sync to Exacty
 
 on:
   push:
-    branches: [ main, master ]
-  workflow_dispatch: # Permite ejecutar manualmente
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
   sync:
@@ -19,19 +19,24 @@ jobs:
           
       - name: Clone Exacty repository
         run: |
-          git clone https://x-access-token:${{ secrets.EXACTY_TOKEN }}@github.com/wachinalpha/exacty.git
-          cd exacty
+          git clone https://x-access-token:${{ secrets.EXACTY_TOKEN }}@github.com/wachinalpha/Exacty.git
+          cd Exacty
+          
+      - name: Checkout crawler branch
+        run: |
+          cd Exacty
+          git checkout crawler
           
       - name: Sync subtree
         run: |
-          cd exacty
-          git subtree pull --prefix=crawler https://github.com/${{ github.repository }}.git main --squash
+          cd Exacty
+          git subtree pull --prefix=crawler https://github.com/${{ github.repository }}.git master --squash
           
       - name: Push changes to Exacty
         run: |
-          cd exacty
-          git push origin main
+          cd Exacty
+          git push origin crawler
           
       - name: Success message
         run: |
-          echo "✅ Crawler successfully synced to Exacty repository"
+          echo "✅ Crawler successfully synced to Exacty repository (crawler branch)"
