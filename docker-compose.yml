@@ -1,0 +1,20 @@
+services:
+  crawler-jupyter:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    container_name: crawler-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/app
+      - jupyter-data:/app/.jupyter
+    environment:
+      - PYTHONPATH=/app
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+
+volumes:
+  jupyter-data:
