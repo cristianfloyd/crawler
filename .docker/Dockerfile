@@ -25,12 +25,16 @@ COPY requirements_scraper.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements_scraper.txt
 
+# actualizar pip
+RUN pip install --upgrade pip
+
 # Install crawl4ai and jupyter
 RUN pip install --no-cache-dir \
     crawl4ai \
     jupyter \
     jupyterlab \
     notebook \
+    marimo \
     pandas \
     numpy \
     matplotlib \

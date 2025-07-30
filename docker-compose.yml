@@ -6,6 +6,7 @@ services:
     container_name: crawler-jupyter
     ports:
       - "8888:8888"
+      - "2718:8080"
     volumes:
       - .:/app
       - jupyter-data:/app/.jupyter
