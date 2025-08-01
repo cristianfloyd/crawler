@@ -1,32 +1,40 @@
-# Requirements para MVP RAG con Horarios - Día 2
-# Sistema de Scraping para Materias Obligatorias LCD
+# Requirements para MVP RAG con Horarios - Sistema Completo
+# Sistema de Scraping y RAG para Materias Obligatorias LCD
 
 # === CORE DEPENDENCIES ===
 requests>=2.31.0          # HTTP requests para scraping
 beautifulsoup4>=4.12.0    # Parsing HTML
 lxml>=4.9.0              # Parser XML/HTML más rápido
 
-# === OPCIONAL - Si necesitamos JavaScript ===
-# selenium>=4.15.0         # Para sitios con JS dinámico (descomentar si es necesario)
-# webdriver-manager>=4.0.0 # Manejo automático de drivers
+# === WEB CRAWLING AVANZADO ===
+crawl4ai>=0.3.0          # Web crawling con AI y JavaScript support
+nest-asyncio>=1.5.0      # Para asyncio en notebooks
 
 # === UTILIDADES ===
 urllib3>=2.0.0           # Manejo avanzado de URLs
 certifi>=2023.7.22       # Certificados SSL actualizados
+
+# === RAG SYSTEM - ACTIVO ===
+faiss-cpu>=1.7.4         # Vector database para RAG
+sentence-transformers>=2.2.2  # Embeddings de texto
+numpy>=1.24.0            # Operaciones numéricas
+
+# === NOTEBOOKS Y DESARROLLO ===
+marimo>=0.6.0            # Notebooks interactivos modernos
+jupyter>=1.0.0           # Jupyter notebooks tradicionales
 
 # === PARA DESARROLLO Y TESTING ===
 pytest>=7.4.0           # Testing framework
 pytest-cov>=4.1.0       # Coverage de tests
 pytest-mock>=3.11.0     # Mocking para tests
 
+# === OPCIONAL - Si necesitamos JavaScript ===
+# selenium>=4.15.0         # Para sitios con JS dinámico (descomentar si es necesario)
+# webdriver-manager>=4.0.0 # Manejo automático de drivers
+
 # === OPCIONAL - ANÁLISIS DE DATOS ===
 # pandas>=2.1.0           # Para análisis de datos extraídos
-# numpy>=1.24.0           # Operaciones numéricas
-
-# === FUTURO - RAG SYSTEM ===
-# faiss-cpu>=1.7.4        # Vector database para RAG
-# sentence-transformers>=2.2.2  # Embeddings
-# langchain>=0.0.300      # Framework RAG
+# langchain>=0.0.300      # Framework RAG adicional
 
 # Notas de instalación:
 # 1. Instalar: pip install -r requirements.txt
