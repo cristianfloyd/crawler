@@ -1,58 +1,162 @@
 [
   {
-    "nombre": "Álgebra I (*)",
-    "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración."
+    "materia": "Introducción al Conocimiento de la Sociedad y el Estado",
+    "descripcion": "Una introducción a los conceptos básicos del conocimiento social, político y económico.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Algoritmos y Estructuras de Datos I (*)",
-    "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos."
+    "materia": "Introducción al Pensamiento Científico",
+    "descripcion": "Un acercamiento a la lógica de las ciencias naturales y sociales.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Análisis I (*)",
-    "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables."
+    "materia": "Análisis Matemático A",
+    "descripcion": "Una introducción al cálculo diferencial e integral.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Electiva de Introducción a las Ciencias Naturales (*)",
-    "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física. Para ver el listado de materias electivas hacer click aquí"
+    "materia": "Álgebra",
+    "descripcion": "Un estudio de las estructuras algebraicas y sus propiedades.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Análisis II (*)",
-    "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales."
+    "materia": "Química (electiva)",
+    "descripcion": "Una introducción a los principios básicos de la química.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Algoritmos y Estructuras de Datos II (*)",
-    "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas."
+    "materia": "Física (electiva)",
+    "descripcion": "Un estudio de las leyes fundamentales de la física.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Laboratorio de Datos (*)",
-    "descripcion": "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado"
+    "materia": "Pensamiento Computacional (electiva)",
+    "descripcion": "Una introducción a los conceptos básicos de la informática.",
+    "ciclo": "CBC"
   },
   {
-    "nombre": "Análisis Avanzado",
-    "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución."
+    "materia": "Álgebra I",
+    "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y de sus métodos de demostración.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Álgebra Lineal Computacional (*)",
-    "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel."
+    "materia": "Algoritmos y Estructuras de Datos I",
+    "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Probabilidad",
-    "descripcion": "La matemática al servicio del estudio del azar y los fenómenos aleatorios."
+    "materia": "Análisis I",
+    "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Algoritmos y Estructura de Datos III",
-    "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas."
+    "materia": "Electiva de Introducción a las Ciencias Naturales",
+    "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Intr. a la Estadística y Ciencia de Datos",
-    "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos."
+    "materia": "Análisis II",
+    "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Intr. a la Investigación Operativa y Optimización",
-    "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones."
+    "materia": "Algoritmos y Estructuras de Datos II",
+    "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas.",
+    "ciclo": "Segundo Ciclo de Grado"
   },
   {
-    "nombre": "Intr. al Modelado Continuo.",
-    "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas."
+    "materia": "Laboratorio de Datos",
+    "descripcion": "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Análisis Avanzado",
+    "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Álgebra Lineal Computacional",
+    "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Probabilidad",
+    "descripcion": "La matemática al servicio del estudio del azar y los fenómenos aleatorios.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Algoritmos y Estructura de Datos III",
+    "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Intr. a la Estadística y Ciencia de Datos",
+    "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Intr. a la Investigación Operativa y Optimización",
+    "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Intr. al Modelado Continuo.",
+    "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas.",
+    "ciclo": "Segundo Ciclo de Grado"
+  },
+  {
+    "materia": "Datos",
+    "descripcion": "La formación esencial para el trabajo con datos.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Investigación operativa y Optimización",
+    "descripcion": "Herramientas y técnicas para ayudar a optimizar la toma de decisiones en gestión, logística y muchas otras áreas.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Estadística matemática-computacional",
+    "descripcion": "La matemática detrás de las técnicas para el tratamiento de los datos.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Modelado continuo",
+    "descripcion": "La matemática del modelado a partir de principios físicos, ecuaciones diferenciales y principios variacionales. Sus métodos de resolución teórica y computacionalmente.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Sistemas estocásticos y complejos",
+    "descripcion": "El estudio de sistemas con muchísimas componentes que interactúan: moléculas, miembros de redes sociales, autos en una autopista, multitudes, etc.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Inteligencia Artificial",
+    "descripcion": "Teoría y desarrollo de sistemas computacionales para realizar tareas que normalmente requerirían de un humano.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Procesamiento de Señales",
+    "descripcion": "Teoría y métodos para el estudio, análisis y modificación y sintetización de señales. Típicamente sonido, imágenes, video o mediciones científicas.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Cs. de la atmósfera",
+    "descripcion": "El estudio de la atmósfera terrestre.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Bioinformática",
+    "descripcion": "Matemática y Computación para el análisis de datos biológicos.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Ciencias Sociales",
+    "descripcion": "Dictada en conjunto con la Facultad de Ciencias Sociales. Las materias con (*) se cursan en esa sede y tienen como objetivo que la/el estudiante participe en una investigación en Cs. Sociales.",
+    "ciclo": "Tercer Ciclo de Grado"
+  },
+  {
+    "materia": "Ciencias Económicas",
+    "descripcion": "Dictada en conjunto con la Facultad de Ciencias Económicas (FCE) de la UBA Materias de la Licenciatura en Economía ofrecidas para la LCD.",
+    "ciclo": "Tercer Ciclo de Grado"
   }
 ]

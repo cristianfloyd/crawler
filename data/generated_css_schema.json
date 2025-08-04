@@ -1,0 +1,47 @@
+{
+  "name": "materias_lcd_auto_generated",
+  "baseSelector": "body",
+  "fields": [
+    {
+      "name": "materias",
+      "selector": "h3, h4, .materia, .course, [class*='materia'], [class*='course']",
+      "type": "list",
+      "fields": [
+        {
+          "name": "nombre",
+          "selector": "self",
+          "type": "text"
+        },
+        {
+          "name": "descripcion",
+          "selector": "following-sibling::p, following-sibling::div, .descripcion, .description",
+          "type": "text"
+        },
+        {
+          "name": "ciclo",
+          "selector": "ancestor::section, ancestor::div[class*='ciclo'], ancestor::div[class*='cycle']",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "cycle_specific_selectors": {
+    "cbc": "section:has(h2:contains('CBC')), .cbc, [class*='cbc']",
+    "segundo_ciclo": "section:has(h2:contains('Segundo')), .segundo-ciclo, [class*='segundo']",
+    "tercer_ciclo": "section:has(h2:contains('Tercer')), .tercer-ciclo, [class*='tercer']"
+  },
+  "metadata": {
+    "ciclos_detectados": [
+      "Tercer Ciclo de Grado",
+      "CBC",
+      "Segundo Ciclo de Grado"
+    ],
+    "total_materias": 32,
+    "generated_from": "llm_analysis",
+    "recommendations": [
+      "Ajustar selectores según la estructura HTML específica",
+      "Considerar usar selectores más específicos para cada ciclo",
+      "Validar selectores con herramientas de desarrollo del navegador"
+    ]
+  }
+}

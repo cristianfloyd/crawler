@@ -1,0 +1,69 @@
+{
+  "name": "materias_lcd_optimizado",
+  "baseSelector": "body",
+  "fields": [
+    {
+      "name": "secciones",
+      "selector": "h2",
+      "type": "list",
+      "fields": [
+        {
+          "name": "titulo",
+          "selector": "text()",
+          "type": "text"
+        },
+        {
+          "name": "tag_type",
+          "selector": "tagName",
+          "type": "attribute"
+        }
+      ]
+    },
+    {
+      "name": "materias",
+      "selector": "ul > li > a",
+      "type": "list",
+      "fields": [
+        {
+          "name": "nombre",
+          "selector": "text()",
+          "type": "text"
+        },
+        {
+          "name": "siguiente_texto",
+          "selector": "following-sibling::p",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "descripciones",
+      "selector": "ul > li > p.descripcion-materia",
+      "type": "list",
+      "fields": [
+        {
+          "name": "texto_descripcion",
+          "selector": "text()",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "orientaciones",
+      "selector": "p.descripcion-materia[itemprop='description']",
+      "type": "list",
+      "fields": [
+        {
+          "name": "texto_orientacion",
+          "selector": "text()",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "contenido_completo",
+      "selector": "body",
+      "type": "text"
+    }
+  ]
+}

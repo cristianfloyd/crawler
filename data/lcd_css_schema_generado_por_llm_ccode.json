@@ -1,0 +1,172 @@
+{
+  "estrategias_extraccion": {
+    "descripcion": "Esquemas de contenedores CSS para extraer información de materias por ciclos en lcd.exactas.uba.ar",
+    "fecha_analisis": "2025-08-03",
+    "url_objetivo": "https://lcd.exactas.uba.ar/materias/"
+  },
+  
+  "ciclos": {
+    "cbc": {
+      "ciclo": "Ciclo Básico Común",
+      "identificador_visual": "CBC",
+      "contenedor_principal": ".fusion-builder-row-2",
+      "patron_css": {
+        "contenedor_seccion": ".fusion-fullwidth.fusion-builder-row-2",
+        "contenedor_titulo": ".fusion-title.fusion-title-2 h3",
+        "contenedor_imagen_icono": ".fusion-imageframe.imageframe-1 img[src*='icono-lcd-1-ciclo']",
+        "contenedor_materias": ".fusion-checklist.fusion-checklist-1",
+        "selector_materia_individual": ".fusion-li-item",
+        "selector_nombre_materia": ".fusion-li-item-content span",
+        "patron_descripcion": "span[style*='font-weight: 400']"
+      },
+      "caracteristicas": {
+        "tipo_contenedor": "lista_checkboxes",
+        "estilo_visual": "border_verde",
+        "icono_distintivo": "icono-lcd-1-ciclo.png",
+        "color_border": "#8bc34a"
+      },
+      "materias_esperadas": [
+        "Introducción al Conocimiento de la Sociedad y el Estado",
+        "Introducción al Pensamiento Científico", 
+        "Análisis Matemático A",
+        "Álgebra",
+        "Química (electiva)",
+        "Física (electiva)",
+        "Pensamiento Computacional (electiva)"
+      ]
+    },
+    
+    "segundo_ciclo": {
+      "ciclo": "Segundo Ciclo de Grado",
+      "identificador_visual": "Segundo Ciclo de Grado",
+      "contenedor_principal": ".fusion-builder-row-3",
+      "patron_css": {
+        "contenedor_seccion": ".fusion-fullwidth.fusion-builder-row-3",
+        "contenedor_titulo": ".fusion-title.fusion-title-3 h3",
+        "contenedor_imagen_icono": ".fusion-imageframe.imageframe-2 img[src*='icono-lcd-2-ciclo']",
+        "contenedor_materias": ".accordian.fusion-accordian #accordion-43-1",
+        "selector_materia_individual": ".fusion-panel.panel-default",
+        "selector_nombre_materia": ".panel-title .fusion-toggle-heading",
+        "selector_descripcion_materia": ".panel-body.toggle-content span[style*='font-weight: 400']",
+        "selector_materias_asterisco": ".fusion-toggle-heading:contains('(*)')"
+      },
+      "caracteristicas": {
+        "tipo_contenedor": "acordeon_desplegable",
+        "estilo_visual": "border_verde_claro", 
+        "icono_distintivo": "icono-lcd-2-ciclo.png",
+        "color_border": "#9bd279",
+        "interactivo": true,
+        "expandible": true
+      },
+      "materias_esperadas": [
+        "Álgebra I",
+        "Algoritmos y Estructuras de Datos I",
+        "Análisis I", 
+        "Electiva de Introducción a las Ciencias Naturales",
+        "Análisis II",
+        "Algoritmos y Estructuras de Datos II",
+        "Laboratorio de Datos",
+        "Análisis Avanzado",
+        "Álgebra Lineal Computacional",
+        "Probabilidad",
+        "Algoritmos y Estructura de Datos III",
+        "Intr. a la Estadística y Ciencia de Datos",
+        "Intr. a la Investigación Operativa y Optimización",
+        "Intr. al Modelado Continuo"
+      ]
+    },
+    
+    "tercer_ciclo": {
+      "ciclo": "Tercer Ciclo de Grado",
+      "identificador_visual": "Tercer Ciclo de Grado",
+      "contenedor_principal": ".fusion-builder-row-4, .fusion-builder-row-5",
+      "patron_css": {
+        "contenedor_seccion": ".fusion-fullwidth.fusion-builder-row-5",
+        "contenedor_titulo": ".fusion-title.fusion-title-7 h3",
+        "contenedor_caminos": ".fusion-flip-boxes.flip-boxes",
+        "selector_camino_individual": ".fusion-flip-box-wrapper",
+        "selector_nombre_camino": ".flip-box-heading",
+        "selector_descripcion_camino": ".flip-box-back-inner p",
+        "selector_materias_camino": ".flip-box-back-inner ul li",
+        "contenedor_flip_front": ".flip-box-front",
+        "contenedor_flip_back": ".flip-box-back"
+      },
+      "caracteristicas": {
+        "tipo_contenedor": "flip_boxes_grid",
+        "estilo_visual": "tarjetas_interactivas",
+        "icono_distintivo": "icono-lcd-3-ciclo.png",
+        "interactivo": true,
+        "efecto_hover": "flip_horizontal",
+        "grid_columnas": 3
+      },
+      "caminos_sugeridos": [
+        "Datos",
+        "Investigación operativa y Optimización", 
+        "Estadística matemática-computacional",
+        "Modelado continuo",
+        "Sistemas estocásticos y complejos",
+        "Inteligencia Artificial",
+        "Procesamiento de Señales",
+        "Cs. de la atmósfera",
+        "Bioinformática",
+        "Ciencias Sociales",
+        "Ciencias Económicas"
+      ]
+    }
+  },
+  
+  "selectores_globales": {
+    "pagina_completa": "#post-43",
+    "contenido_principal": ".post-content",
+    "titulo_pagina": "#main h1.entry-title",
+    "cronograma_tabla": ".fusion-text.fusion-text-2 table",
+    "plan_correlatividades": ".fusion-imageframe.imageframe-3 img[title='Flan LCD']"
+  },
+  
+  "crawl4ai_config": {
+    "estrategia_recomendada": "CSSPatternStrategy",
+    "selectores_por_ciclo": {
+      "cbc_materias": {
+        "selector": ".fusion-builder-row-2 .fusion-checklist-1 .fusion-li-item",
+        "campos": {
+          "nombre": ".fusion-li-item-content span",
+          "tipo": "fixed_value:CBC"
+        }
+      },
+      "segundo_ciclo_materias": {
+        "selector": ".fusion-builder-row-3 .fusion-accordian .fusion-panel",
+        "campos": {
+          "nombre": ".panel-title .fusion-toggle-heading",
+          "descripcion": ".panel-body span[style*='font-weight: 400']",
+          "tipo": "fixed_value:Segundo Ciclo de Grado",
+          "titulo_bachiller": "contains_asterisk:(*)"
+        }
+      },
+      "tercer_ciclo_caminos": {
+        "selector": ".fusion-builder-row-5 .fusion-flip-box-wrapper",
+        "campos": {
+          "nombre_camino": ".flip-box-heading",
+          "descripcion": ".flip-box-back-inner p",
+          "materias": ".flip-box-back-inner ul li",
+          "tipo": "fixed_value:Tercer Ciclo de Grado"
+        }
+      }
+    }
+  },
+  
+  "notas_implementacion": {
+    "framework_detectado": "Avada Theme (WordPress)",
+    "javascript_requerido": true,
+    "elementos_dinamicos": [
+      "Acordeon en segundo ciclo requiere JS para expandir",
+      "Flip boxes en tercer ciclo tienen animaciones CSS",
+      "Títulos animados con efectos clipIn"
+    ],
+    "recomendaciones": [
+      "Esperar carga completa antes de extraer datos",
+      "Considerar tiempo de espera para animaciones",
+      "El segundo ciclo puede requerir clicks para expandir acordeones",
+      "Las materias con (*) indican requisito para título intermedio"
+    ]
+  }
+}

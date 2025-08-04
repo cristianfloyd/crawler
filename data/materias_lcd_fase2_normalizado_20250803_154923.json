@@ -1,0 +1,25 @@
+{
+  "cbc": [],
+  "segundo_ciclo": [],
+  "tercer_ciclo": [],
+  "metadata": {
+    "fecha_extraccion": "2025-08-03T15:49:18.845457",
+    "fuente": "https://lcd.exactas.uba.ar/materias",
+    "metodo": "crawl4ai_css_selectors_auto_generated",
+    "version": "auto_generated_schema",
+    "esquema_css": "lcd_css_schema_generado_por_llm_ccode.json",
+    "total_materias": 0,
+    "fecha_normalizacion": "2025-08-03T15:49:23.450368",
+    "fase2_completada": true,
+    "cambios_normalizacion": {
+      "materias_procesadas": 0,
+      "cambios_realizados": 0,
+      "tipos_cambios": {
+        "mayusculas_corregidas": 0,
+        "abreviaciones_expandidas": 0,
+        "caracteres_limpiados": 0,
+        "numeros_romanos_corregidos": 0
+      }
+    }
+  }
+}

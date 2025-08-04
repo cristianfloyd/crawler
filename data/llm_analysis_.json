@@ -1,0 +1,20 @@
+{
+  "analisis_estructura": "La página está organizada en secciones principales: Ciclo Básico Común (CBC), Segundo Ciclo y Tercer Ciclo. Cada sección contiene listas de materias, cada materia con su nombre y una breve descripción. La información sobre orientaciones se encuentra dentro de las descripciones de algunas materias o como bloques separados.",
+  "selectores_principales": {
+    "secciones": "h2",
+    "materias": "ul > li > a",
+    "descripciones": "ul > li > p",
+    "orientaciones": "p.descripcion-materia"
+  },
+  "selectores_alternativos": {
+    "materias_alt": "h4.titulo-materia",
+    "descripciones_alt": "div.descripcion-materia"
+  },
+  "estructura_detectada": {
+    "cbc_presente": true,
+    "segundo_ciclo_presente": true,
+    "tercer_ciclo_presente": true,
+    "contenido_dinamico": false
+  },
+  "recomendaciones": "El uso de `ul > li > a` para las materias es un buen punto de partida. Sin embargo, la estructura HTML puede variar ligeramente entre secciones (ej: algunas pueden usar h4 en vez de a). Considera usar selectores más robustos que combinen los selectores del padre y el hijo.  Usar `p.descripcion-materia` o `div.descripcion-materia` es una buena opción para extraer descripciones, pero podrían necesitar ajustes si las descripciones se encuentran dentro de elementos distintos a `<p>` o `<div>`. Verificar la consistencia de las etiquetas HTML en toda la página."
+}

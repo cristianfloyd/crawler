@@ -1,0 +1,292 @@
+{
+  "cbc": [
+    {
+      "nombre": "Introducción al Conocimiento de la Sociedad y el Estado",
+      "nombre_normalizado": "Introducción al Conocimiento de la Sociedad y el Estado",
+      "ciclo": "cbc",
+      "departamento_probable": "cbc",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Introducción al Pensamiento Científico",
+      "nombre_normalizado": "Introducción al Pensamiento Científico",
+      "ciclo": "cbc",
+      "departamento_probable": "cbc",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Análisis Matemático A",
+      "nombre_normalizado": "Análisis Matemático a",
+      "ciclo": "cbc",
+      "departamento_probable": "matematica",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Álgebra",
+      "nombre_normalizado": "Álgebra",
+      "ciclo": "cbc",
+      "departamento_probable": "matematica",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Seleccionar II Materias Electivas de Las III Opciones",
+      "nombre_normalizado": "Seleccionar II Materias Electivas de Las III Opciones",
+      "ciclo": "cbc",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Química (electiva)",
+      "nombre_normalizado": "Química (electiva)",
+      "ciclo": "cbc",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Física (electiva)",
+      "nombre_normalizado": "Física (electiva)",
+      "ciclo": "cbc",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Pensamiento Computacional (electiva)",
+      "nombre_normalizado": "Pensamiento Computacional (electiva)",
+      "ciclo": "cbc",
+      "departamento_probable": "cbc",
+      "descripcion": "Materia del Ciclo Básico Común",
+      "fuente": "crawl4ai_css_lcd_schema"
+    }
+  ],
+  "segundo_ciclo": [
+    {
+      "nombre": "Álgebra I",
+      "nombre_normalizado": "Álgebra I",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "matematica",
+      "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Algoritmos y Estructuras de Datos I",
+      "nombre_normalizado": "Algoritmos y Estructuras de Datos I",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Análisis I",
+      "nombre_normalizado": "Análisis I",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "matematica",
+      "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Electiva de Introducción A Las Ciencias Naturales",
+      "nombre_normalizado": "Electiva de Introducción A Las Ciencias Naturales",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "cbc",
+      "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Análisis II",
+      "nombre_normalizado": "Análisis II",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "matematica",
+      "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Algoritmos y Estructuras de Datos II",
+      "nombre_normalizado": "Algoritmos y Estructuras de Datos II",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Laboratorio de Datos",
+      "nombre_normalizado": "Laboratorio de Datos",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Análisis Avanzado",
+      "nombre_normalizado": "Análisis Avanzado",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "matematica",
+      "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Álgebra Lineal Computacional",
+      "nombre_normalizado": "Álgebra Lineal Computacional",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "matematica",
+      "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Probabilidad",
+      "nombre_normalizado": "Probabilidad",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "estadistica",
+      "descripcion": "La matemática al servicio del estudio del azar y los fenómenos aleatorios.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Algoritmos y Estructura de Datos III",
+      "nombre_normalizado": "Algoritmos y Estructura de Datos III",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Introducción A la Estadística y Ciencia de Datos",
+      "nombre_normalizado": "Introducción A la Estadística y Ciencia de Datos",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Introducción A la Investigación Operativa y Optimización",
+      "nombre_normalizado": "Introducción A la Investigación Operativa y Optimización",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "investigacion_operativa",
+      "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Introducción al Modelado Continuo",
+      "nombre_normalizado": "Introducción al Modelado Continuo",
+      "ciclo": "segundo_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    }
+  ],
+  "tercer_ciclo": [
+    {
+      "nombre": "Datos",
+      "nombre_normalizado": "Datos",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "computacion",
+      "descripcion": "Camino: La formación esencial para el trabajo con datos.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Investigación Operativa y Optimización",
+      "nombre_normalizado": "Investigación Operativa y Optimización",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "investigacion_operativa",
+      "descripcion": "Camino: Herramientas y técnicas para ayudar a optimizar la toma de decisiones en gestión, logística y muchas otras áreas.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Estadística Matemática-computacional",
+      "nombre_normalizado": "Estadística Matemática-computacional",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "estadistica",
+      "descripcion": "Camino: La matemática detrás de las técnicas para el tratamiento de los datos.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Modelado Continuo",
+      "nombre_normalizado": "Modelado Continuo",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: La matemática del modelado a partir de principios físicos, ecuaciones diferenciales y principios variacionales. Sus métodos de resolución teórica y computacionalmente.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Sistemas Estocásticos y Complejos",
+      "nombre_normalizado": "Sistemas Estocásticos y Complejos",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: El estudio de sistemas con muchísimas componentes que interactúan: moléculas, miembros de redes sociales, autos en una autopista, multitudes, etc.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Inteligencia Artificial",
+      "nombre_normalizado": "Inteligencia Artificial",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: Teoría y desarrollo de sistemas computacionales para realizar tareas que normalmente requerirían de un humano.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Procesamiento de Señales",
+      "nombre_normalizado": "Procesamiento de Señales",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: Teoría y métodos para el estudio, análisis y modificación y sintetización de señales. Típicamente sonido, imágenes, video o mediciones científicas.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Ciencias de la Atmósfera",
+      "nombre_normalizado": "Ciencias de la Atmósfera",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: El estudio de la atmósfera terrestre.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Bioinformática",
+      "nombre_normalizado": "Bioinformática",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: Matemática y Computación para el análisis de datos biológicos.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Ciencias Sociales",
+      "nombre_normalizado": "Ciencias Sociales",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: Dictada en conjunto con la Facultad de Ciencias Sociales.Las materias con (*) se cursan en esa sede y tienen como objetivo que la/el estudiante participe en una investigación en Cs. Sociales.",
+      "fuente": "crawl4ai_css_lcd_schema"
+    },
+    {
+      "nombre": "Ciencias Económicas",
+      "nombre_normalizado": "Ciencias Económicas",
+      "ciclo": "tercer_ciclo",
+      "departamento_probable": "por_determinar",
+      "descripcion": "Camino: ",
+      "fuente": "crawl4ai_css_lcd_schema"
+    }
+  ],
+  "metadata": {
+    "fecha_extraccion": "2025-08-03T15:04:49.845744",
+    "fuente": "https://lcd.exactas.uba.ar/materias",
+    "metodo": "crawl4ai_css_selectors_lcd_schema",
+    "version": "lcd_structured_schema",
+    "esquema_css": "lcd_css_schema_generado_por_llm_ccode.json",
+    "total_materias": 33,
+    "fecha_normalizacion": "2025-08-03T15:21:03.339249",
+    "fase2_completada": true,
+    "cambios_normalizacion": {
+      "materias_procesadas": 33,
+      "cambios_realizados": 25,
+      "tipos_cambios": {
+        "mayusculas_corregidas": 9,
+        "abreviaciones_expandidas": 4,
+        "caracteres_limpiados": 2,
+        "numeros_romanos_corregidos": 10
+      }
+    }
+  }
+}

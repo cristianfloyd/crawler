@@ -15,7 +15,7 @@
 - [x] Documentar patrones de datos encontrados en sitios prioritarios
 
 ### 1.2 Planificación Técnica
-- [x] Definir estructura de datos para horarios
+- [] Definir estructura de datos para horarios
 - [x] Crear esquema de metadatos para información temporal
 - [x] Planificar estrategia de scraping por sitio seleccionado
 - [x] Estimar effort/tiempo por sitio
