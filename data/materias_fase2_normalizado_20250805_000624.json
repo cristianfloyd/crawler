@@ -287,20 +287,6 @@
         "caracteres_limpiados": 1,
         "numeros_romanos_corregidos": 8
       }
-    },
-    "punto_entrada": "descubrir_materias_completo.py",
-    "archivo_consumible": true,
-    "version_api": "1.0",
-    "formato_estable": true,
-    "descripcion": "Materias LCD extraídas y normalizadas para consumo por scrapers",
-    "estadisticas_proceso": {
-      "inicio": "2025-08-05T00:06:11.673015",
-      "fin": null,
-      "duracion_segundos": 0,
-      "materias_extraidas": 33,
-      "materias_normalizadas": 33,
-      "cambios_normalizacion": 33,
-      "exito": false
     }
   }
 }

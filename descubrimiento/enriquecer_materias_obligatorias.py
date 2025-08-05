@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-FASE 5: Enriquecedor de Materias Obligatorias LCD
-Extrae información adicional de https://lcd.exactas.uba.ar/materias-obligatorias/
+FASE 5: Extractor de Materias Obligatorias LCD
+Extrae materias obligatorias por cuatrimestre de https://lcd.exactas.uba.ar/materias-obligatorias/
+Formato de salida: cuatrimestre -> materia -> departamento -> link
 """
 
 import json
@@ -12,75 +13,74 @@ from crawl4ai import AsyncWebCrawler
 from crawl4ai.extraction_strategy import JsonCssExtractionStrategy
 from crawl4ai import CrawlerRunConfig, CacheMode
 from datetime import datetime
+from normalizador_nombres_materias import NormalizadorNombresMaterias
 
 
-class EnriquecedorMateriasObligatorias:
+class ExtractorMateriasObligatorias:
     def __init__(self):
         self.url_obligatorias = "https://lcd.exactas.uba.ar/materias-obligatorias/"
-        self.materias_enriquecidas = {
-            "cbc": [],
-            "segundo_ciclo": [],
-            "tercer_ciclo": [],
+        self.normalizador = NormalizadorNombresMaterias()
+        self.materias_obligatorias = {
+            "cuatrimestres": {
+                "verano_2025": [],
+                "primer_cuatrimestre_2025": [],
+                "segundo_cuatrimestre_2025": [],
+            },
             "metadata": {
-                "fecha_enriquecimiento": datetime.now().isoformat(),
-                "fuente_enriquecimiento": self.url_obligatorias,
-                "metodo": "crawl4ai_css_obligatorias",
-                "version": "fase5_enrichment",
-                "total_enriquecidas": 0,
+                "timestamp": datetime.now().isoformat(),
+                "fuente": self.url_obligatorias,
+                "metodo": "crawl4ai_css_extraction_con_normalizador",
+                "version": "fase5_v3_normalizador_integrado",
+                "total_materias": 0,
             },
         }
 
-    async def extraer_informacion_obligatorias(self):
-        """Extrae información detallada de materias obligatorias"""
-        print("🔍 FASE 5: Extrayendo información de materias obligatorias...")
+    async def extraer_materias_obligatorias(self):
+        """Extrae materias obligatorias organizadas por cuatrimestre"""
+        print("🔍 FASE 5: Extrayendo materias obligatorias por cuatrimestre...")
         print(f"   📍 URL: {self.url_obligatorias}")
 
-        # Esquema para extraer información de la página de obligatorias
-        schema_obligatorias = {
-            "name": "materias_obligatorias_detalle",
+        # Esquema para extraer cuatrimestres y sus materias
+        schema_cuatrimestres = {
+            "name": "materias_por_cuatrimestre",
             "baseSelector": "body",
             "fields": [
                 {
-                    "name": "cuatrimestres",
-                    "selector": "h2, h3, .semester-title, [class*='cuatrimestre'], [class*='semester']",
-                    "type": "list",
-                    "fields": [{"name": "titulo", "selector": "self", "type": "text"}],
-                },
-                {
-                    "name": "materias_por_periodo",
-                    "selector": "table, .course-table, .materia-row, tr",
+                    "name": "secciones_cuatrimestre",
+                    "selector": "h2, h3",
                     "type": "list",
                     "fields": [
                         {
-                            "name": "materia",
-                            "selector": "td:first-child, .course-name, .materia-nombre",
+                            "name": "titulo_cuatrimestre",
+                            "selector": "self",
                             "type": "text",
                         },
                         {
-                            "name": "departamento",
-                            "selector": "td:nth-child(2), .department, .departamento",
-                            "type": "text",
-                        },
-                        {
-                            "name": "enlace_web",
-                            "selector": "a[href], .web-link",
-                            "type": "attribute",
-                            "attribute": "href",
-                        },
-                        {
-                            "name": "codigo",
-                            "selector": "td:nth-child(3), .course-code, .codigo",
-                            "type": "text",
+                            "name": "materias",
+                            "selector": "+ * table tr:not(:first-child), + table tr:not(:first-child)",
+                            "type": "list",
+                            "fields": [
+                                {
+                                    "name": "materia",
+                                    "selector": "td:first-child",
+                                    "type": "text",
+                                },
+                                {
+                                    "name": "departamento",
+                                    "selector": "td:nth-child(2)",
+                                    "type": "text",
+                                },
+                                {
+                                    "name": "enlace",
+                                    "selector": "td:nth-child(3) a",
+                                    "type": "attribute",
+                                    "attribute": "href",
+                                },
+                            ],
                         },
                     ],
                 },
-                {
-                    "name": "informacion_general",
-                    "selector": "p, .info-text, .description",
-                    "type": "list",
-                    "fields": [{"name": "texto", "selector": "self", "type": "text"}],
-                },
-                {"name": "contenido_completo", "selector": "body", "type": "text"},
+                {"name": "contenido_html", "selector": "body", "type": "text"},
             ],
         }
 
@@ -91,7 +91,7 @@ class EnriquecedorMateriasObligatorias:
             browser_type="chromium",
         ) as crawler:
 
-            extraction_strategy = JsonCssExtractionStrategy(schema_obligatorias)
+            extraction_strategy = JsonCssExtractionStrategy(schema_cuatrimestres)
 
             config = CrawlerRunConfig(
                 cache_mode=CacheMode.BYPASS,
@@ -116,74 +116,106 @@ class EnriquecedorMateriasObligatorias:
                     json.dump(extracted_data, f, ensure_ascii=False, indent=2)
                 print("   📁 Debug guardado en: debug_obligatorias.json")
 
-                await self.procesar_datos_obligatorias(extracted_data)
+                await self.procesar_datos_cuatrimestres(extracted_data)
 
             else:
-                print("❌ No se pudo extraer contenido de materias obligatorias")
+                print(
+                    "❌ No se pudo extraer contenido con CSS, intentando análisis HTML directo"
+                )
                 # Usar análisis alternativo
-                await self.analisis_alternativo()
+                await self.extraer_con_html_directo()
 
-    async def procesar_datos_obligatorias(self, extracted_data):
-        """Procesa los datos extraídos de materias obligatorias"""
-        print("🔄 Procesando datos de materias obligatorias...")
+    async def procesar_datos_cuatrimestres(self, extracted_data):
+        """Procesa los datos extraídos organizados por cuatrimestre"""
+        print("🔄 Procesando datos por cuatrimestre...")
 
-        if isinstance(extracted_data, list) and extracted_data:
+        # Manejar diferentes tipos de datos extraídos
+        if isinstance(extracted_data, list):
+            if not extracted_data:
+                print(
+                    "   ⚠️ No se extrajeron datos con CSS, intentando análisis HTML directo..."
+                )
+                await self.extraer_con_html_directo()
+                return
             extracted_data = extracted_data[0]
 
-        # Procesar información de cuatrimestres
-        cuatrimestres = extracted_data.get("cuatrimestres", [])
-        materias_periodo = extracted_data.get("materias_por_periodo", [])
-        info_general = extracted_data.get("informacion_general", [])
+        if not isinstance(extracted_data, dict):
+            print(f"   ⚠️ Formato de datos inesperado: {type(extracted_data)}")
+            await self.extraer_con_html_directo()
+            return
 
-        print(f"   📅 Cuatrimestres encontrados: {len(cuatrimestres)}")
-        print(f"   📚 Materias por período: {len(materias_periodo)}")
-        print(f"   ℹ️ Información general: {len(info_general)}")
+        # Procesar secciones de cuatrimestre
+        secciones = extracted_data.get("secciones_cuatrimestre", [])
+        print(f"   📅 Secciones encontradas: {len(secciones)}")
 
-        # Procesar materias encontradas y enriquecer con información de horarios
-        await self.enriquecer_materias_con_info_obligatorias(materias_periodo)
+        for seccion in secciones:
+            titulo = seccion.get("titulo_cuatrimestre", "").strip()
+            materias = seccion.get("materias", [])
 
-        # Analizar contenido completo para extraer patrones
-        contenido_completo = extracted_data.get("contenido_completo", "")
-        await self.extraer_patrones_del_contenido(contenido_completo)
+            # Identificar cuatrimestre
+            cuatrimestre_key = self.identificar_cuatrimestre(titulo)
+            if cuatrimestre_key:
+                print(f"   📚 Procesando {titulo}: {len(materias)} materias")
+                self.procesar_materias_cuatrimestre(cuatrimestre_key, materias)
 
-    async def extraer_patrones_del_contenido(self, contenido: str):
-        """Extrae patrones útiles del contenido completo"""
-        print("🔍 Analizando patrones en el contenido...")
+        # Si no se extraíeron datos con CSS, intentar análisis HTML
+        contenido_html = extracted_data.get("contenido_html", "")
+        if (
+            sum(
+                len(cuatrimestre)
+                for cuatrimestre in self.materias_obligatorias["cuatrimestres"].values()
+            )
+            == 0
+        ):
+            print("   ⚠️ Extrayendo desde HTML directo...")
+            await self.extraer_desde_html(contenido_html)
 
-        # Buscar menciones de cuatrimestres
-        patrones_cuatrimestre = re.findall(
-            r"(1er|2do|primer|segundo)\s+cuatrimestre\s+(\d{4})",
-            contenido,
-            re.IGNORECASE,
+    def identificar_cuatrimestre(self, titulo):
+        """Identifica el cuatrimestre según el título"""
+        titulo_lower = titulo.lower()
+
+        if "verano" in titulo_lower and "2025" in titulo:
+            return "verano_2025"
+        elif ("1er" in titulo_lower or "primer" in titulo_lower) and "2025" in titulo:
+            return "primer_cuatrimestre_2025"
+        elif ("2do" in titulo_lower or "segundo" in titulo_lower) and "2025" in titulo:
+            return "segundo_cuatrimestre_2025"
+
+        return None
+
+    def procesar_materias_cuatrimestre(self, cuatrimestre_key, materias_raw):
+        """Procesa las materias de un cuatrimestre específico"""
+        materias_procesadas = []
+
+        for materia_raw in materias_raw:
+            materia = materia_raw.get("materia", "").strip()
+            departamento = materia_raw.get("departamento", "").strip()
+            enlace = materia_raw.get("enlace", "").strip()
+
+            if materia and departamento:  # Solo agregar si tiene datos básicos
+                # Usar el normalizador inteligente
+                materia_normalizada = self.normalizador.normalizar_nombre_web(materia)
+                
+                # Solo agregar si se pudo normalizar correctamente
+                if materia_normalizada and len(materia_normalizada) >= 3:
+                    materia_data = {
+                        "materia": materia_normalizada,
+                        "materia_original": materia,  # Mantener original para debug
+                        "departamento": self.limpiar_departamento(departamento),
+                        "enlace": enlace if enlace else None,
+                    }
+                    materias_procesadas.append(materia_data)
+
+        self.materias_obligatorias["cuatrimestres"][
+            cuatrimestre_key
+        ] = materias_procesadas
+        print(
+            f"     ✅ {cuatrimestre_key}: {len(materias_procesadas)} materias agregadas"
         )
-        patrones_verano = re.findall(r"verano\s+(\d{4})", contenido, re.IGNORECASE)
 
-        # Buscar códigos de materia
-        patrones_codigo = re.findall(
-            r"\b\d{2}\.\d{2}\b|\b[A-Z]{2,4}\d{2,4}\b", contenido
-        )
-
-        # Buscar información de departamentos
-        patrones_depto = re.findall(
-            r"departamento\s+de\s+([a-záéíóúñ\s]+)", contenido, re.IGNORECASE
-        )
-
-        print(f"   📅 Patrones de cuatrimestre: {len(patrones_cuatrimestre)}")
-        print(f"   ☀️ Patrones de verano: {len(patrones_verano)}")
-        print(f"   🔢 Códigos encontrados: {len(patrones_codigo)}")
-        print(f"   🏢 Departamentos: {len(patrones_depto)}")
-
-        # Guardar patrones encontrados
-        self.materias_enriquecidas["metadata"]["patrones_encontrados"] = {
-            "cuatrimestres": patrones_cuatrimestre,
-            "veranos": patrones_verano,
-            "codigos": patrones_codigo[:10],  # Primeros 10
-            "departamentos": list(set(patrones_depto)),
-        }
-
-    async def analisis_alternativo(self):
-        """Análisis alternativo si falla la extracción principal"""
-        print("🔄 Ejecutando análisis alternativo...")
+    async def extraer_con_html_directo(self):
+        """Extrae datos directamente del HTML si falla CSS"""
+        print("🔄 Ejecutando extracción HTML directa...")
 
         async with AsyncWebCrawler(
             verbose=False,
@@ -195,306 +227,342 @@ class EnriquecedorMateriasObligatorias:
             result = await crawler.arun(url=self.url_obligatorias)
 
             if result and result.html:
-                print("✅ HTML obtenido para análisis alternativo")
+                print("✅ HTML obtenido para análisis directo")
+                await self.extraer_desde_html(result.html)
 
-                # Análisis básico del HTML
-                html_content = result.html
+    async def extraer_desde_html(self, html_content):
+        """Extrae materias desde HTML directo como fallback"""
+        print("🔍 Analizando HTML para extraer materias...")
 
-                # Buscar tablas
-                tablas = re.findall(r"<table[^>]*>.*?</table>", html_content, re.DOTALL)
-                print(f"   📊 Tablas encontradas: {len(tablas)}")
+        # Buscar headers de cuatrimestre y sus tablas siguientes
+        # Patrón: h2/h3 seguido de tabla
+        patron_seccion = r"<h[23][^>]*>([^<]*(?:cuatrimestre|verano)[^<]*)</h[23]>.*?<table[^>]*>(.*?)</table>"
+        secciones = re.findall(patron_seccion, html_content, re.DOTALL | re.IGNORECASE)
 
-                # Buscar enlaces de materias
-                enlaces = re.findall(
-                    r'<a[^>]*href="([^"]*)"[^>]*>([^<]*)</a>', html_content
-                )
-                enlaces_materias = [
-                    e
-                    for e in enlaces
-                    if "materia" in e[0].lower() or len(e[1].strip()) > 10
-                ]
-                print(f"   🔗 Enlaces de materias: {len(enlaces_materias)}")
+        print(f"   📅 Secciones encontradas: {len(secciones)}")
 
-                # Guardar análisis
-                with open("debug_html_obligatorias.html", "w", encoding="utf-8") as f:
-                    f.write(html_content)
-                print("   📁 HTML guardado en: debug_html_obligatorias.html")
+        for titulo, tabla_html in secciones:
+            cuatrimestre_key = self.identificar_cuatrimestre(titulo.strip())
+            if not cuatrimestre_key:
+                continue
 
-    async def enriquecer_materias_con_info_obligatorias(self, materias_obligatorias):
-        """Enriquece las materias base con información de materias obligatorias"""
-        print("🔗 Enriqueciendo materias con información de horarios...")
+            # Extraer filas de la tabla (saltando header)
+            filas = re.findall(r"<tr[^>]*>(.*?)</tr>", tabla_html, re.DOTALL)
+            materias = []
 
-        # Cargar materias base como referencia
+            for i, fila in enumerate(filas):
+                if i == 0:  # Saltar header
+                    continue
+
+                celdas = re.findall(r"<td[^>]*>(.*?)</td>", fila, re.DOTALL)
+                if len(celdas) >= 2:
+                    materia = re.sub(r"<[^>]+>", "", celdas[0]).strip()
+                    departamento = re.sub(r"<[^>]+>", "", celdas[1]).strip()
+
+                    # Buscar enlace en la tercera celda
+                    enlace = None
+                    if len(celdas) >= 3:
+                        enlace_match = re.search(r'href="([^"]+)"', celdas[2])
+                        if enlace_match:
+                            enlace = enlace_match.group(1)
+
+                    if materia and departamento:
+                        # Usar el normalizador inteligente
+                        materia_normalizada = self.normalizador.normalizar_nombre_web(materia)
+                        
+                        # Solo agregar si se pudo normalizar correctamente
+                        if materia_normalizada and len(materia_normalizada) >= 3:
+                            materias.append(
+                                {
+                                    "materia": materia_normalizada,
+                                    "materia_original": materia,  # Mantener original para debug
+                                    "departamento": self.limpiar_departamento(departamento),
+                                    "enlace": enlace,
+                                }
+                            )
+
+            self.materias_obligatorias["cuatrimestres"][cuatrimestre_key] = materias
+            print(f"     ✅ {cuatrimestre_key}: {len(materias)} materias extraídas")
+
+
+    def limpiar_departamento(self, departamento):
+        """Limpia el nombre del departamento"""
+        # Remover tags HTML residuales
+        departamento = re.sub(r"<[^>]+>", "", departamento)
+        # Limpiar espacios extra
+        departamento = re.sub(r"\s+", " ", departamento)
+        return departamento.strip()
+
+    def guardar_materias_obligatorias(self):
+        """Guarda las materias obligatorias en formato JSON"""
+        # Actualizar metadata
+        total_materias = sum(
+            len(materias)
+            for materias in self.materias_obligatorias["cuatrimestres"].values()
+        )
+        self.materias_obligatorias["metadata"]["total_materias"] = total_materias
+
+        # Guardar archivo
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+        os.makedirs(data_dir, exist_ok=True)
+        archivo_salida = os.path.join(data_dir, "materias_obligatorias.json")
+
+        with open(archivo_salida, "w", encoding="utf-8") as f:
+            json.dump(self.materias_obligatorias, f, ensure_ascii=False, indent=2)
+
+        print(f"\n💾 Materias obligatorias guardadas en: {archivo_salida}")
+        print(f"   📊 Total de materias: {total_materias}")
+
+        return archivo_salida
+
+    def enriquecer_materias_base(self):
+        """Enriquece materias_lcd_descubiertas.json con información de materias obligatorias"""
+        print("\n🔗 Enriqueciendo materias LCD descubiertas con datos de cuatrimestres...")
+
+        # Cargar materias base
         materias_base = self.cargar_materias_base()
         if not materias_base:
             print("   ⚠️ No se pudieron cargar materias base")
-            return
-
-        # Crear diccionario de referencia para búsqueda rápida
-        materias_referencia = {}
-        for ciclo in ["cbc", "segundo_ciclo", "tercer_ciclo"]:
-            for materia in materias_base.get(ciclo, []):
-                nombre_norm = self.normalizar_nombre_para_busqueda(materia["nombre"])
-                materias_referencia[nombre_norm] = {
-                    "ciclo": ciclo,
-                    "materia_original": materia,
-                }
-
-        print(f"   📋 Materias de referencia cargadas: {len(materias_referencia)}")
-
-        # Procesar materias obligatorias y buscar coincidencias
-        materias_enriquecidas = 0
-        cuatrimestres_detectados = set()
-
-        for materia_obl in materias_obligatorias:
-            if not materia_obl or not materia_obl.get("materia"):
-                continue
-
-            nombre_obl = materia_obl["materia"].strip()
-            nombre_norm = self.normalizar_nombre_para_busqueda(nombre_obl)
-
-            # Buscar coincidencia en materias de referencia
-            if nombre_norm in materias_referencia:
-                ref_data = materias_referencia[nombre_norm]
-                ciclo = ref_data["ciclo"]
-                materia_original = ref_data["materia_original"]
-
-                # Enriquecer la materia original con información de horarios
-                self.agregar_info_horarios(materia_original, materia_obl)
-
-                # Detectar cuatrimestre del enlace
-                cuatrimestre = self.extraer_cuatrimestre_de_url(
-                    materia_obl.get("enlace_web", "")
-                )
-                if cuatrimestre:
-                    cuatrimestres_detectados.add(cuatrimestre)
-                    materia_original["cuatrimestre_detectado"] = cuatrimestre
-
-                materias_enriquecidas += 1
-                print(f"     ✅ Enriquecida: {nombre_obl} -> {ciclo}")
-            else:
-                # Intentar coincidencia parcial
-                coincidencia_parcial = self.buscar_coincidencia_parcial(
-                    nombre_norm, materias_referencia
-                )
-                if coincidencia_parcial:
-                    ref_data = materias_referencia[coincidencia_parcial]
-                    materia_original = ref_data["materia_original"]
-                    self.agregar_info_horarios(materia_original, materia_obl)
-                    materias_enriquecidas += 1
-                    print(
-                        f"     🔄 Coincidencia parcial: {nombre_obl} -> {coincidencia_parcial}"
-                    )
-
-        print(f"   📊 Materias enriquecidas: {materias_enriquecidas}")
-        print(f"   📅 Cuatrimestres detectados: {sorted(cuatrimestres_detectados)}")
-
-        # Actualizar metadata con información de enriquecimiento
-        self.materias_enriquecidas["metadata"][
-            "materias_enriquecidas"
-        ] = materias_enriquecidas
-        self.materias_enriquecidas["metadata"]["cuatrimestres_detectados"] = sorted(
-            cuatrimestres_detectados
-        )
-        self.materias_enriquecidas["metadata"]["cuatrimestre_mas_actual"] = (
-            max(cuatrimestres_detectados) if cuatrimestres_detectados else None
-        )
-
-    def normalizar_nombre_para_busqueda(self, nombre):
-        """Normaliza nombre de materia para búsqueda"""
-        nombre = nombre.lower()
-        # Remover acentos
-        nombre = nombre.replace("á", "a").replace("é", "e").replace("í", "i")
-        nombre = nombre.replace("ó", "o").replace("ú", "u").replace("ñ", "n")
-        # Remover caracteres especiales y espacios extra
-        nombre = re.sub(r"[^\w\s]", " ", nombre)
-        nombre = re.sub(r"\s+", " ", nombre)
-        nombre = nombre.strip()
-        return nombre
-
-    def buscar_coincidencia_parcial(self, nombre_busqueda, materias_referencia):
-        """Busca coincidencias parciales en nombres de materias"""
-        palabras_busqueda = nombre_busqueda.split()
-
-        for nombre_ref in materias_referencia.keys():
-            palabras_ref = nombre_ref.split()
-
-            # Verificar si al menos 2 palabras coinciden
-            coincidencias = sum(
-                1 for palabra in palabras_busqueda if palabra in palabras_ref
-            )
-            if coincidencias >= 2 and len(palabras_busqueda) >= 2:
-                return nombre_ref
-
-        return None
-
-    def agregar_info_horarios(self, materia_original, materia_obligatoria):
-        """Agrega información de horarios a la materia original"""
-        if "info_horarios" not in materia_original:
-            materia_original["info_horarios"] = {}
-
-        info_horarios = materia_original["info_horarios"]
-        info_horarios["departamento_confirmado"] = materia_obligatoria.get(
-            "departamento", ""
-        )
-        info_horarios["enlace_horarios"] = materia_obligatoria.get("enlace_web", "")
-        info_horarios["codigo_materia"] = materia_obligatoria.get("codigo", "")
-        info_horarios["fuente_enriquecimiento"] = "materias_obligatorias_lcd"
-        info_horarios["fecha_enriquecimiento"] = datetime.now().isoformat()
-
-    def extraer_cuatrimestre_de_url(self, url):
-        """Extrae información de cuatrimestre de la URL"""
-        if not url:
             return None
 
-        # Buscar patrón cuatrimestre=X
-        match = re.search(r"cuatrimestre=([^&]+)", url)
-        if match:
-            cuatrimestre = match.group(1)
-            # Mapear códigos a nombres legibles
-            if cuatrimestre == "1":
-                return "2025_1er_cuatrimestre"
-            elif cuatrimestre == "2":
-                return "2025_2do_cuatrimestre"
-            elif cuatrimestre == "v":
-                return "2025_verano"
+        # Crear índice de materias obligatorias usando el normalizador
+        indice_obligatorias = {}
+        for cuatrimestre, materias in self.materias_obligatorias[
+            "cuatrimestres"
+        ].items():
+            for materia in materias:
+                # Usar el mismo normalizador para consistencia
+                nombre_norm = self.normalizador._preparar_para_matching(materia["materia"])
+                indice_obligatorias[nombre_norm] = {
+                    "cuatrimestre": cuatrimestre,
+                    "departamento": materia["departamento"],
+                    "enlace": materia["enlace"],
+                    "materia_normalizada": materia["materia"]  # Para debugging
+                }
+
+        # Enriquecer materias base
+        materias_enriquecidas = 0
+        matches_encontrados = []
+        
+        for materia in materias_base:
+            # En materias_lcd_descubiertas.json el campo es 'nombre', no 'materia'
+            nombre_materia = materia.get("nombre", materia.get("nombre_normalizado", ""))
+            nombre_norm = self.normalizador._preparar_para_matching(nombre_materia)
+            
+            if nombre_norm in indice_obligatorias:
+                info_obligatoria = indice_obligatorias[nombre_norm]
+                materia["cuatrimestre_disponible"] = info_obligatoria["cuatrimestre"]
+                materia["departamento_confirmado"] = info_obligatoria["departamento"]
+                materia["enlace_horarios"] = info_obligatoria["enlace"]
+                materia["es_obligatoria"] = True
+                materias_enriquecidas += 1
+                
+                # Para debugging
+                matches_encontrados.append({
+                    "original": nombre_materia,
+                    "match": info_obligatoria["materia_normalizada"],
+                    "cuatrimestre": info_obligatoria["cuatrimestre"]
+                })
             else:
-                return f"2025_{cuatrimestre}"
+                materia["es_obligatoria"] = False
 
-        # Buscar año en la URL
-        match_ano = re.search(r"ano=(\d{4})", url)
-        if match_ano:
-            return f"{match_ano.group(1)}_general"
+        print(
+            f"   ✅ Materias enriquecidas: {materias_enriquecidas}/{len(materias_base)}"
+        )
+        
+        # Mostrar algunos matches para debugging
+        if matches_encontrados:
+            print(f"\n🔍 Ejemplos de matches encontrados:")
+            for i, match in enumerate(matches_encontrados[:3]):
+                print(f"   • '{match['original']}' → '{match['match']}' ({match['cuatrimestre']})")
+            if len(matches_encontrados) > 3:
+                print(f"   ... y {len(matches_encontrados) - 3} más")
 
-        return None
+        # Guardar materias enriquecidas (mantiene estructura por ciclos)
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
+        
+        # Reconstruir estructura por ciclos para el archivo enriquecido
+        estructura_enriquecida = {
+            "cbc": [],
+            "segundo_ciclo": [],
+            "tercer_ciclo": [],
+            "metadata": {
+                "timestamp": datetime.now().isoformat(),
+                "fuente_base": "materias_lcd_descubiertas.json",
+                "fuente_enriquecimiento": "materias_obligatorias.json",
+                "metodo": "fase5_enriquecimiento_cuatrimestres",
+                "total_materias": len(materias_base),
+                "materias_enriquecidas": materias_enriquecidas,
+                "porcentaje_enriquecimiento": round((materias_enriquecidas/len(materias_base))*100, 1)
+            }
+        }
+        
+        # Separar materias enriquecidas por ciclo
+        for materia in materias_base:
+            ciclo = materia.get("ciclo", "sin_ciclo")
+            if ciclo in estructura_enriquecida:
+                estructura_enriquecida[ciclo].append(materia)
+        
+        archivo_enriquecido = os.path.join(data_dir, "materias_lcd_enriquecidas.json")
+
+        with open(archivo_enriquecido, "w", encoding="utf-8") as f:
+            json.dump(estructura_enriquecida, f, ensure_ascii=False, indent=2)
+
+        print(f"   💾 Archivo enriquecido guardado: {archivo_enriquecido}")
+        print(f"   📊 Porcentaje de enriquecimiento: {estructura_enriquecida['metadata']['porcentaje_enriquecimiento']}%")
+        return archivo_enriquecido
+
+
+    def generar_reporte_extraccion(self):
+        """Genera reporte de la extracción realizada"""
+        print("\n📊 REPORTE DE EXTRACCIÓN")
+        print("-" * 40)
+
+        total_materias = 0
+        for cuatrimestre, materias in self.materias_obligatorias[
+            "cuatrimestres"
+        ].items():
+            count = len(materias)
+            total_materias += count
+            print(f"   {cuatrimestre}: {count} materias")
+
+        print(f"\nTotal materias extraídas: {total_materias}")
+        print(f"Timestamp: {self.materias_obligatorias['metadata']['timestamp']}")
+        print(f"Fuente: {self.materias_obligatorias['metadata']['fuente']}")
+
+    def validar_datos_extraidos(self):
+        """Valida los datos extraídos"""
+        print("\n🔍 Validando datos extraídos...")
+
+        errores = []
+        total_materias = 0
+        nombres_normalizados = []
+
+        for cuatrimestre, materias in self.materias_obligatorias[
+            "cuatrimestres"
+        ].items():
+            for i, materia in enumerate(materias):
+                total_materias += 1
+
+                # Validar campos requeridos
+                if not materia.get("materia"):
+                    errores.append(f"{cuatrimestre}[{i}]: Falta nombre de materia")
+                if not materia.get("departamento"):
+                    errores.append(f"{cuatrimestre}[{i}]: Falta departamento")
+
+                # Validar longitud de nombres
+                if len(materia.get("materia", "")) < 3:
+                    errores.append(f"{cuatrimestre}[{i}]: Nombre muy corto")
+                
+                # Recopilar nombres para mostrar ejemplos de normalización
+                if materia.get("materia_original") and materia.get("materia"):
+                    original = materia["materia_original"]
+                    normalizado = materia["materia"]
+                    if original != normalizado:
+                        nombres_normalizados.append((original, normalizado))
+
+        if errores:
+            print(f"   ⚠️ {len(errores)} errores encontrados:")
+            for error in errores[:5]:  # Mostrar solo primeros 5
+                print(f"     - {error}")
+            if len(errores) > 5:
+                print(f"     ... y {len(errores) - 5} más")
+        else:
+            print(f"   ✅ Todos los datos válidos ({total_materias} materias)")
+        
+        # Mostrar ejemplos de normalización
+        if nombres_normalizados:
+            print(f"\n🔄 Ejemplos de normalización con Normalizador Inteligente ({len(nombres_normalizados)} materias):")
+            for i, (original, normalizado) in enumerate(nombres_normalizados[:3]):
+                print(f"   • '{original}' → '{normalizado}'")
+            if len(nombres_normalizados) > 3:
+                print(f"   ... y {len(nombres_normalizados) - 3} más normalizadas")
+            
+            # Mostrar estadísticas del normalizador
+            stats = self.normalizador.obtener_estadisticas()
+            print(f"\n📊 Estadísticas del Normalizador:")
+            print(f"   • Materias base: {stats['total_materias_base']}")
+            print(f"   • Variaciones en índice: {stats['total_variaciones_indice']}")
+
+        return len(errores) == 0
 
     def cargar_materias_base(self):
-        """Carga las materias base desde el archivo utilizado por los componentes superiores"""
+        """Carga las materias base desde materias_lcd_descubiertas.json"""
         archivo_base = os.path.join(
-            os.path.dirname(os.path.dirname(__file__)), "data", "materias.json"
+            os.path.dirname(os.path.dirname(__file__)), "data", "materias_lcd_descubiertas.json"
         )
 
         if os.path.exists(archivo_base):
             with open(archivo_base, "r", encoding="utf-8") as f:
-                materias_lista = json.load(f)
+                datos_estructurados = json.load(f)
 
-            # Convertir lista plana a estructura por ciclos para compatibilidad
-            materias_por_ciclo = {
-                "cbc": [],
-                "segundo_ciclo": [],
-                "tercer_ciclo": [],
-                "metadata": {
-                    "total_materias": len(materias_lista),
-                    "fuente": "data/materias.json",
-                    "estructura": "lista_plana_convertida",
-                },
-            }
+            # Convertir estructura por ciclos a lista plana para compatibilidad
+            materias_lista = []
+            
+            # Procesar CBC
+            for materia in datos_estructurados.get("cbc", []):
+                materias_lista.append(materia)
+            
+            # Procesar segundo ciclo
+            for materia in datos_estructurados.get("segundo_ciclo", []):
+                materias_lista.append(materia)
+            
+            # Procesar tercer ciclo
+            for materia in datos_estructurados.get("tercer_ciclo", []):
+                materias_lista.append(materia)
 
-            for materia in materias_lista:
-                ciclo = materia.get("ciclo", "")
-
-                # Mapear nombres de ciclos
-                if ciclo == "CBC":
-                    materias_por_ciclo["cbc"].append(
-                        {
-                            "nombre": materia.get("materia", ""),
-                            "descripcion": materia.get("descripcion", ""),
-                            "ciclo": "cbc",
-                        }
-                    )
-                elif ciclo == "Segundo Ciclo de Grado":
-                    materias_por_ciclo["segundo_ciclo"].append(
-                        {
-                            "nombre": materia.get("materia", ""),
-                            "descripcion": materia.get("descripcion", ""),
-                            "ciclo": "segundo_ciclo",
-                        }
-                    )
-                elif ciclo == "Tercer Ciclo de Grado":
-                    materias_por_ciclo["tercer_ciclo"].append(
-                        {
-                            "nombre": materia.get("materia", ""),
-                            "descripcion": materia.get("descripcion", ""),
-                            "ciclo": "tercer_ciclo",
-                        }
-                    )
-
-            print(f"✅ Materias cargadas desde {archivo_base}")
-            print(f"   📊 CBC: {len(materias_por_ciclo['cbc'])}")
-            print(f"   📊 Segundo Ciclo: {len(materias_por_ciclo['segundo_ciclo'])}")
-            print(f"   📊 Tercer Ciclo: {len(materias_por_ciclo['tercer_ciclo'])}")
-
-            return materias_por_ciclo
+            print(f"✅ Materias LCD descubiertas cargadas: {len(materias_lista)}")
+            print(f"   📊 CBC: {len(datos_estructurados.get('cbc', []))} materias")
+            print(f"   📊 Segundo Ciclo: {len(datos_estructurados.get('segundo_ciclo', []))} materias")
+            print(f"   📊 Tercer Ciclo: {len(datos_estructurados.get('tercer_ciclo', []))} caminos")
+            return materias_lista
         else:
             print(f"⚠️ No se encontró archivo base: {archivo_base}")
+            print(f"   💡 Ejecutar primero: python descubrimiento/descubrir_materias_completo.py")
             return None
 
-    async def enriquecer_materias_completo(self):
-        """Ejecuta el proceso completo de enriquecimiento"""
-        print("🚀 INICIANDO FASE 5: ENRIQUECIMIENTO DE MATERIAS")
+    async def ejecutar_extraccion_completa(self):
+        """Ejecuta el proceso completo de extracción"""
+        print("🚀 INICIANDO FASE 5: EXTRACCIÓN DE MATERIAS OBLIGATORIAS")
         print("=" * 60)
-
-        # Cargar materias base
-        print("📂 Cargando materias base...")
-        materias_base = self.cargar_materias_base()
-
-        if materias_base:
-            print(
-                f"   ✅ Cargadas: {materias_base['metadata']['total_materias']} materias base"
-            )
-            self.materias_enriquecidas = materias_base.copy()
-        else:
-            print("   ⚠️ No se encontraron materias base, continuando sin ellas")
-
-        # Extraer información adicional
-        await self.extraer_informacion_obligatorias()
-
-        # Generar reporte
-        self.generar_reporte_enriquecimiento()
-
-        # Guardar resultados
-        self.guardar_resultados_enriquecidos()
-
-        print("\n✅ FASE 5 - PASO 1 COMPLETADO")
-        print("=" * 60)
-
-    def generar_reporte_enriquecimiento(self):
-        """Genera reporte del proceso de enriquecimiento"""
-        print("\n📊 REPORTE DE ENRIQUECIMIENTO")
-        print("-" * 40)
-
-        metadata = self.materias_enriquecidas["metadata"]
-        patrones = metadata.get("patrones_encontrados", {})
-
-        print(f"Fecha: {metadata.get('fecha_enriquecimiento', 'N/A')}")
-        print(f"Fuente: {metadata.get('fuente_enriquecimiento', 'N/A')}")
+        print("🧠 Normalizador Inteligente integrado")
+        
+        # Mostrar estadísticas del normalizador
+        stats = self.normalizador.obtener_estadisticas()
+        print(f"   📋 {stats['total_materias_base']} materias base cargadas")
+        print(f"   🔗 {stats['total_variaciones_indice']} variaciones para matching")
         print()
-        print("Patrones encontrados:")
-        print(f"  • Cuatrimestres: {len(patrones.get('cuatrimestres', []))}")
-        print(f"  • Veranos: {len(patrones.get('veranos', []))}")
-        print(f"  • Códigos: {len(patrones.get('codigos', []))}")
-        print(f"  • Departamentos: {len(patrones.get('departamentos', []))}")
 
-    def guardar_resultados_enriquecidos(self):
-        """Guarda los resultados enriquecidos"""
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        archivo_enriquecido = f"materias_lcd_enriquecidas_{timestamp}.json"
+        # Extraer materias obligatorias
+        await self.extraer_materias_obligatorias()
 
-        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-        os.makedirs(data_dir, exist_ok=True)
-        ruta_completa = os.path.join(data_dir, archivo_enriquecido)
+        # Validar datos
+        datos_validos = self.validar_datos_extraidos()
 
-        with open(ruta_completa, "w", encoding="utf-8") as f:
-            json.dump(self.materias_enriquecidas, f, ensure_ascii=False, indent=2)
+        if datos_validos:
+            # Guardar datos
+            archivo_guardado = self.guardar_materias_obligatorias()
 
-        print(f"\n💾 Resultados enriquecidos guardados en: {ruta_completa}")
-        return ruta_completa
+            # Generar reporte
+            self.generar_reporte_extraccion()
+
+            # Enriquecer materias base
+            self.enriquecer_materias_base()
+
+            print("\n✅ FASE 5 COMPLETADA EXITOSAMENTE")
+            print("=" * 60)
+
+            return archivo_guardado
+        else:
+            print("\n❌ FASE 5 COMPLETADA CON ERRORES")
+            print("   Revisar datos extraídos antes de continuar")
+            return None
 
 
 async def main():
     """Función principal"""
-    enriquecedor = EnriquecedorMateriasObligatorias()
-    await enriquecedor.enriquecer_materias_completo()
+    extractor = ExtractorMateriasObligatorias()
+    await extractor.ejecutar_extraccion_completa()
 
 
 if __name__ == "__main__":

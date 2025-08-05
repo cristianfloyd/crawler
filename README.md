@@ -60,6 +60,8 @@ crawler/
 ├── 📁 descubrimiento/          # Descubrimiento y mapeo de sitios
 │   ├── descubrir_sitios.py     # Script principal de descubrimiento
 │   ├── analisis_links.py       # Análisis de enlaces y patrones
+│   ├── enriquecer_materias_obligatorias.py # Extractor Fase 5 de materias por cuatrimestre
+│   ├── normalizador_nombres_materias.py # Normalizador inteligente de nombres
 │   └── inventario_sitios.json  # Mapeo completo de sitios
 │
 ├── 🕷️ scrapers/                # Scrapers especializados
@@ -97,7 +99,9 @@ crawler/
 └── 📖 docs/                    # Documentación
     ├── plan_mvp_horarios.md    # Plan estratégico del MVP
     ├── plan_rag_materias.md    # Plan completo del sistema RAG
-    └── checklist_completo_mvp.md # Checklist de desarrollo
+    ├── checklist_completo_mvp.md # Checklist de desarrollo
+    └── descubrimiento/         # Documentación específica de descubrimiento
+        └── fase5_materias_obligatorias.md # Documentación Fase 5
 ```
 
 ## 🎮 Uso del Sistema
@@ -153,11 +157,14 @@ python src/pipeline_rag_completo.py
 ## 📊 Métricas y Performance
 
 ### Cobertura de Datos
-- **108 materias** procesadas exitosamente
+- **108 materias** procesadas exitosamente (scrapers especializados)
+- **53 materias obligatorias** extraídas por cuatrimestre (Fase 5)
+- **32 materias base** normalizadas en sistema de matching
 - **3 departamentos** principales cubiertos:
   - Departamento de Computación: 52% cobertura
   - Departamento de Matemática: 45% cobertura  
   - Instituto de Cálculo: 27% cobertura
+- **3 cuatrimestres** disponibles: Verano 2025, 1er y 2do cuatrimestre 2025
 
 ### Performance del Sistema
 - **18.2ms** tiempo promedio de respuesta
@@ -201,6 +208,9 @@ python tests/test_conflictos_horarios.py
 # Actualizar datos de un departamento específico
 python scrapers/scraper_horarios_dc.py
 
+# Extraer materias obligatorias por cuatrimestre (Fase 5)
+python descubrimiento/enriquecer_materias_obligatorias.py
+
 # Procesar y actualizar RAG
 python src/procesar_datos_unificado.py
 python src/sistema_embeddings_horarios.py
@@ -225,6 +235,25 @@ python src/consultar_horarios_rag.py --stats
 3. **Actualizar coordinador** en `run_scraper.py`
 4. **Ejecutar procesamiento** con `procesar_datos_unificado.py`
 
+### Normalización de Nombres de Materias
+
+```python
+# Usar el normalizador inteligente
+from descubrimiento.normalizador_nombres_materias import NormalizadorNombresMaterias
+
+normalizador = NormalizadorNombresMaterias()
+resultado = normalizador.normalizar_nombre_web(
+    "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro..."
+)
+# Resultado: "Fisica I"
+```
+
+### Características del Normalizador
+- **CamelCase sin acentos**: "análisis" → "Analisis"
+- **Números arábigos → romanos**: "1" → "I", "2" → "II"
+- **Limpieza inteligente**: Elimina texto descriptivo y paréntesis
+- **Matching robusto**: 32 materias base con múltiples variaciones
+
 ### Configuración Avanzada
 
 ```python
@@ -237,6 +266,8 @@ EMBEDDING_MODEL = "modelo-embedding-personalizado"
 ## 📈 Roadmap y Expansión
 
 ### Próximas Características (Planificadas)
+- ✅ **Extracción por cuatrimestre**: Fase 5 completada (53 materias obligatorias)
+- ✅ **Normalizador inteligente**: Sistema de matching avanzado
 - 🔜 **Más departamentos**: Física, Química, Ciencias de la Atmósfera
 - 🔜 **API REST**: Interfaz programática para integraciones
 - 🔜 **Interface Web**: Dashboard interactivo con React

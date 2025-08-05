@@ -118,10 +118,10 @@ class DescubridorMateriasCompleto:
     async def ejecutar_normalizacion(self, archivo_entrada: str) -> str:
         """Ejecuta la normalización de nombres"""
         try:
-            from fase2_normalizar_nombres_automatico import NormalizadorNombresLCD
+            from normalizador_nombres_materias import NormalizadorNombresMaterias
             
-            # Crear normalizador usando el archivo extraído
-            normalizador = NormalizadorNombresLCD()
+            # Crear normalizador usando el nuevo sistema unificado
+            normalizador = NormalizadorNombresMaterias()
             
             # Ejecutar normalización completa
             archivo_normalizado = normalizador.ejecutar_fase2_completa(os.path.basename(archivo_entrada))

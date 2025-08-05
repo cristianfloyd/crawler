@@ -32,11 +32,11 @@ def ejecutar_fase2_completa():
         print("🔄 PASO 1: Ejecutando normalización automática...")
         print("-" * 50)
         
-        # Importar y ejecutar el normalizador
+        # Importar y ejecutar el normalizador unificado
         sys.path.append(os.path.dirname(__file__))
-        from fase2_normalizar_nombres_automatico import NormalizadorNombresLCD
+        from normalizador_nombres_materias import NormalizadorNombresMaterias
         
-        normalizador = NormalizadorNombresLCD()
+        normalizador = NormalizadorNombresMaterias()
         archivo_resultado = normalizador.ejecutar_fase2_completa()
         
         print(f"\n✅ PASO 1 COMPLETADO")
@@ -108,8 +108,8 @@ def verificar_prerrequisitos():
     """Verifica que existan los archivos necesarios"""
     
     archivos_necesarios = [
-        "materias_lcd_css_final.json",  # En directorio data
-        "fase2_normalizar_nombres_automatico.py",
+        "materias.json",  # En directorio data
+        "normalizador_nombres_materias.py",
         "actualizar_checklist_fase2.py",
         "plan_mejoras_checklist_descubrimiento_materias.md"
     ]
@@ -118,7 +118,7 @@ def verificar_prerrequisitos():
     
     # Verificar archivo de datos
     data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
-    archivo_datos = os.path.join(data_dir, "materias_lcd_css_final.json")
+    archivo_datos = os.path.join(data_dir, "materias.json")
     
     if not os.path.exists(archivo_datos):
         print(f"❌ Falta archivo de datos: {archivo_datos}")

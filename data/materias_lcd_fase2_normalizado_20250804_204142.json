@@ -1,64 +1,64 @@
 {
   "cbc": [
     {
-      "nombre": "introduccion al conocimiento de la sociedad y el estado",
-      "nombre_normalizado": "introduccion al conocimiento de la sociedad y el estado",
+      "nombre": "Introducción al Conocimiento de la Sociedad y el Estado",
+      "nombre_normalizado": "Introducción al Conocimiento de la Sociedad y el Estado",
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "introduccion al pensamiento cientifico",
-      "nombre_normalizado": "introduccion al pensamiento cientifico",
+      "nombre": "Introducción al Pensamiento Científico",
+      "nombre_normalizado": "Introducción al Pensamiento Científico",
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "analisis matematico",
-      "nombre_normalizado": "analisis matematico",
+      "nombre": "Análisis Matemático A",
+      "nombre_normalizado": "Análisis Matemático a",
       "ciclo": "cbc",
       "departamento_probable": "matematica",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "algebra",
-      "nombre_normalizado": "algebra",
+      "nombre": "Álgebra",
+      "nombre_normalizado": "Álgebra",
       "ciclo": "cbc",
       "departamento_probable": "matematica",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "seleccionar ii materias electivas de las iii opciones",
-      "nombre_normalizado": "seleccionar ii materias electivas de las iii opciones",
+      "nombre": "Seleccionar II Materias Electivas de Las III Opciones",
+      "nombre_normalizado": "Seleccionar II Materias Electivas de Las III Opciones",
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "quimica",
-      "nombre_normalizado": "quimica",
+      "nombre": "Química (electiva)",
+      "nombre_normalizado": "Química (electiva)",
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "fisica",
-      "nombre_normalizado": "fisica",
+      "nombre": "Física (electiva)",
+      "nombre_normalizado": "Física (electiva)",
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "pensamiento computacional",
-      "nombre_normalizado": "pensamiento computacional",
+      "nombre": "Pensamiento Computacional (electiva)",
+      "nombre_normalizado": "Pensamiento Computacional (electiva)",
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
@@ -67,48 +67,48 @@
   ],
   "segundo_ciclo": [
     {
-      "nombre": "algebra i",
-      "nombre_normalizado": "algebra i",
+      "nombre": "Álgebra I",
+      "nombre_normalizado": "Álgebra I",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "Algoritmos y Estructuras de Datos i",
-      "nombre_normalizado": "Algoritmos y Estructuras de Datos i",
+      "nombre": "Algoritmos y Estructuras de Datos I",
+      "nombre_normalizado": "Algoritmos y Estructuras de Datos I",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "analisis i",
-      "nombre_normalizado": "analisis i",
+      "nombre": "Análisis I",
+      "nombre_normalizado": "Análisis I",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "electiva de introduccion a las ciencias naturales",
-      "nombre_normalizado": "electiva de introduccion a las ciencias naturales",
+      "nombre": "Electiva de Introducción A Las Ciencias Naturales",
+      "nombre_normalizado": "Electiva de Introducción A Las Ciencias Naturales",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "cbc",
       "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "analisis ii",
-      "nombre_normalizado": "analisis ii",
+      "nombre": "Análisis II",
+      "nombre_normalizado": "Análisis II",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "Algoritmos y Estructuras de Datos ii",
-      "nombre_normalizado": "Algoritmos y Estructuras de Datos ii",
+      "nombre": "Algoritmos y Estructuras de Datos II",
+      "nombre_normalizado": "Algoritmos y Estructuras de Datos II",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas.",
@@ -123,16 +123,16 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "analisis avanzado",
-      "nombre_normalizado": "analisis avanzado",
+      "nombre": "Análisis Avanzado",
+      "nombre_normalizado": "Análisis Avanzado",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "algebra lineal computacional",
-      "nombre_normalizado": "algebra lineal computacional",
+      "nombre": "Álgebra Lineal Computacional",
+      "nombre_normalizado": "Álgebra Lineal Computacional",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel.",
@@ -147,32 +147,32 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "Algoritmos y Estructura de Datos iii",
-      "nombre_normalizado": "Algoritmos y Estructura de Datos iii",
+      "nombre": "Algoritmos y Estructura de Datos III",
+      "nombre_normalizado": "Algoritmos y Estructura de Datos III",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "introduccion a la estadistica y ciencia de datos",
-      "nombre_normalizado": "introduccion a la estadistica y ciencia de datos",
+      "nombre": "Introducción A la Estadística y Ciencia de Datos",
+      "nombre_normalizado": "Introducción A la Estadística y Ciencia de Datos",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "introduccion a la investigacion operativa y optimizacion",
-      "nombre_normalizado": "introduccion a la investigacion operativa y optimizacion",
+      "nombre": "Introducción A la Investigación Operativa y Optimización",
+      "nombre_normalizado": "Introducción A la Investigación Operativa y Optimización",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "investigacion_operativa",
       "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "introduccion al modelado continuo",
-      "nombre_normalizado": "introduccion al modelado continuo",
+      "nombre": "Introducción al Modelado Continuo",
+      "nombre_normalizado": "Introducción al Modelado Continuo",
       "ciclo": "segundo_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas.",
@@ -189,23 +189,23 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "investigacion operativa y optimizacion",
-      "nombre_normalizado": "investigacion operativa y optimizacion",
+      "nombre": "Investigación Operativa y Optimización",
+      "nombre_normalizado": "Investigación Operativa y Optimización",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "investigacion_operativa",
       "descripcion": "Camino: Herramientas y técnicas para ayudar a optimizar la toma de decisiones en gestión, logística y muchas otras áreas.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "estadistica matematica-computacional",
-      "nombre_normalizado": "estadistica matematica-computacional",
+      "nombre": "Estadística Matemática-computacional",
+      "nombre_normalizado": "Estadística Matemática-computacional",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "estadistica",
       "descripcion": "Camino: La matemática detrás de las técnicas para el tratamiento de los datos.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "Modelado continuo",
+      "nombre": "Modelado Continuo",
       "nombre_normalizado": "Modelado Continuo",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
@@ -213,8 +213,8 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "sistemas estocasticos y complejos",
-      "nombre_normalizado": "sistemas estocasticos y complejos",
+      "nombre": "Sistemas Estocásticos y Complejos",
+      "nombre_normalizado": "Sistemas Estocásticos y Complejos",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: El estudio de sistemas con muchísimas componentes que interactúan: moléculas, miembros de redes sociales, autos en una autopista, multitudes, etc.",
@@ -229,24 +229,24 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "procesamiento de senales",
-      "nombre_normalizado": "procesamiento de senales",
+      "nombre": "Procesamiento de Señales",
+      "nombre_normalizado": "Procesamiento de Señales",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Teoría y métodos para el estudio, análisis y modificación y sintetización de señales. Típicamente sonido, imágenes, video o mediciones científicas.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "ciencias de la atmosfera",
-      "nombre_normalizado": "ciencias de la atmosfera",
+      "nombre": "Ciencias de la Atmósfera",
+      "nombre_normalizado": "Ciencias de la Atmósfera",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: El estudio de la atmósfera terrestre.",
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "bioinformatica",
-      "nombre_normalizado": "bioinformatica",
+      "nombre": "Bioinformática",
+      "nombre_normalizado": "Bioinformática",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Matemática y Computación para el análisis de datos biológicos.",
@@ -261,8 +261,8 @@
       "fuente": "crawl4ai_css_auto_generated"
     },
     {
-      "nombre": "ciencias economicas",
-      "nombre_normalizado": "ciencias economicas",
+      "nombre": "Ciencias Económicas",
+      "nombre_normalizado": "Ciencias Económicas",
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: ",
@@ -270,37 +270,23 @@
     }
   ],
   "metadata": {
-    "fecha_extraccion": "2025-08-05T00:06:15.171124",
+    "fecha_extraccion": "2025-08-03T15:58:57.941103",
     "fuente": "https://lcd.exactas.uba.ar/materias",
     "metodo": "crawl4ai_css_selectors_auto_generated",
     "version": "auto_generated_schema",
     "esquema_css": "lcd_css_schema_generado_por_llm_ccode.json",
     "total_materias": 33,
-    "fecha_normalizacion": "2025-08-05T00:06:24.711367",
+    "fecha_normalizacion": "2025-08-04T20:41:42.291484",
     "fase2_completada": true,
     "cambios_normalizacion": {
       "materias_procesadas": 33,
-      "cambios_realizados": 33,
+      "cambios_realizados": 25,
       "tipos_cambios": {
-        "mayusculas_corregidas": 24,
-        "abreviaciones_expandidas": 0,
-        "caracteres_limpiados": 1,
-        "numeros_romanos_corregidos": 8
+        "mayusculas_corregidas": 9,
+        "abreviaciones_expandidas": 4,
+        "caracteres_limpiados": 2,
+        "numeros_romanos_corregidos": 10
       }
-    },
-    "punto_entrada": "descubrir_materias_completo.py",
-    "archivo_consumible": true,
-    "version_api": "1.0",
-    "formato_estable": true,
-    "descripcion": "Materias LCD extraídas y normalizadas para consumo por scrapers",
-    "estadisticas_proceso": {
-      "inicio": "2025-08-05T00:06:11.673015",
-      "fin": null,
-      "duracion_segundos": 0,
-      "materias_extraidas": 33,
-      "materias_normalizadas": 33,
-      "cambios_normalizacion": 33,
-      "exito": false
     }
   }
 }

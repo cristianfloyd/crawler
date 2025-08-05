@@ -1,0 +1,335 @@
+{
+  "cuatrimestres": {
+    "verano_2025": [
+      {
+        "materia": "algebra i",
+        "materia_original": "Algebra I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=v"
+      },
+      {
+        "materia": "analisis i",
+        "materia_original": "Análisis I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=v"
+      },
+      {
+        "materia": "analisis ii",
+        "materia_original": "Análisis II",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=v"
+      },
+      {
+        "materia": "fisica",
+        "materia_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "laboratorio i",
+        "materia_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "laboratorio de datos",
+        "materia_original": "Laboratorio de Datos",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "mecanica y termodinamica",
+        "materia_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      }
+    ],
+    "primer_cuatrimestre_2025": [
+      {
+        "materia": "algebra i",
+        "materia_original": "Álgebra I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "algebra lineal computacional",
+        "materia_original": "Algebra Lineal Computacional",
+        "departamento": "Departamento de Computación, Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "algoritmos y estructuras de datos i",
+        "materia_original": "Algoritmos y Estructuras de Datos I",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "algoritmos y estructuras de datos ii",
+        "materia_original": "Algoritmos y Estructuras de Datos II",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "algoritmos y estructura de datos iii",
+        "materia_original": "Algoritmos y Estructuras de Datos III",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "analisis avanzado",
+        "materia_original": "Análisis Avanzado",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "analisis i",
+        "materia_original": "Análisis I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "analisis ii",
+        "materia_original": "Análisis II",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "fisica",
+        "materia_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "fisica",
+        "materia_original": "Física 1 (Q) - Electiva de Intro. a las Cs. Naturales",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "introduccion a la estadistica y ciencia de datos",
+        "materia_original": "Intr. a la Estadística y Ciencia de Datos",
+        "departamento": "Instituto de Cálculo",
+        "enlace": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      {
+        "materia": "introduccion a la investigacion operativa y optimizacion",
+        "materia_original": "Intr. a la Investigación Operativa y Optimización",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "introduccion al modelado continuo",
+        "materia_original": "Intro. al Modelado Continuo",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "introduccion a la biologia molecular y celular",
+        "materia_original": "Introducción a la Biología Molecular y Celular - Electiva de Intro. a las Cs. Naturales",
+        "departamento": "Departamento de Fisiología, Biología Molecular y Celular",
+        "enlace": "https://www.fbmc.fcen.uba.ar/estudiantes/licenciatura/materias-de-grado/"
+      },
+      {
+        "materia": "laboratorio i",
+        "materia_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "laboratorio de datos",
+        "materia_original": "Laboratorio de Datos",
+        "departamento": "Departamento de Computación, Departamento de Física, Instituto de Cálculo",
+        "enlace": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      {
+        "materia": "mecanica y termodinamica",
+        "materia_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "mecanica y termodinamica",
+        "materia_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "meteorologia general",
+        "materia_original": "Meteorología General (Lic. Cs. Atmósfera) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "enlace": "http://www.at.fcen.uba.ar/"
+      },
+      {
+        "materia": "oceanografia general",
+        "materia_original": "Oceanografía General (Lic. Cs. Oceanográficas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "enlace": "http://www.at.fcen.uba.ar/"
+      },
+      {
+        "materia": "probabilidad",
+        "materia_original": "Probabilidad",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=1"
+      },
+      {
+        "materia": "quimica",
+        "materia_original": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.) - Electiva de Intro. a las Cs. Naturales",
+        "departamento": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "enlace": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      {
+        "materia": "quimica",
+        "materia_original": "Química General e Inorgánica (Lic. en Cs. Químicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "enlace": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      {
+        "materia": "tesis de licenciatura",
+        "materia_original": "Tesis de Licenciatura",
+        "departamento": "Instituto de Cálculo",
+        "enlace": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      }
+    ],
+    "segundo_cuatrimestre_2025": [
+      {
+        "materia": "algebra i",
+        "materia_original": "Algebra I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "algebra lineal computacional",
+        "materia_original": "Algebra Lineal Computacional",
+        "departamento": "Departamento de Computación, Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "algoritmos y estructuras de datos i",
+        "materia_original": "Algoritmos y Estructuras de Datos I",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "algoritmos y estructuras de datos ii",
+        "materia_original": "Algoritmos y Estructuras de Datos II",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "algoritmos y estructura de datos iii",
+        "materia_original": "Algoritmos y Estructuras de Datos III",
+        "departamento": "Departamento de Computación",
+        "enlace": "https://www.dc.uba.ar/cursada-de-grado/"
+      },
+      {
+        "materia": "analisis avanzado",
+        "materia_original": "Análisis Avanzado",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "analisis i",
+        "materia_original": "Análisis I",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "analisis ii",
+        "materia_original": "Análisis II",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "fisica",
+        "materia_original": "Física 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "fisica",
+        "materia_original": "Física 1 (Q) - Electiva de Intro. a las Cs. Naturales",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "fundamentos de biologia molecular y fisiologia celular",
+        "materia_original": "Fundamentos de Biología Molecular y Fisiología Celular - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Fisiología, Biología Molecular y Celular",
+        "enlace": "https://www.fbmc.fcen.uba.ar/estudiantes/licenciatura/materias-de-grado/"
+      },
+      {
+        "materia": "introduccion a la estadistica y ciencia de datos",
+        "materia_original": "Intr. a la Estadística y Ciencia de Datos",
+        "departamento": "Instituto de Cálculo",
+        "enlace": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      },
+      {
+        "materia": "introduccion a la investigacion operativa y optimizacion",
+        "materia_original": "Intr. a la Investigación Operativa y Optimización",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "introduccion al modelado continuo",
+        "materia_original": "Intr. al Modelado Continuo",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "laboratorio i",
+        "materia_original": "Laboratorio 1 (Lic. en Cs. Físicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "laboratorio de datos",
+        "materia_original": "Laboratorio de Datos",
+        "departamento": "Departamento de Computación, Departamento de Física, Instituto de Cálculo",
+        "enlace": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/cursos"
+      },
+      {
+        "materia": "mecanica y termodinamica",
+        "materia_original": "Mecánica y Termodinámica - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Física",
+        "enlace": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes"
+      },
+      {
+        "materia": "meteorologia general",
+        "materia_original": "Meteorología General (Lic. Cs. Atmósfera) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Ciencias de la Atmósfera y los Océanos",
+        "enlace": "http://www.at.fcen.uba.ar/"
+      },
+      {
+        "materia": "probabilidad",
+        "materia_original": "Probabilidad",
+        "departamento": "Departamento de Matemática",
+        "enlace": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2"
+      },
+      {
+        "materia": "quimica",
+        "materia_original": "Química General e Inorgánica (Lic. En Cs. Biol. y Geo.) - Electiva de Intro. a las Cs. Naturales",
+        "departamento": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "enlace": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      {
+        "materia": "quimica",
+        "materia_original": "Química General e Inorgánica (Lic. en Cs. Químicas) - Electiva de Intro. a las Cs. Naturales (solicitar equivalencia)",
+        "departamento": "Departamento de Química Inorgánica, Analítica y Química Física",
+        "enlace": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias"
+      },
+      {
+        "materia": "tesis de licenciatura",
+        "materia_original": "Tesis de Licenciatura",
+        "departamento": "Instituto de Cálculo",
+        "enlace": "https://ic.fcen.uba.ar/actividades-academicas/formacion/materias"
+      }
+    ]
+  },
+  "metadata": {
+    "timestamp": "2025-08-05T01:13:57.533998",
+    "fuente": "https://lcd.exactas.uba.ar/materias-obligatorias/",
+    "metodo": "crawl4ai_css_extraction_con_normalizador",
+    "version": "fase5_v3_normalizador_integrado",
+    "total_materias": 53
+  }
+}

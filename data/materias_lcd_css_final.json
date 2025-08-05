@@ -270,7 +270,7 @@
     }
   ],
   "metadata": {
-    "fecha_extraccion": "2025-08-03T15:58:57.941103",
+    "fecha_extraccion": "2025-08-05T00:06:15.171124",
     "fuente": "https://lcd.exactas.uba.ar/materias",
     "metodo": "crawl4ai_css_selectors_auto_generated",
     "version": "auto_generated_schema",

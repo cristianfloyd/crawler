@@ -6,7 +6,8 @@
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "introduccion al pensamiento cientifico",
@@ -14,7 +15,8 @@
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "analisis matematico",
@@ -22,7 +24,8 @@
       "ciclo": "cbc",
       "departamento_probable": "matematica",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "algebra",
@@ -30,7 +33,8 @@
       "ciclo": "cbc",
       "departamento_probable": "matematica",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "seleccionar ii materias electivas de las iii opciones",
@@ -38,7 +42,8 @@
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "quimica",
@@ -46,7 +51,11 @@
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Química Inorgánica, Analítica y Química Física",
+      "enlace_horarios": "http://www.qi.fcen.uba.ar/estudiantes/materias/obligatorias",
+      "es_obligatoria": true
     },
     {
       "nombre": "fisica",
@@ -54,7 +63,11 @@
       "ciclo": "cbc",
       "departamento_probable": "por_determinar",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Física",
+      "enlace_horarios": "https://www.df.uba.ar/es/docentes/distribucion-de-horarios-y-docentes",
+      "es_obligatoria": true
     },
     {
       "nombre": "pensamiento computacional",
@@ -62,7 +75,8 @@
       "ciclo": "cbc",
       "departamento_probable": "cbc",
       "descripcion": "Materia del Ciclo Básico Común",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     }
   ],
   "segundo_ciclo": [
@@ -72,7 +86,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Un primer acercamiento al maravilloso mundo de los números, de las estructuras matemáticas y  de sus métodos de demostración.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "Algoritmos y Estructuras de Datos i",
@@ -80,7 +98,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Vas a ver cómo resolver problemas mediante el uso de algoritmos, cómo dar demostraciones rigurosas de su comportamiento y cómo programarlos.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Computación",
+      "enlace_horarios": "https://www.dc.uba.ar/cursada-de-grado/",
+      "es_obligatoria": true
     },
     {
       "nombre": "analisis i",
@@ -88,7 +110,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Derivadas, integrales y herramientas potentes para entender a las funciones que dependen de varias variables.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "electiva de introduccion a las ciencias naturales",
@@ -96,7 +122,8 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "cbc",
       "descripcion": "Una materia electiva para meterse en el mundo de las Ciencias naturales. Podes elegir una entre biología, química y física.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "analisis ii",
@@ -104,7 +131,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Más integrales, los fundamentales teoremas de Green, Gauss y Stokes y ecuaciones diferenciales.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "Algoritmos y Estructuras de Datos ii",
@@ -112,7 +143,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Estructuras de datos fundamentales para poder dar soluciones eficientes. Cómo resolver problemas complejos mediante el uso de abstracción y técnicas algorítmicas.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Computación",
+      "enlace_horarios": "https://www.dc.uba.ar/cursada-de-grado/",
+      "es_obligatoria": true
     },
     {
       "nombre": "Laboratorio de Datos",
@@ -120,7 +155,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Vas a aprender como utilizar distintos algoritmos para extraer y visualizar información partiendo de distintas fuentes de datos, con el objetivo de responder preguntas concretas, generando tanto conocimiento básico como aplicado",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Computación, Departamento de Física, Instituto de Cálculo",
+      "enlace_horarios": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/cursos",
+      "es_obligatoria": true
     },
     {
       "nombre": "analisis avanzado",
@@ -128,7 +167,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "El mundo de las demostraciones matemáticas, las definiciones rigurosas y el arte de encontrar similitudes y diferencias en objetos matemáticos para poder lidiar con muchos problemas distintos con una misma solución.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "algebra lineal computacional",
@@ -136,7 +179,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "matematica",
       "descripcion": "Las herramientas matemático-computacionales indispensables para tratar cualquier problema en donde la matemática juegue un papel.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Computación, Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "Probabilidad",
@@ -144,7 +191,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "estadistica",
       "descripcion": "La matemática al servicio del estudio del azar y los fenómenos aleatorios.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "Algoritmos y Estructura de Datos iii",
@@ -152,7 +203,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Vas a resolver problemas de complejidad mayor que incluyen la manipulación de grafos, estudiar en profundidad la complejidad algorítmica y codearte con soluciones aproximadas y heurísticas.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Computación",
+      "enlace_horarios": "https://www.dc.uba.ar/cursada-de-grado/",
+      "es_obligatoria": true
     },
     {
       "nombre": "introduccion a la estadistica y ciencia de datos",
@@ -160,7 +215,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Una ventana al mundo de la matemática detrás de la estadística y sus métodos más potentes para el estudio riguroso de los datos.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Instituto de Cálculo",
+      "enlace_horarios": "https://www.ic.fcen.uba.ar/actividades-academicas/formacion/materias",
+      "es_obligatoria": true
     },
     {
       "nombre": "introduccion a la investigacion operativa y optimizacion",
@@ -168,7 +227,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "investigacion_operativa",
       "descripcion": "Métodos matemáticos avanzados para ayudar a tomar mejores decisiones en problemas concretos a partir de la búsqueda de escenarios óptimos en presencia de restricciones.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     },
     {
       "nombre": "introduccion al modelado continuo",
@@ -176,7 +239,11 @@
       "ciclo": "segundo_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Las ideas que nos dejó Newton, que de tan buenas, con condimentos agregados siguen siendo la mejor herramienta para resolver muchísimos problemas.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "cuatrimestre_disponible": "segundo_cuatrimestre_2025",
+      "departamento_confirmado": "Departamento de Matemática",
+      "enlace_horarios": "https://web.dm.uba.ar/index.php/docencia/materias/horarios?ano=2025&amp;cuatrimestre=2",
+      "es_obligatoria": true
     }
   ],
   "tercer_ciclo": [
@@ -186,7 +253,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "computacion",
       "descripcion": "Camino: La formación esencial para el trabajo con datos.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "investigacion operativa y optimizacion",
@@ -194,7 +262,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "investigacion_operativa",
       "descripcion": "Camino: Herramientas y técnicas para ayudar a optimizar la toma de decisiones en gestión, logística y muchas otras áreas.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "estadistica matematica-computacional",
@@ -202,7 +271,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "estadistica",
       "descripcion": "Camino: La matemática detrás de las técnicas para el tratamiento de los datos.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "Modelado continuo",
@@ -210,7 +280,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: La matemática del modelado a partir de principios físicos, ecuaciones diferenciales y principios variacionales. Sus métodos de resolución teórica y computacionalmente.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "sistemas estocasticos y complejos",
@@ -218,7 +289,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: El estudio de sistemas con muchísimas componentes que interactúan: moléculas, miembros de redes sociales, autos en una autopista, multitudes, etc.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "Inteligencia Artificial",
@@ -226,7 +298,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Teoría y desarrollo de sistemas computacionales para realizar tareas que normalmente requerirían de un humano.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "procesamiento de senales",
@@ -234,7 +307,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Teoría y métodos para el estudio, análisis y modificación y sintetización de señales. Típicamente sonido, imágenes, video o mediciones científicas.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "ciencias de la atmosfera",
@@ -242,7 +316,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: El estudio de la atmósfera terrestre.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "bioinformatica",
@@ -250,7 +325,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Matemática y Computación para el análisis de datos biológicos.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "Ciencias Sociales",
@@ -258,7 +334,8 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: Dictada en conjunto con la Facultad de Ciencias Sociales.Las materias con (*) se cursan en esa sede y tienen como objetivo que la/el estudiante participe en una investigación en Cs. Sociales.",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     },
     {
       "nombre": "ciencias economicas",
@@ -266,41 +343,17 @@
       "ciclo": "tercer_ciclo",
       "departamento_probable": "por_determinar",
       "descripcion": "Camino: ",
-      "fuente": "crawl4ai_css_auto_generated"
+      "fuente": "crawl4ai_css_auto_generated",
+      "es_obligatoria": false
     }
   ],
   "metadata": {
-    "fecha_extraccion": "2025-08-05T00:06:15.171124",
-    "fuente": "https://lcd.exactas.uba.ar/materias",
-    "metodo": "crawl4ai_css_selectors_auto_generated",
-    "version": "auto_generated_schema",
-    "esquema_css": "lcd_css_schema_generado_por_llm_ccode.json",
+    "timestamp": "2025-08-05T01:14:10.753605",
+    "fuente_base": "materias_lcd_descubiertas.json",
+    "fuente_enriquecimiento": "materias_obligatorias.json",
+    "metodo": "fase5_enriquecimiento_cuatrimestres",
     "total_materias": 33,
-    "fecha_normalizacion": "2025-08-05T00:06:24.711367",
-    "fase2_completada": true,
-    "cambios_normalizacion": {
-      "materias_procesadas": 33,
-      "cambios_realizados": 33,
-      "tipos_cambios": {
-        "mayusculas_corregidas": 24,
-        "abreviaciones_expandidas": 0,
-        "caracteres_limpiados": 1,
-        "numeros_romanos_corregidos": 8
-      }
-    },
-    "punto_entrada": "descubrir_materias_completo.py",
-    "archivo_consumible": true,
-    "version_api": "1.0",
-    "formato_estable": true,
-    "descripcion": "Materias LCD extraídas y normalizadas para consumo por scrapers",
-    "estadisticas_proceso": {
-      "inicio": "2025-08-05T00:06:11.673015",
-      "fin": null,
-      "duracion_segundos": 0,
-      "materias_extraidas": 33,
-      "materias_normalizadas": 33,
-      "cambios_normalizacion": 33,
-      "exito": false
-    }
+    "materias_enriquecidas": 15,
+    "porcentaje_enriquecimiento": 45.5
   }
 }
